@@ -89,7 +89,7 @@ NOTE: テンプレートを使用する場合にのみ、 NFS ボリュームま
 
 .手順
 . キャンバスページで、ボリュームをプロビジョニングするオンプレミス ONTAP システムの名前をクリックします。
-. をクリックします image:screenshot_gallery_options.gif[""] > * テンプレートからボリュームを追加 * 。
+. をクリックします image:screenshot_gallery_options.gif["3つの点を持つアイコン。"] > * テンプレートからボリュームを追加 * 。
 +
 image:screenshot_template_add_vol_ontap.png["テンプレートから新しいボリュームを追加する方法を示すスクリーンショット。"]
 
