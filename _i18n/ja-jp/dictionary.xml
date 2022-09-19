@@ -8,7 +8,6 @@
   <block id="f23bd56e3b5d6f7f6472fcb2b4cd3d5a" category="paragraph">作業環境を削除しても、 ONTAP クラスタには影響しません。作業環境は、 Cloud Manager からいつでも再検出できます。</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">手順</block>
   <block id="0280e7f2fa84bc4f3c493a7a89c90d28" category="list-text">キャンバスページで、オンプレミス ONTAP 作業環境の名前をダブルクリックします。</block>
-  <block id="80e3b13d71092100ec711ddee84d23a4" category="list-text">メニューアイコンをクリックし、 * 削除 * を選択します。</block>
   <block id="82efd2783df66726ca1b3a680a181ac8" category="inline-image-macro">ページの右上にあるメニューと [ 削除 ] オプションを示すスクリーンショット。</block>
   <block id="fdc54b68e260b5861ecabd7cfd437124" category="paragraph"><block ref="fdc54b68e260b5861ecabd7cfd437124" category="inline-image-macro-rx" type="image"></block></block>
   <block id="40b851aafab82c78484c46169f816fd2" category="list-text">[ 削除（ Remove ） ] をクリックして確定します。</block>
@@ -188,9 +187,7 @@
   <block id="efc4120a3fbfbea33245fb931c324492" category="inline-xref">以下の手順を実行します</block>
   <block id="ba9dee2f877a286e797bf6a3232b07bb" category="paragraph">「テンプレート」と呼ばれる Cloud Manager の機能を使用すると、データベースやストリーミングサービスなど、特定のアプリケーションのワークロード要件に最適化されたボリュームを作成できます。組織で使用するボリュームテンプレートが作成されている場合は、次の手順を実行します <block ref="e476f8430392eaa6984ef9c1426bdf73" category="inline-xref-macro-rx"></block>。</block>
   <block id="7c1c859794874e74db7044dd733c5ca7" category="list-text">キャンバスページで、ボリュームをプロビジョニングするオンプレミス ONTAP クラスタの名前をダブルクリックします。</block>
-  <block id="e0e02b01eefffa92ef6dd41ca0bfddaa" category="list-text">[ 新しいボリュームの追加 ] をクリックします。</block>
   <block id="108a74a6cbb575c986177039e07dc411" category="list-text">ウィザードの手順に従って、ボリュームを作成します。</block>
-  <block id="3c4fc22bba56c8a041aad60e63c7450f" category="list-text">* 詳細と保護 * ：ボリュームに関する基本的な詳細を入力し、 Snapshot ポリシーを選択します。</block>
   <block id="3b0e375a08fe94a129cba31916c9d2dc" category="paragraph">このページのフィールドの一部は分かりやすいもので、説明を必要としません。以下は、説明が必要なフィールドのリストです。</block>
   <block id="6f16a5f8ff5d75ab84c018adacdfcbb7" category="cell">フィールド</block>
   <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">説明</block>
@@ -198,7 +195,6 @@
   <block id="7b975bd58356ec64d88f70d7f167a299" category="cell">入力できる最大サイズは、シンプロビジョニングを有効にするかどうかによって大きく異なります。シンプロビジョニングを有効にすると、現在使用可能な物理ストレージよりも大きいボリュームを作成できます。</block>
   <block id="426fb47479d0477ed5dbc9388b9add76" category="cell">スナップショットポリシー</block>
   <block id="052c4d27b63fed6776d46336a295d801" category="cell">Snapshot コピーポリシーは、自動的に作成される NetApp Snapshot コピーの頻度と数を指定します。NetApp Snapshot コピーは、パフォーマンスに影響を与えず、ストレージを最小限に抑えるポイントインタイムファイルシステムイメージです。デフォルトポリシーを選択することも、なしを選択することもできます。一時データには、 Microsoft SQL Server の tempdb など、 none を選択することもできます。</block>
-  <block id="5090bb88c9aa49ab33053342a61490ca" category="list-text">* プロトコル * ：ボリューム（ NFS または CIFS ）のプロトコルを選択し、ボリュームのアクセス制御または権限を設定します。</block>
   <block id="32532e671368d9ba8ec11ef9121e8520" category="paragraph">CIFS を選択した場合、サーバがまだセットアップされていないと、 Cloud Manager は Active Directory またはワークグループを使用して CIFS サーバをセットアップするよう求めます。</block>
   <block id="10ca883ec839df9958683234c16faa0c" category="paragraph">以下は、説明が必要なフィールドのリストです。</block>
   <block id="8aaaedc342a0dce1d73d33f3fb69a2af" category="cell">Access Control の略</block>
@@ -240,17 +236,12 @@
   <block id="1e57268fd975664444ddbda428e56bf7" category="paragraph">CIFS 共有をプロビジョニングした場合は、ファイルとフォルダに対する権限をユーザまたはグループに付与し、それらのユーザが共有にアクセスしてファイルを作成できることを確認します。</block>
   <block id="9471c2e49e82f1450164e486a41810fd" category="section-title">データのレプリケート</block>
   <block id="d67fa48b66fcc0b221394da39a91b7bd" category="paragraph">Cloud Volumes ONTAP システムと ONTAP クラスタ間でデータをレプリケートするには、ワンタイムデータレプリケーションを選択します。これにより、クラウドとの間でデータを移動したり、定期的にスケジュールを作成したりすることができ、ディザスタリカバリや長期保存に役立ちます。</block>
-  <block id="4bfd6df89ae3683de5e81c0d2d601355" category="inline-link">詳細については、ここをクリックしてください</block>
-  <block id="a8a96c36866372f961b611932778c533" category="paragraph"><block ref="740522bad1dae5d9c555be7717efd2a7" category="inline-link-rx"></block>。</block>
   <block id="69d7d8f5eb94524f8d67bd4810ecd3b4" category="section-title">データをバックアップしています</block>
   <block id="4dafc83aff4c0c428f00d14ba637d08e" category="paragraph">Cloud Backup を使用して、オンプレミスの ONTAP システムからクラウドの低コストのオブジェクトストレージにデータをバックアップできます。このサービスは、オンプレミスとクラウドのデータを保護し、長期アーカイブするためのバックアップとリストアの機能を提供します。</block>
-  <block id="bfdc46d4c7e2c86b2f36ab608613b0a1" category="paragraph"><block ref="92bb2af477ec46204a7fbf4ac8f25c07" category="inline-link-rx"></block>。</block>
   <block id="b62196e30035e69996a2d1d3a9d64116" category="section-title">データをスキャン、マッピング、および分類します</block>
   <block id="8c5469d13e648a63a3b3954844a606d5" category="paragraph">Cloud Data Sense は、社内のオンプレミスクラスタをスキャンして、データをマッピングして分類し、プライベート情報を特定します。これにより、セキュリティとコンプライアンスのリスクを軽減し、ストレージコストを削減し、データ移行プロジェクトを支援できます。</block>
-  <block id="3a5ae3c8370ec0420f4d5f09975f9473" category="paragraph"><block ref="4ac871f2acbfe21994d476b705580307" category="inline-link-rx"></block>。</block>
   <block id="8eb970559649a4b00ff570ac7b611b1a" category="section-title">データをクラウドに階層化する</block>
   <block id="74f0cc3c17958e80b4ccd076c9e50493" category="paragraph">クラウド階層化を使用して、アクセス頻度の低いデータを ONTAP クラスタからオブジェクトストレージに自動的に階層化することで、データセンターをクラウドに拡張します。</block>
-  <block id="06ed7fc16cefcce74b94962584869b39" category="paragraph"><block ref="240bb627dd9982017efa6d3b711a39ad" category="inline-link-rx"></block>。</block>
   <block id="ce21e7ae4271271294ccbf54c8fd6864" category="summary">ネットアップでは、 Cloud Manager をさまざまな方法でサポートしています。ナレッジベース（ KB ）記事やコミュニティフォーラムなど、 24 時間 365 日利用可能な幅広いセルフサポートオプションをご用意しています。サポート登録には、 Web チケット処理によるリモートテクニカルサポートが含まれます。</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">ヘルプを表示します</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法的通知</block>
@@ -353,19 +344,14 @@
   <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto ： ng-cloudmanager-feedback@netapp.com [ フィードバックメール ]</block>
   <block id="bff60abbc46aceed0f73a3a4f6cfb123" category="paragraph">お客様のご意見をお考えください。Cloud Manager の改善に役立つフィードバックを送信します。</block>
   <block id="0659d428df833a806e29e65e632d380a" category="section-title">ネットアップサポート</block>
-  <block id="c91b5a63849b8d2db01014ed33192735" category="paragraph">上記のセルフサポートオプションに加え、サポートを有効にしたあとに問題が発生した場合は、ネットアップサポートエンジニアと協力して解決できます。</block>
   <block id="6c08c57e382a25a778455184cd9b1a4a" category="list-text">Cloud Manager で、 * Help &gt; Support * の順にクリックします。</block>
   <block id="f5052c65917d7341726235d4d4941461" category="list-text">テクニカルサポートで利用可能なオプションのいずれかを選択します。</block>
-  <block id="bece28b158ab337d9ed24b00d7d02cc7" category="list-text">[ * お問い合わせ * ] をクリックして、ネットアップ・テクニカル・サポートの電話番号を検索してください。</block>
-  <block id="efe81cff8e6f47ec59ef94167b76bf5a" category="list-text">[ * 問題 を開く * ] をクリックし、いずれかのオプションを選択して、 [ * 送信 * ] をクリックします。</block>
-  <block id="cbb1040836732e478409dacf7e45171a" category="paragraph">ネットアップの担当者がケースを確認し、すぐに対応を開始します。</block>
   <block id="f8b475a3fefebada77a30229238d0a1a" category="section-title">2022年6月7日</block>
   <block id="4f03a5c652641013d1e43811930f5769" category="paragraph">コネクタの3.9.19リリースでは、次の変更が加えられました。</block>
   <block id="ffe3ec3b5faef58a758d9449470882a0" category="section-title">新しい詳細ビュー</block>
   <block id="5549a52d6578bcb66138c7319ef4ea11" category="paragraph">オンプレミスのONTAP クラスタに対して高度な管理を実行する必要がある場合は、ONTAP システムに付属の管理インターフェイスであるONTAP System Managerを使用できます。高度な管理のためにCloud Managerを終了する必要がないように、Cloud ManagerのインターフェイスはCloud Managerに直接組み込まれています。</block>
   <block id="99721ad2e6d601b2966a9d9e1c7de770" category="paragraph">この詳細ビューは、9.10.0以降を実行するオンプレミスのONTAP クラスタでプレビューとして使用できます。今後のリリースでは、この点をさらに改良し、機能を強化する予定です。製品内のチャットでご意見をお寄せください。</block>
   <block id="f303a87fe6efba259b752f5a9e11064b" category="inline-link-macro">詳細については、「詳細ビュー」を参照してください</block>
-  <block id="0c6e9220b6dd38f763ce6082c0125be9" category="paragraph"><block ref="cf41d716430563f350a841f38af568db" category="inline-link-macro-rx"></block>。</block>
   <block id="d7ce0ccf910efd77ec00e6d9bde719ca" category="doc">拡張ビューを使用してONTAP を管理します</block>
   <block id="74593b49f99b6e21d38ca3d969b213f3" category="paragraph">この拡張ビューはプレビューとして使用できます。今後のリリースでは、この点をさらに改良し、機能を強化する予定です。製品内のチャットでご意見をお寄せください。</block>
   <block id="98a1dd953dfcb1729fd4013fc440cb56" category="paragraph">Cloud ManagerのAdvanced Viewでは、次の管理機能を使用できます。</block>
@@ -419,4 +405,51 @@
   <block id="2dc127a72bebec759447c53e48d44a81" category="inline-image-macro">下キャレットアイコン</block>
   <block id="c3dcc3698432aa0b6e568ec48b5fe13f" category="list-text">詳細を確認するクラスタの場合は、をクリックします <block ref="88c68341c12fbc9f1bcf1c9927535845" category="inline-image-macro-rx" type="image"></block> をクリックしてクラスタ情報を展開します。</block>
   <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">Cloud Manager のすべてのドキュメント</block>
+  <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022年9月18日</block>
+  <block id="440be74a67502f9c3d55890782329328" category="paragraph">コネクタの3.9.22リリースでは、次の変更が加えられました。</block>
+  <block id="c8328d07fc05c4708c68f547ce6f5e77" category="section-title">新しい概要ページ</block>
+  <block id="8e41db9b51f790909ef80a064153f722" category="paragraph">オンプレミスのONTAP クラスタに関する重要な詳細情報を提供するために、新しい概要ページが導入されました。たとえば、Storage Efficiency、容量分散、システム情報などの詳細を表示できるようになりました。</block>
+  <block id="bcc757acad6812aeb9904ad6e30c0738" category="paragraph">また、データの階層化、データのレプリケーション、バックアップが可能な他のNetAppクラウド サービス との統合に関する詳細も確認できます。</block>
+  <block id="fba766c98683be4af93f93b5d7909f1e" category="inline-image-macro">オンプレミスのONTAP クラスタの概要ページを示すスクリーンショット。</block>
+  <block id="5277a2f54c2173b12f8eb86ae9da078e" category="paragraph"><block ref="5277a2f54c2173b12f8eb86ae9da078e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c76ff3fb4e35074fc6f04c1cb8ea02af" category="section-title">ボリュームページが再設計されました</block>
+  <block id="99cbfcbab5c608668044fc3849d8db46" category="paragraph">ボリュームページの設計が見直され、クラスタ上のボリュームの概要が表示されるようになりました。この概要には、ボリュームの総数、プロビジョニングされた容量、使用済み容量とリザーブ容量、および階層化されたデータの量が表示されます。</block>
+  <block id="2f82cdfc06b6747c85937b5cceabaaee" category="inline-image-macro">オンプレミスのONTAP クラスタのボリュームページを示すスクリーンショット。</block>
+  <block id="bb4feb07894e787f9d7a8a9c00fa4d55" category="paragraph"><block ref="bb4feb07894e787f9d7a8a9c00fa4d55" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="677a2aadb254e7c4efbc10a593c2f4db" category="paragraph"><block ref="869a420ba883bbe1b303fc03706f8b2f" category="inline-link-rx"></block>。</block>
+  <block id="d71f4e248e7b72dc823a682ad81ee0a7" category="list-text">メニューアイコンをクリックし、*ワークスペースから削除*を選択します。</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">上記のセルフサポートオプションに加え、サポートを有効にしたあとで問題が発生した場合は、ネットアップサポートの担当者と相談して解決できます。</block>
+  <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">サポートに登録する方法について説明します</block>
+  <block id="09651e14b46d7e8697d32de90d0deacb" category="paragraph">ケースの作成*機能を使用するには、まずCloud ManagerアカウントIDのシリアル番号（例960xxxx）にネットアップが付属 <block ref="3349e4b3d05f646f2f1421bee7c2ad26" category="inline-link-macro-rx"></block>。</block>
+  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">電話の相手と話したい場合は、「*お電話」をクリックしてください。netapp.comのページに移動し、電話番号が表示されます。</block>
+  <block id="bf5bc6ab0f95f17f4e98c9d766b8c11d" category="list-text">[*ケースの作成*]をクリックして、ネットアップサポートスペシャリストのチケットを開きます。</block>
+  <block id="b53e0a259f4a0c8e7da80d6c94e26c84" category="list-text">* NetApp Support Site アカウント*：サポートケースをオープンしたユーザーに関連付けられている該当のNSSアカウントを選択します。この担当者は、以下に記載する追加のEメールに加えて、ネットアップから連絡を受け取る主要担当者となります。</block>
+  <block id="ec65cc87efda54741062da1fce99ff76" category="paragraph">NSSアカウントが表示されない場合は、Cloud Managerのサポートセクションにある* NSS Management *タブに移動して追加できます。</block>
+  <block id="b3144caf7d928b7954447c757b3ed77b" category="list-text">*Service*:問題 が関連付けられているサービスを選択します。たとえば、サービス内のワークフローや機能を使用して、テクニカルサポートの問題 に固有のCloud Managerなどです。</block>
+  <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*作業環境*：ストレージに該当する場合は、* Cloud Volumes ONTAP *または*オンプレミス*を選択し、関連する作業環境を選択します。</block>
+  <block id="1e38219c106fb9d07d173c027b8911c7" category="paragraph">作業環境のリストは、サービスの上部バナーで選択したCloud Managerアカウント、ワークスペース、コネクタの範囲内にあります。</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*ケース優先度*：ケースの優先度を選択します。優先度は、[低]、[中]、[高]、[クリティカル]のいずれかになります。</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">これらの優先度の詳細を確認するには、フィールド名の横にある情報アイコンの上にマウスポインタを合わせます。</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*事象の説明 *：実行したエラーメッセージやトラブルシューティング手順など、問題の詳細な概要 を入力します。</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*その他のメールアドレス*：この問題 を他のユーザーに知らせる場合は、追加のメールアドレスを入力します。</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">ネットアップサポートでケースを作成できるケースの作成フォームのスクリーンショット。</block>
+  <block id="a2ff30886e1baf1e7d5045b5fc24f5b9" category="paragraph"><block ref="a2ff30886e1baf1e7d5045b5fc24f5b9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">ポップアップにサポートケース番号が表示されます。ネットアップのサポート担当者がケースを確認し、すぐに対応させていただきます。</block>
+  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">サポートケースの履歴を確認するには、[*設定]、[タイムライン*]の順にクリックして、[サポートケースの作成]という名前のアクションを探します。 右端のボタンをクリックすると、アクションを展開して詳細を表示できます。</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">ケースを作成しようとすると、次のエラーメッセージが表示される場合があります。</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"選択したサービスに対してケースを作成する権限がありません"</block>
+  <block id="148f13242c3e296dc276821cdc574921" category="paragraph">このエラーは、NSSアカウントとそれに関連付けられているレコードの会社が、Cloud Managerアカウントのシリアル番号（例960xxxx）または動作環境のシリアル番号。[ケースの作成]フォームの上部にあるNSSアカウントの一覧を確認して、適切な一致を見つけることができます。または、次のいずれかのオプションを使用してサポートを依頼することもできます。</block>
+  <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">製品内のチャットを使用します</block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">テクニカル以外のケースをに送信します<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="bfd7860b885159ef1631572dc506bf0e" category="list-text">[* Volumes（ボリューム）]&gt;[Add Volume（ボリュームの追加）]*</block>
+  <block id="97a34ca7d328720ed48cf2e2010985be" category="list-text">*詳細、保護、タグ*：ボリュームの名前やサイズなどの詳細を入力し、Snapshotポリシーを選択し、必要に応じてボリュームタグを指定します。</block>
+  <block id="17b6d3e2bf5506b5e797dfb98b76c0c2" category="list-text">*プロトコル*：ボリュームのプロトコル（NFS、CIFS、またはiSCSI）を選択し、ボリュームのアクセス制御または権限を設定します。</block>
+  <block id="0c57608b3dc99c491ccf28333d1a1ffd" category="inline-link">データをレプリケートする方法について説明します</block>
+  <block id="057bdd599f52bea71a4eb64fb5283528" category="paragraph"><block ref="057bdd599f52bea71a4eb64fb5283528" category="inline-link-rx"></block></block>
+  <block id="b1d61988f64b60df32fb40aafa9a8a72" category="inline-link">クラウドにデータをバックアップする方法をご確認ください</block>
+  <block id="0c8aebb65487842ae7cee0153641a2c0" category="paragraph"><block ref="0c8aebb65487842ae7cee0153641a2c0" category="inline-link-rx"></block></block>
+  <block id="657194a3b23d82061f3c6bde831200e2" category="inline-link">データのスキャン、マッピング、分類の方法について説明します</block>
+  <block id="87297131944257017f4fa2ace90b4993" category="paragraph"><block ref="87297131944257017f4fa2ace90b4993" category="inline-link-rx"></block></block>
+  <block id="e8d45bdb0673c56f56414b928ee6a759" category="inline-link">データをクラウドに階層化する方法をご確認ください</block>
+  <block id="f3ad359fcb06b212c3249a38f6d003e4" category="paragraph"><block ref="f3ad359fcb06b212c3249a38f6d003e4" category="inline-link-rx"></block></block>
 </blocks>

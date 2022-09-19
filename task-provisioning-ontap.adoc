@@ -25,10 +25,10 @@ Cloud Manager では、既存のアグリゲートに NFS または CIFS ボリ�
 
 .手順
 . キャンバスページで、ボリュームをプロビジョニングするオンプレミス ONTAP クラスタの名前をダブルクリックします。
-. [ 新しいボリュームの追加 ] をクリックします。
+. [* Volumes（ボリューム）]>[Add Volume（ボリュームの追加）]*
 . ウィザードの手順に従って、ボリュームを作成します。
 +
-.. * 詳細と保護 * ：ボリュームに関する基本的な詳細を入力し、 Snapshot ポリシーを選択します。
+.. *詳細、保護、タグ*：ボリュームの名前やサイズなどの詳細を入力し、Snapshotポリシーを選択し、必要に応じてボリュームタグを指定します。
 +
 このページのフィールドの一部は分かりやすいもので、説明を必要としません。以下は、説明が必要なフィールドのリストです。
 
@@ -43,7 +43,7 @@ Cloud Manager では、既存のアグリゲートに NFS または CIFS ボリ�
 
 | スナップショットポリシー | Snapshot コピーポリシーは、自動的に作成される NetApp Snapshot コピーの頻度と数を指定します。NetApp Snapshot コピーは、パフォーマンスに影響を与えず、ストレージを最小限に抑えるポイントインタイムファイルシステムイメージです。デフォルトポリシーを選択することも、なしを選択することもできます。一時データには、 Microsoft SQL Server の tempdb など、 none を選択することもできます。 
 |===
-.. * プロトコル * ：ボリューム（ NFS または CIFS ）のプロトコルを選択し、ボリュームのアクセス制御または権限を設定します。
+.. *プロトコル*：ボリュームのプロトコル（NFS、CIFS、またはiSCSI）を選択し、ボリュームのアクセス制御または権限を設定します。
 +
 CIFS を選択した場合、サーバがまだセットアップされていないと、 Cloud Manager は Active Directory またはワークグループを使用して CIFS サーバをセットアップするよう求めます。
 
@@ -127,7 +127,7 @@ CIFS 共有をプロビジョニングした場合は、ファイルとフォル
 
 Cloud Volumes ONTAP システムと ONTAP クラスタ間でデータをレプリケートするには、ワンタイムデータレプリケーションを選択します。これにより、クラウドとの間でデータを移動したり、定期的にスケジュールを作成したりすることができ、ディザスタリカバリや長期保存に役立ちます。
 
-https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["詳細については、ここをクリックしてください"^]。
+https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["データをレプリケートする方法について説明します"^]
 
 
 
@@ -135,7 +135,7 @@ https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.ht
 
 Cloud Backup を使用して、オンプレミスの ONTAP システムからクラウドの低コストのオブジェクトストレージにデータをバックアップできます。このサービスは、オンプレミスとクラウドのデータを保護し、長期アーカイブするためのバックアップとリストアの機能を提供します。
 
-https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["詳細については、ここをクリックしてください"^]。
+https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["クラウドにデータをバックアップする方法をご確認ください"^]
 
 
 
@@ -143,7 +143,7 @@ https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-clo
 
 Cloud Data Sense は、社内のオンプレミスクラスタをスキャンして、データをマッピングして分類し、プライベート情報を特定します。これにより、セキュリティとコンプライアンスのリスクを軽減し、ストレージコストを削減し、データ移行プロジェクトを支援できます。
 
-https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["詳細については、ここをクリックしてください"^]。
+https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["データのスキャン、マッピング、分類の方法について説明します"^]
 
 
 
@@ -151,4 +151,4 @@ https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.
 
 クラウド階層化を使用して、アクセス頻度の低いデータを ONTAP クラスタからオブジェクトストレージに自動的に階層化することで、データセンターをクラウドに拡張します。
 
-https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["詳細については、ここをクリックしてください"^]。
+https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["データをクラウドに階層化する方法をご確認ください"^]
