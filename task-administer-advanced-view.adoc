@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-administer-advanced-view.html 
 keywords: system manager, advanced view, access system manager, load system manager, use system manager 
-summary: オンプレミスのONTAP クラスタに対して高度な管理を実行する必要がある場合は、ONTAP システムに付属の管理インターフェイスであるONTAP System Managerを使用できます。高度な管理のためにCloud Managerを終了する必要がないように、Cloud ManagerのインターフェイスはCloud Managerに直接組み込まれています。 
+summary: オンプレミスのONTAP クラスタに対して高度な管理を実行する必要がある場合は、ONTAP システムに付属の管理インターフェイスであるONTAP System Managerを使用できます。BlueXPにはSystem Managerインターフェイスが搭載されているので、高度な管理のためにBlueXPを残す必要はありません。 
 ---
 = 拡張ビューを使用してONTAP を管理します
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: オンプレミスのONTAP クラスタに対して高度な管理を�
 
 
 [role="lead"]
-オンプレミスのONTAP クラスタに対して高度な管理を実行する必要がある場合は、ONTAP システムに付属の管理インターフェイスであるONTAP System Managerを使用できます。高度な管理のためにCloud Managerを終了する必要がないように、Cloud ManagerのインターフェイスはCloud Managerに直接組み込まれています。
+オンプレミスのONTAP クラスタに対して高度な管理を実行する必要がある場合は、ONTAP システムに付属の管理インターフェイスであるONTAP System Managerを使用できます。BlueXPにはSystem Managerインターフェイスが搭載されているので、高度な管理のためにBlueXPを残す必要はありません。
 
 この拡張ビューはプレビューとして使用できます。今後のリリースでは、この点をさらに改良し、機能を強化する予定です。製品内のチャットでご意見をお寄せください。
 
@@ -22,7 +22,7 @@ summary: オンプレミスのONTAP クラスタに対して高度な管理を�
 
 == の機能
 
-Cloud ManagerのAdvanced Viewでは、次の管理機能を使用できます。
+BlueXPの詳細ビューでは、次の管理機能を使用できます。
 
 * 高度なストレージ管理
 +
@@ -58,11 +58,11 @@ GovCloudリージョンまたはアウトバウンドのインターネットア
 
 == 制限
 
-Cloud ManagerのAdvanced Viewを使用する場合、オンプレミスのONTAP クラスタではいくつかのSystem Manager機能はサポートされません。
+BlueXPでアドバンスドビューを使用している場合、オンプレミスのONTAP クラスタでは一部のSystem Manager機能がサポートされません。
 
 * クラスタセットアップ
 +
-管理IPアドレスを設定して、オンプレミスのONTAP クラスタで管理パスワードを設定したら、Cloud Managerでクラスタを検出し、アドバンストビューからクラスタのセットアップを続行できます。
+管理IPアドレスを設定し、オンプレミスのONTAP クラスタで管理パスワードを設定したら、BlueXPでクラスタを検出し、アドバンストビューからクラスタのセットアップを続行できます。
 
 * Cloud Backupのアクティブ化
 +
@@ -92,7 +92,7 @@ image:screenshot-advanced-view.png["[詳細表示に切り替える]オプショ
 
 . 確認メッセージが表示されたら、そのメッセージを読み、*閉じる*をクリックします。
 . System Managerを使用してONTAP を管理する。
-. 必要に応じて、* Standard Viewに切り替え*をクリックして、Cloud Managerを使用した標準的な管理に戻ります。
+. 必要に応じて、[標準表示に切り替える]をクリックして、BlueXPを使用した標準管理に戻ります。
 +
 image:screenshot-standard-view.png["標準ビューに切り替えオプションを示すオンプレミスのONTAP 作業環境のスクリーンショット。"]
 

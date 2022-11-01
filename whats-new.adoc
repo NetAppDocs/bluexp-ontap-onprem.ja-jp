@@ -14,7 +14,7 @@ summary: オンプレミスの ONTAP クラスタの新機能をご確認くだ�
 
 
 [role="lead"]
-オンプレミスの ONTAP クラスタの新機能をご確認ください。
+BlueXP（旧Cloud Manager）でオンプレミスONTAP クラスタ管理を導入した新機能について説明します。
 
 
 

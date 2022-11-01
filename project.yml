@@ -25,10 +25,8 @@ sidebar:
       url: "/task-provisioning-ontap.html"
     - title: System Managerを使用して管理
       url: "/task-administer-advanced-view.html"
-    - title: Active IQ Digital Advisor を使用してクラスタを最適化します
+    - title: Digital Advisorを使用してクラスタを最適化
       url: "/concept-aiq-digital-advisor.html"
-    - title: Active IQ データを使用してクラスタを管理します
-      url: "/task-managing-ontap.html"
     - title: オンプレミスの ONTAP 作業環境を削除
       url: "/task-remove-on-prem.html"
   - title: 知識とサポート
@@ -59,11 +57,11 @@ homepage:
     links:
     - title: ネットアップコミュニティ
       url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-    - title: Cloud Central のブログです
+    - title: BlueXPブログ
       url: https://cloud.netapp.com/blog
     - title: クラウドに関する Web セミナー
       url: https://cloud.netapp.com/events
 product-family:
-  name: Cloud Manager
+  name: BlueXP
   repo: cloud-manager-family
-  sidebar_label: Cloud Manager のすべてのドキュメント
+  sidebar_label: BlueXPのすべてのマニュアル
