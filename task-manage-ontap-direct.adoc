@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: task-manage-ontap-direct.html 
+keywords: direct discovery, direct, system manager, local, local discovery 
+summary: コネクタを使用せずにオンプレミスのONTAP クラスタを直接検出した場合は、作業環境に入り、System Managerを使用してクラスタを管理できます。 
+---
+= 直接検出されたオンプレミスのONTAP クラスタを管理します
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+コネクタを使用せずにオンプレミスのONTAP クラスタを直接検出した場合は、作業環境を開いてクラスタを管理することができます。
+
+System Managerでは、次の機能を使用できません。
+
+* グローバル検索
+* Digital Advisor（旧Active IQ ）との統合。リスクと修正情報、容量の使用履歴、ファームウェアの可用性に関する通知、オープンなサポートケースの表示機能などが含まれます
+* ユーザインターフェイスの設定
+* クラウドウィジェット
+* ONTAP とファームウェアの手動アップグレード
+* Cloud Backupとの統合
+
+
+.手順
+. キャンバスページで、オンプレミスのONTAP 作業環境の名前をダブルクリックします。
+. System Managerを使用してONTAP を管理する。
++
+ONTAP でSystem Managerを使用する際にサポートが必要な場合は、を参照してください https://docs.netapp.com/us-en/ontap/index.html["ONTAP のドキュメント"^] を参照してください。役立つリンクをいくつか紹介します。
+
++
+** https://docs.netapp.com/us-en/ontap/volume-admin-overview-concept.html["ボリュームとLUNの管理"^]
+** https://docs.netapp.com/us-en/ontap/network-manage-overview-concept.html["Network Management の略"^]
+** https://docs.netapp.com/us-en/ontap/concept_dp_overview.html["データ保護"^]
+
+
+

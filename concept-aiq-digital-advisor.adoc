@@ -4,7 +4,7 @@ permalink: concept-aiq-digital-advisor.html
 keywords: concepts, active iq digital advisor, ontap 
 summary: 'Active IQ デジタルアドバイザは"BlueXP UIに統合されているため"1つの画面でONTAP クラスタの操作"セキュリティ"パフォーマンスを最適化できます' 
 ---
-= Digital Advisorを使用してクラスタを最適化します
+= Digital Advisorを使用してクラスタを最適化
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -35,12 +35,6 @@ Digital Advisorを使用して、ストレージシステムの全体的なス�
 == サポート対象の ONTAP システム
 
 Digital Advisorは、NSSアカウント内のすべてのオンプレミスONTAP システムとCloud Volumes ONTAP システムに関する情報を提供します。
-
-
-
-== コスト
-
-このサービスはBlueXPで無料でご利用いただけます。
 
 
 

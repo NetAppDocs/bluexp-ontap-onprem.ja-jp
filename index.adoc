@@ -5,7 +5,7 @@ permalink: index.html
 lead: 'Manage your NetApp AFF and FAS systems through BlueXP (formerly Cloud Manager) to provision storage, replicate data, and configure critical cloud-based data services.' 
 summary: BlueXP（旧Cloud Manager）を使用してNetApp AFF システムとFAS システムを管理し、ストレージのプロビジョニング、データのレプリケート、重要なクラウドベースデータサービスの設定を行います。 
 ---
-= オンプレミスの ONTAP クラスタに関するドキュメント
+= オンプレミスのONTAP クラスタに関するドキュメント
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

@@ -18,6 +18,30 @@ BlueXP（旧Cloud Manager）でオンプレミスONTAP クラスタ管理を導�
 
 
 
+== 2022年12月4日
+
+コネクタの3.9.24リリースでは、次の変更が加えられました。
+
+
+
+=== オンプレミスのONTAP クラスタを新たに検出する方法
+
+コネクタを使用せずに、オンプレミスのONTAP クラスタを直接検出できるようになりました。このオプションを指定すると、System Managerでのみクラスタ管理が有効になります。このような作業環境では、BlueXPデータサービスを有効にすることはできません。
+
+https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["この検出と管理オプションの詳細については、こちらをご覧ください"]。
+
+
+
+=== FlexGroup ボリューム
+
+コネクタから検出されたオンプレミスのONTAP クラスタでは、BlueXPの標準ビューに、System ManagerまたはONTAP CLIから作成されたFlexGroup ボリュームが表示されるようになりました。また、ボリュームのクローニング、設定の編集、削除などを行って、それらのボリュームを管理することもできます。
+
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-flexgroup-volumes.png["オンプレミスのONTAP クラスタの[ボリューム]ページに表示されるFlexGroup ボリュームのスクリーンショット。"]
+
+BlueXPでは、FlexGroup ボリュームの作成はサポートされていません。FlexGroup ボリュームの作成には、引き続きSystem ManagerまたはCLIを使用する必要があります。
+
+
+
 == 2022年9月18日
 
 コネクタの3.9.22リリースでは、次の変更が加えられました。

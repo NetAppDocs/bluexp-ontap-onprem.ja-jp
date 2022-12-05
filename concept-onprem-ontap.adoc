@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: concept-onprem-ontap.html 
+keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, digital wallet 
+summary: BlueXPでは、AFF / FASコントローラとONTAP Select で実行されているONTAP クラスタを検出できます。オンプレミスのONTAP システムをBlueXPに追加することで、すべてのストレージとデータ資産を1つのインターフェイスから管理できます。 
+---
+= BlueXPによるオンプレミスのONTAP クラスタ管理
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+BlueXPでは、AFF / FASコントローラとONTAP Select で実行されているONTAP クラスタを検出できます。オンプレミスのONTAP システムをBlueXPに追加することで、すべてのストレージとデータ資産を1つのインターフェイスから管理できます。
+
+
+
+== の機能
+
+* NFSボリュームとCIFSボリュームを管理する
+* ONTAP System Managerを使用して高度な管理を実行
+* BlueXPの分析と管理により'稼働状態とパフォーマンスの監視が可能になります
+* BlueXPのデータサービスを使用して'データのレプリケーション'バックアップ'スキャン'分類'階層化を行います
+* ハードウェアおよびソフトウェア契約のステータス情報をDigital Walletで表示します
+
+
+
+
+== コスト
+
+コストは関連付けられる場合がありますが、次の条件によって異なります。
+
+* クラスタを検出して管理するためのコネクタを導入するかどうか。
++
+コネクタはクラウドまたはオンプレミスにインストールできます。
+
+* Cloud Backup、Cloud Tiering、Data Senseなど、オプションのデータサービスを有効にするかどうか。
+
