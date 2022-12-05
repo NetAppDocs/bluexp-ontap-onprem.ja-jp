@@ -114,7 +114,7 @@ TIP: BlueXPサービスに接続されている9.12.1以降を実行するオン
 +
 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["BlueXPの使用を開始する方法について説明します"^]
 
-* オンプレミスONTAP クラスタでは、BlueXPサービス(\https://bluexp.netapp.com )に接続された9.12.1以降が実行されている必要があります。
+* オンプレミスONTAP クラスタでは、BlueXPサービスに接続された9.12.1以降が実行されている必要があります。
 * クラスタ管理IPアドレスとadminユーザアカウントのパスワードが必要です。
 +
 BlueXPはHTTPSを使用してONTAP クラスタを検出しましたカスタムファイアウォールポリシーを使用する場合は、ONTAP クラスタがポート443経由のインバウンドHTTPSアクセスを許可する必要があります。
