@@ -14,7 +14,11 @@ sidebar:
   - title: オンプレミスのONTAP クラスタのドキュメント
     url: "/index.html"
   - title: リリースノート
-    url: "/whats-new.html"
+    entries:
+    - title: 新機能
+      url: "/whats-new.html"
+    - title: 既知の制限
+      url: "/reference-limitations.html"
   - title: はじめに
     entries:
     - title: オンプレミスのONTAP クラスタ管理の詳細については、こちらをご覧ください

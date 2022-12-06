@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: reference-limitations.html 
+keywords: limitations, system manager, unsupported features 
+summary: 既知の制限事項は、このリリースの製品でサポートされていないプラットフォーム、デバイス、機能、または製品と正しく相互運用できない機能を特定します。これらの制限事項を慎重に確認してください 
+---
+= 既知の制限
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+既知の制限事項は、このリリースの製品でサポートされていないプラットフォーム、デバイス、機能、または製品と正しく相互運用できない機能を特定します。これらの制限事項を慎重に確認してください
+
+一部のSystem Manager機能は、BlueXPではサポートされていません。
+
+* クラスタセットアップ
++
+管理IPアドレスを設定し、オンプレミスのONTAP クラスタで管理パスワードを設定したら、BlueXPでクラスタを検出できます。
+
+* ロールベースアクセス制御（コネクタのみ）
++
+コネクタを使用してオンプレミスのONTAP クラスタを検出して管理する場合、System Managerからロールベースアクセス制御はサポートされません。検出プロセスで、管理者クレデンシャルの入力を求められます。これらのクレデンシャルは、System Managerから実行されるすべての処理に使用されます。
+
++
+直接検出オプションを使用すると、作業環境を開くたびにONTAP クレデンシャルを使用してログインするように求められます。
+
+* Cloud Backupのアクティブ化
++
+オンプレミスクラスタでCloud BackupをCloud Backupから直接有効にします。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["開始方法をご確認ください"^]
+
+* オンデマンドアップグレード
++
+ファームウェアとソフトウェアのオンデマンドアップグレードは利用できません。
+
+* グローバル検索
+* ユーザインターフェイスの設定
+
