@@ -120,6 +120,7 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["B
 +
 \ https://cloudmanager.cloud.netapp.com/ontap-service/check-service-connection
 
+* BlueXPコンソールにアクセスするために使用するコンピュータには、プライベートネットワーク内の他のリソースへの接続方法と同様に、オンプレミスのONTAP クラスタへのネットワーク接続が必要です。
 * クラスタ管理IPアドレスとadminユーザアカウントのパスワードが必要です。
 * BlueXPはHTTPSを使用してONTAP クラスタを検出しましたカスタムファイアウォールポリシーを使用する場合は、ONTAP クラスタがポート443経由のインバウンドHTTPSアクセスを許可する必要があります。
 +
