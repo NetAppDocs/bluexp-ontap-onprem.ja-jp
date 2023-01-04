@@ -30,12 +30,9 @@
   <block id="2f799a76b51c894f217a81de4e75abc1" category="list-text">プロンプトが表示されたら、コネクタを作成します。</block>
   <block id="669e31e2ded4144ba1ab8e5d140217fa" category="list-text">ONTAP クラスタの詳細ページで、クラスタ管理 IP アドレスと admin ユーザアカウントのパスワードを入力し、 * 追加をクリックします。</block>
   <block id="67fe55a3364c0f403605fc5a0962dd79" category="list-text">[_Details &amp; Credentials_] ページで、作業環境の名前と概要を入力し、 [* Go*] をクリックします。</block>
-  <block id="1e54529331fefb19128d41707045a526" category="summary">オンプレミスの ONTAP クラスタの新機能をご確認ください。</block>
   <block id="25203f9c21dc384a4870095f19f67811" category="doc">オンプレミス ONTAP クラスタの新機能</block>
-  <block id="f25694bb9bc00e8fcfcc1a3c65dd482b" category="section-title">「社内 ONTAP 」タブはデジタルウォレットで使用できます。</block>
   <block id="d3f07c4c7baf0c60bc64c1cdc48732af" category="paragraph">オンプレミスの ONTAP クラスタのインベントリと、ハードウェアおよびサービス契約の有効期限を確認できるようになりました。クラスタに関するその他の詳細も確認できます。</block>
   <block id="184ca21b83c54a7ba12f9b1077ccb494" category="inline-link-macro">この重要なオンプレミスクラスタの情報を表示する方法を参照してください</block>
-  <block id="d69df284f21ccdf93082c4aaf0953b6d" category="section-title">オンプレミスの ONTAP クラスタのボリュームに追加するタグは、 Tagging サービスで使用できます。</block>
   <block id="3686b84bef4027bfe5a11fcf472d8662" category="paragraph">ボリュームに追加するタグは、アプリケーションテンプレートサービスのタグ機能に関連付けられます。これにより、リソースの管理を整理して簡単にすることができます。</block>
   <block id="feea05ef76a2f6f2d444dfab436c31c4" category="section-title">オンプレミスの ONTAP クラスタ向けのボリューム作成ウィザードが簡易化されました</block>
   <block id="decff6be18712c90db61aad628609885" category="paragraph">使いやすいようにボリューム作成ウィザードが再設計され、カスタムのエクスポートポリシーを選択できるようになりました。</block>
@@ -440,8 +437,18 @@
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">始める前に</block>
   <block id="bc3d7bdad28e2f8cac321d5cae0b897c" category="paragraph">一部のSystem Manager機能は、BlueXPではサポートされていません。</block>
   <block id="059eb0e13bd9e186363bedd175a5226b" category="list-text">プロンプトが表示されたら、ONTAP クレデンシャルを入力します。</block>
-  <block id="e62e400b7f916eb360e1c51ccb93a44f" category="paragraph">作業環境を開くたびに、ONTAP クレデンシャルを使用してログインするように求められます。</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新機能</block>
   <block id="03be90bdc455bf51f8b56b71203c2e11" category="list-text">BlueXPコンソールにアクセスするために使用するコンピュータには、プライベートネットワーク内の他のリソースへの接続方法と同様に、オンプレミスのONTAP クラスタへのネットワーク接続が必要です。</block>
   <block id="9b97b7bd5e0a87be7bf218224ada83cf" category="paragraph-title">要件</block>
+  <block id="a3df9ba5a49f94fff6553063f65ca85c" category="summary">BlueXPのオンプレミスONTAP クラスタ管理の新機能について説明します。</block>
+  <block id="1f7138998459804601fc351f8d442e29" category="section-title">2023年1月1日</block>
+  <block id="f2e4e4f7b0b864863bfac74f4383a826" category="section-title">ONTAP クレデンシャルを保存する</block>
+  <block id="6a28e623eb98d9eb0799ab2c472620f3" category="paragraph">コネクタを使用せずに直接検出されたオンプレミスのONTAP 作業環境を開くときに、作業環境を開くたびにクレデンシャルを入力する必要がないように、ONTAP クラスタのクレデンシャルを保存するオプションが利用できるようになりました。</block>
+  <block id="8a08a7490f38dacd86c415a138d60aea" category="inline-link">このオプションの詳細については、こちらをご覧ください。</block>
+  <block id="b269330dc42e4f7fc82bba99c0dd5fd7" category="paragraph"><block ref="b269330dc42e4f7fc82bba99c0dd5fd7" category="inline-link-rx"></block></block>
+  <block id="c09e2822c570628d904cc9ae1b81258c" category="section-title">「社内ONTAP 」タブはデジタルウォレットで使用できます</block>
+  <block id="884e6fc7085a6b2763738e713000a65f" category="section-title">オンプレミスのONTAP クラスタのボリュームに追加するタグは、Taggingサービスで使用できます</block>
+  <block id="a3712341ec8d6b2a8227c05fca90e65c" category="paragraph">作業環境を開くたびに、ONTAP クレデンシャルを使用してログインするように求められます。クレデンシャルを保存して、毎回入力する必要がないようにすることもできます。このオプションを使用すると、資格情報はBlueXPユーザーのみに関連付けられます。アカウント内の他のユーザーが使用するために保存されることはありません。</block>
+  <block id="c4d0d6d40840ebb3d4f4f87b4309d6b6" category="inline-image-macro">ONTAP クラスタのユーザ名とパスワードを入力するよう求めるプロンプトのスクリーンショット。</block>
+  <block id="ae0f0582f8fc53d392de639973d7187a" category="paragraph"><block ref="ae0f0582f8fc53d392de639973d7187a" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, on-prem' 
-summary: オンプレミスの ONTAP クラスタの新機能をご確認ください。 
+summary: BlueXPのオンプレミスONTAP クラスタ管理の新機能について説明します。 
 ---
 = オンプレミス ONTAP クラスタの新機能
 :hardbreaks:
@@ -15,6 +15,18 @@ summary: オンプレミスの ONTAP クラスタの新機能をご確認くだ�
 
 [role="lead"]
 BlueXP（旧Cloud Manager）でオンプレミスONTAP クラスタ管理を導入した新機能について説明します。
+
+
+
+== 2023年1月1日
+
+
+
+=== ONTAP クレデンシャルを保存する
+
+コネクタを使用せずに直接検出されたオンプレミスのONTAP 作業環境を開くときに、作業環境を開くたびにクレデンシャルを入力する必要がないように、ONTAP クラスタのクレデンシャルを保存するオプションが利用できるようになりました。
+
+https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-direct.html["このオプションの詳細については、こちらをご覧ください。"]
 
 
 
@@ -86,7 +98,7 @@ https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-administer-advance
 
 
 
-=== 「社内 ONTAP 」タブはデジタルウォレットで使用できます。
+=== 「社内ONTAP 」タブはデジタルウォレットで使用できます
 
 オンプレミスの ONTAP クラスタのインベントリと、ハードウェアおよびサービス契約の有効期限を確認できるようになりました。クラスタに関するその他の詳細も確認できます。
 
@@ -98,7 +110,7 @@ https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.
 
 
 
-=== オンプレミスの ONTAP クラスタのボリュームに追加するタグは、 Tagging サービスで使用できます。
+=== オンプレミスのONTAP クラスタのボリュームに追加するタグは、Taggingサービスで使用できます
 
 ボリュームに追加するタグは、アプリケーションテンプレートサービスのタグ機能に関連付けられます。これにより、リソースの管理を整理して簡単にすることができます。
 
