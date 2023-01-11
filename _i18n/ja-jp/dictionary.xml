@@ -449,7 +449,7 @@
   <block id="a3712341ec8d6b2a8227c05fca90e65c" category="paragraph">作業環境を開くたびに、ONTAP クレデンシャルを使用してログインするように求められます。クレデンシャルを保存して、毎回入力する必要がないようにすることもできます。このオプションを使用すると、資格情報はBlueXPユーザーのみに関連付けられます。アカウント内の他のユーザーが使用するために保存されることはありません。</block>
   <block id="c4d0d6d40840ebb3d4f4f87b4309d6b6" category="inline-image-macro">ONTAP クラスタのユーザ名とパスワードを入力するよう求めるプロンプトのスクリーンショット。</block>
   <block id="ae0f0582f8fc53d392de639973d7187a" category="paragraph"><block ref="ae0f0582f8fc53d392de639973d7187a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2a921d78113b3701fe44f302cea12ade" category="list-text">このオプションでは、次の機能を使用してONTAP 8.3を実行するクラスタを管理できます。</block>
   <block id="085602a04bf66e6b72300eefb21c9c32" category="list-text">このオプションを使用すると、ONTAP 9.12.1以降を実行するクラスタをSystem Managerで管理できます。他の管理オプションはありません。標準ビューは使用できず、データサービスを有効にすることもできません。</block>
   <block id="8ab7236e714d67d0d2cdb0f6c0c6bdea" category="list-text">オンプレミスクラスタでONTAP 8.3以降が実行されている必要があります。</block>
+  <block id="a3736487d08fb63c22adeaf7035f0bca" category="list-text">このオプションでは、次の機能を使用してONTAP 8.3以降を実行するクラスタを管理できます。</block>
 </blocks>
