@@ -452,4 +452,12 @@
   <block id="085602a04bf66e6b72300eefb21c9c32" category="list-text">このオプションを使用すると、ONTAP 9.12.1以降を実行するクラスタをSystem Managerで管理できます。他の管理オプションはありません。標準ビューは使用できず、データサービスを有効にすることもできません。</block>
   <block id="8ab7236e714d67d0d2cdb0f6c0c6bdea" category="list-text">オンプレミスクラスタでONTAP 8.3以降が実行されている必要があります。</block>
   <block id="a3736487d08fb63c22adeaf7035f0bca" category="list-text">このオプションでは、次の機能を使用してONTAP 8.3以降を実行するクラスタを管理できます。</block>
+  <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">クラウドプロバイダソリューションのサポート</block>
+  <block id="be845c219bb74b14349ffa6e27e7aef3" category="paragraph">BlueXPに統合した次のクラウドプロバイダソリューションのテクニカルサポートについては、その製品のBlueXPマニュアルの「困ったときは」を参照してください。</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">ONTAP 対応の Amazon FSX</block>
+  <block id="5bf5309465f91318228a7f956b826348" category="list-text"><block ref="5bf5309465f91318228a7f956b826348" category="inline-link-macro-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files の特長</block>
+  <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
+  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">Cloud Volumes Service for Google Cloud</block>
+  <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
 </blocks>
