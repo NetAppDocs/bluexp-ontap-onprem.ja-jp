@@ -85,7 +85,7 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["B
 .手順
 . ナビゲーションメニューから、*ストレージ>キャンバス*を選択します。
 . キャンバスページで、*作業環境の追加*をクリックし、*オンプレミス*を選択します。
-. オンプレミスONTAP *を選択します。
+. オンプレミスのONTAP の横にある*検出*を選択します。
 . プロンプトが表示されたら、コネクタを作成します。
 +
 詳細については、上記の要件を参照してください。
@@ -132,7 +132,7 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["B
 .手順
 . ナビゲーションメニューから、*ストレージ>キャンバス*を選択します。
 . キャンバスページで、*作業環境の追加*をクリックし、*オンプレミス*を選択します。
-. 「* Local On-Premises ONTAP (Direct)*」を選択します。
+. [Local On-Premises ONTAP （Direct）]の横にある*[Discover]*を選択します。
 . クラスタ管理IPアドレスとadminユーザアカウントのパスワードを入力し、* Add *をクリックします。
 
 
