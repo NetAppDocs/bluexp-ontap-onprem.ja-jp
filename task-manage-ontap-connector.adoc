@@ -218,36 +218,42 @@ ONTAP でSystem Managerを使用する際にサポートが必要な場合は、
 
 == BlueXPデータサービスを有効にします
 
-作業環境でBlueXPデータサービスを有効にして'データのレプリケーション'バックアップ'スキャン'階層化を実行できます
+作業環境でBlueXPのデータサービスを有効にして、データのレプリケート、データのバックアップ、データの階層化などを実行できます。
 
+データのレプリケート:: Cloud Volumes ONTAP システム、Amazon FSx for ONTAP ファイルシステム、ONTAP クラスタ間でデータをレプリケートクラウドとの間でデータを移動するのに役立つ1回限りのデータレプリケーションと、ディザスタリカバリや長期的なデータ保持に役立つ定期的なスケジュールを選択できます。
++
+--
+https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["レプリケーションのドキュメント"^]
 
+--
+データをバックアップ:: Cloud Backupを使用して、オンプレミスのONTAP システムからクラウドの低コストのオブジェクトストレージにデータをバックアップします。
++
+--
+https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["Cloud Backup のドキュメント"^]
 
-=== データのレプリケート
+--
+データをスキャン、マッピング、および分類します:: 社内のオンプレミスクラスタをスキャンして、データのマッピングと分類、個人情報の特定を行います。これにより、セキュリティとコンプライアンスのリスクを軽減し、ストレージコストを削減し、データ移行プロジェクトを支援できます。
++
+--
+https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["Cloud Data Sense ドキュメント"^]
 
-Cloud Volumes ONTAP システムと ONTAP クラスタ間でデータをレプリケートするには、ワンタイムデータレプリケーションを選択します。これにより、クラウドとの間でデータを移動したり、定期的にスケジュールを作成したりすることができ、ディザスタリカバリや長期保存に役立ちます。
+--
+データをクラウドに階層化:: クラウド階層化を使用して、アクセス頻度の低いデータを ONTAP クラスタからオブジェクトストレージに自動的に階層化することで、データセンターをクラウドに拡張します。
++
+--
+https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["Cloud Tiering のドキュメント"^]
 
-https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["データをレプリケートする方法について説明します"^]
+--
+健全性、アップタイム、パフォーマンスを維持:: システム停止や障害が発生する前に、推奨される修正策をONTAP クラスタに実施
++
+--
+https://docs.netapp.com/us-en/bluexp-operational-resiliency/index.html["運用の耐障害性に関する文書化"^]
 
+--
+容量が少ないクラスタを特定します:: 容量が少ないクラスタを特定したり、クラスタを確認して容量の予測を確認したりできます。
++
+--
+https://docs.netapp.com/us-en/bluexp-economic-efficiency/index.html["経済効率に関する文書化"^]
 
+--
 
-=== データをバックアップ
-
-Cloud Backup を使用して、オンプレミスの ONTAP システムからクラウドの低コストのオブジェクトストレージにデータをバックアップできます。このサービスは、オンプレミスとクラウドのデータを保護し、長期アーカイブするためのバックアップとリストアの機能を提供します。
-
-https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["クラウドにデータをバックアップする方法をご確認ください"^]
-
-
-
-=== データをスキャン、マッピング、および分類します
-
-Cloud Data Sense は、社内のオンプレミスクラスタをスキャンして、データをマッピングして分類し、プライベート情報を特定します。これにより、セキュリティとコンプライアンスのリスクを軽減し、ストレージコストを削減し、データ移行プロジェクトを支援できます。
-
-https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["データのスキャン、マッピング、分類の方法について説明します"^]
-
-
-
-=== データをクラウドに階層化
-
-クラウド階層化を使用して、アクセス頻度の低いデータを ONTAP クラスタからオブジェクトストレージに自動的に階層化することで、データセンターをクラウドに拡張します。
-
-https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["データをクラウドに階層化する方法をご確認ください"^]
