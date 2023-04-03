@@ -18,18 +18,12 @@
   <block id="4a88b41a42a9618291028593ae2a0b05" category="list-text"><block ref="4a88b41a42a9618291028593ae2a0b05" category="inline-link-rx"></block></block>
   <block id="b06972aadece5eaa3ac9cc962a035477" category="list-text">コネクタホストが、ポート 443 経由のアウトバウンド HTTPS アクセスを許可する必要があります。</block>
   <block id="2b9e44ec073f65b2847ecb4d29f27fb3" category="paragraph">コネクタがクラウドにある場合、すべてのアウトバウンド通信は事前定義されたセキュリティグループによって許可されます。</block>
-  <block id="6f94f90ef34d6e0c2ce0a93e0edc57d7" category="list-text">ONTAP クラスタでは、ポート 443 を介した着信 HTTPS アクセスが許可されている必要があります。</block>
   <block id="6f9f6c9a212736eda9e7ebc73ff5b991" category="paragraph">デフォルトの「 mgmt 」ファイアウォールポリシーでは、すべての IP アドレスからの着信 HTTPS アクセスが許可されます。このデフォルトポリシーを変更した場合、または独自のファイアウォールポリシーを作成した場合は、 HTTPS プロトコルをそのポリシーに関連付けて、 Connector ホストからのアクセスを有効にする必要があります。</block>
   <block id="e6dfd5017eebf97461338fa01b9cb076" category="paragraph">_Digital Wallet _ を使用して、クラスタの詳細、およびハードウェアとソフトウェアの契約ステータスを表示できます。</block>
   <block id="7d8cc3d1d840829a8cdda42ed1f06341" category="list-text">* デジタルウォレット * で、 * オンプレミス ONTAP * タブをクリックします。</block>
   <block id="84c2c11254da9ee11c4482a60291186d" category="paragraph">各クラスタの行にソフトウェア契約とハードウェア契約の有効期限が表示されます。</block>
   <block id="18f84cf96ce5861e5585468ef883b180" category="inline-image-macro">クラスタのライセンス情報を表示するためにクラスタを拡張したスクリーンショット。</block>
   <block id="5796086a716a7059f711cc33be934605" category="paragraph"><block ref="5796086a716a7059f711cc33be934605" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8de100c0dba6b3831c0b2881ceb2cda0" category="inline-image-macro">ONTAP のクラスタ詳細ページの例を示すスクリーンショット：クラスタ管理 IP アドレス、ユーザ名、パスワード</block>
-  <block id="a84799eaf08f86932722efc82243f9c5" category="paragraph"><block ref="a84799eaf08f86932722efc82243f9c5" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2f799a76b51c894f217a81de4e75abc1" category="list-text">プロンプトが表示されたら、コネクタを作成します。</block>
-  <block id="669e31e2ded4144ba1ab8e5d140217fa" category="list-text">ONTAP クラスタの詳細ページで、クラスタ管理 IP アドレスと admin ユーザアカウントのパスワードを入力し、 * 追加をクリックします。</block>
-  <block id="67fe55a3364c0f403605fc5a0962dd79" category="list-text">[_Details &amp; Credentials_] ページで、作業環境の名前と概要を入力し、 [* Go*] をクリックします。</block>
   <block id="25203f9c21dc384a4870095f19f67811" category="doc">オンプレミス ONTAP クラスタの新機能</block>
   <block id="d3f07c4c7baf0c60bc64c1cdc48732af" category="paragraph">オンプレミスの ONTAP クラスタのインベントリと、ハードウェアおよびサービス契約の有効期限を確認できるようになりました。クラスタに関するその他の詳細も確認できます。</block>
   <block id="184ca21b83c54a7ba12f9b1077ccb494" category="inline-link-macro">この重要なオンプレミスクラスタの情報を表示する方法を参照してください</block>
@@ -240,8 +234,6 @@
   <block id="fa6b601b2fb4e3e5c7b466ecb8bd70ac" category="paragraph">このエラーは、NSSアカウントとそれに関連付けられているレコードの会社が、BlueXPアカウントのシリアル番号(例960xxxx）または動作環境のシリアル番号。[ケースの作成]フォームの上部にあるNSSアカウントの一覧を確認して、適切な一致を見つけることができます。または、次のいずれかのオプションを使用してサポートを依頼することもできます。</block>
   <block id="a820c8babe9911ddf670332c6647b2cf" category="summary">ONTAP 作業環境をBlueXPから管理する必要がなくなった場合は'オンプレミス環境を削除します</block>
   <block id="bd60ce6149853fe9cc7d5bd848c0bde4" category="paragraph">作業環境を削除しても、 ONTAP クラスタには影響しません。BlueXPからいつでも再検出できます。</block>
-  <block id="3adfbda333fab4f80c22cc56cfa3d639" category="summary">BlueXPでは、オンプレミス環境、NetApp Private Storage構成、IBMクラウドでONTAP クラスタを検出できます。オンプレミスクラスタをBlueXP Canvasに追加すると、Cloud Volumes ONTAP やその他のクラウドストレージソリューションと同じツールを使用して、これらのクラスタを管理できます。</block>
-  <block id="7e5d9a5421498db733ec66073d7872b4" category="paragraph">BlueXPはHTTPSを使用してONTAP クラスタを検出しましたカスタムファイアウォールポリシーを使用する場合は、次の要件を満たす必要があります。</block>
   <block id="43bfd35e9b57eaace0eafa6750af5ff7" category="list-text">BlueXPナビゲーションメニューから、* Governance &gt; Digital Wallet *を選択します。</block>
   <block id="891b391e7c699621fb61d87adcf4faba" category="list-text">契約が有効期限に近づいているか、期限が切れている場合は、BlueXPの右下にあるチャットアイコンをクリックして契約の延長をリクエストできます。</block>
   <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">ナビゲーションメニューから、*ストレージ&gt;キャンバス*を選択します。</block>
@@ -306,7 +298,6 @@
   <block id="1708a7899dbb54c155b6283363ffb7ca" category="section-title">Digital AdvisorがBlueXPとどのように連携するか</block>
   <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="inline-link">Digital Advisorのドキュメント</block>
   <block id="0d3c9b9e85d797576ff3dd7d69000330" category="paragraph">を参照してください<block ref="ec9c12602878d9d46f06e78e6704d9d1" category="inline-link-rx"></block> を参照してください。</block>
-  <block id="d63b0151e702212770ee1a0579665bc6" category="paragraph">BlueXP（旧Cloud Manager）でオンプレミスONTAP クラスタ管理を導入した新機能について説明します。</block>
   <block id="bcb152582247346e2f453fce02c1fc3c" category="inline-link-macro">BlueXP 3.9に関する注意事項</block>
   <block id="03f975e839e4278228720a5d19656288" category="list-text"><block ref="03f975e839e4278228720a5d19656288" category="inline-link-macro-rx"></block></block>
   <block id="c6b78f20a92771fa152f068d245ad75e" category="summary">オンプレミスのONTAP クラスタに対して高度な管理を実行する必要がある場合は、ONTAP システムに付属の管理インターフェイスであるONTAP System Managerを使用できます。BlueXPにはSystem Managerインターフェイスが搭載されているので、高度な管理のためにBlueXPを残す必要はありません。</block>
@@ -318,32 +309,19 @@
   <block id="4c36467537ed03dcde201f2a693ba5ec" category="summary">デジタルウォレットを使用すると、クラスタの詳細、およびハードウェアとソフトウェアの契約ステータスを表示できます。</block>
   <block id="4bbcdd6338e8631576e63f1156b1c51d" category="doc">クラスタ情報と契約の詳細を表示します</block>
   <block id="c5fbee6586294d81141f8dd158707985" category="doc">オンプレミスのONTAP クラスタを検出</block>
-  <block id="04ad3429f3b4aabaf65a66534789fe27" category="paragraph">BlueXPのオンプレミスONTAP クラスタを検出することで'ボリュームの管理とONTAP System Managerを使用した高度な管理を開始できますこのシステムマネージャは'BlueXPを使用して高度な管理を行う必要がなくなります</block>
   <block id="e96ffca10c8548ba223da5a961f4e0bb" category="section-title">検出と管理のオプション</block>
   <block id="a8b4b8a9fc6c5671a89f402cc069afda" category="paragraph">BlueXPには、オンプレミスのONTAP クラスタを検出して管理するための2つの方法があります。</block>
   <block id="a8fd54ba8c2928ea1b2a300ca75a00fa" category="list-text">コネクタを介した検出</block>
   <block id="dad407e605b93746e62dec356ab5303e" category="list-text">標準ビュー：基本的なボリューム処理を提供します</block>
-  <block id="90050bf1ae850c8b086b4d648fb45152" category="list-text">データレプリケーション、バックアップとリカバリ、データ分類、データ階層化を提供するBlueXPデータサービスとの統合</block>
   <block id="95ef150c4c1c6bc6be1dda757b58c70c" category="paragraph">コネクタは、クラウドプロバイダまたはオンプレミスにインストールする必要があります。</block>
   <block id="9023f6f288dd42621136db54ed1a4521" category="list-text">直接検出</block>
   <block id="5883223e097bdc0962b33579a610a819" category="paragraph">検出されたクラスタは、BlueXP Canvasで作業環境として使用できます。</block>
-  <block id="5f0721d5f4c3654b1df18083ddb89b2b" category="section-title">コネクタを使用してクラスタを検出します</block>
-  <block id="3a631896bab850237847c094a439aa27" category="paragraph">BlueXPが提供するすべての管理機能を活用できるコネクタを使用して、オンプレミスのONTAP クラスタを検出します。</block>
   <block id="5b972456043217ec9e0b836b869e5061" category="list-text">BlueXPを使い始めました。これにはログインとアカウントの設定が含まれます。</block>
   <block id="89e019c15bf54627a2a1e4918e66bab6" category="inline-link">BlueXPの使用を開始する方法について説明します</block>
   <block id="69c4d579a506c05e94d3e4986ec536a3" category="paragraph"><block ref="69c4d579a506c05e94d3e4986ec536a3" category="inline-link-rx"></block></block>
-  <block id="3864c0f13f4179fc92547b3c40d33079" category="list-text">クラスタをBlueXPに追加するには、クラスタ管理IPアドレスと管理者ユーザアカウントのパスワードが必要です。</block>
   <block id="7d613f340824eb9c65d2bc768aa43577" category="list-text">キャンバスページで、*作業環境の追加*をクリックし、*オンプレミス*を選択します。</block>
-  <block id="81105897419bed39cbb9fc6973142dd1" category="paragraph">詳細については、上記の要件を参照してください。</block>
-  <block id="b20b6e4ac1108003e7b2ba6bfd95de2a" category="inline-link-macro">クラスタの管理方法について説明します</block>
-  <block id="3faaa4d9abbf0518a74d53b5d6e0f801" category="paragraph"><block ref="caf49889e252782a270685d64c3e3413" category="inline-link-macro-rx"></block>。</block>
-  <block id="b30b65f2681ed2d6502197f4610e70c8" category="section-title">クラスタを直接検出</block>
-  <block id="e08ee5a36e032624fb49ba25ecf80f33" category="paragraph">System Managerを使用してクラスタを管理するために、オンプレミスのONTAP クラスタをBlueXPから直接検出します。</block>
-  <block id="7e88fc68853866bfdfc0a0b49e0f2399" category="admonition">BlueXPサービスに接続されている9.12.1以降を実行するオンプレミスONTAP クラスタのSystem Managerにアクセスすると、BlueXPからクラスタを直接管理するように求められます。このプロンプトに従っている場合、このセクションで説明するように、BlueXPでクラスタが検出されます。</block>
   <block id="7d0b01345a5038f25fdd17dc04d8872e" category="list-text">クラスタ管理IPアドレスとadminユーザアカウントのパスワードが必要です。</block>
   <block id="95773f82d1d681361d7f2215f3912515" category="paragraph">BlueXPはHTTPSを使用してONTAP クラスタを検出しましたカスタムファイアウォールポリシーを使用する場合は、ONTAP クラスタがポート443経由のインバウンドHTTPSアクセスを許可する必要があります。</block>
-  <block id="410c3a4ce3803e4bdbcbbf969c24bdce" category="list-text">クラスタ管理IPアドレスとadminユーザアカウントのパスワードを入力し、* Add *をクリックします。</block>
-  <block id="e96d56a9c8ca0d87fcde35a47ac41c52" category="paragraph"><block ref="c2342ddccc2ac1db59cff8f653ff5a7b" category="inline-link-macro-rx"></block>。</block>
   <block id="5c4425fb4da620b6fcdee80150d6eaf9" category="doc">コネクタで検出されたオンプレミスのONTAP クラスタを管理します</block>
   <block id="09d84fd04db90be9065d2babb3cfc106" category="paragraph">コネクタを使用してオンプレミスONTAP クラスタを検出した場合は、標準ビューからボリュームを作成し、詳細ビューからSystem Managerを使用して、BlueXPデータサービスを有効にできます。</block>
   <block id="95f71a487fe91fc0ea6cb5ded3a59cc3" category="section-title">標準ビューからボリュームを作成します</block>
@@ -410,12 +388,8 @@
   <block id="75116741b7b623681d2dd352ea2ef388" category="paragraph">直接検出オプションを使用すると、作業環境を開くたびにONTAP クレデンシャルを使用してログインするように求められます。</block>
   <block id="e57ef19ca7d4e00e73b11a38b0a89a63" category="paragraph">オンプレミスクラスタでCloud BackupをCloud Backupから直接有効にします。<block ref="d78fdae783f693d400093119494a670a" category="inline-link-rx"></block></block>
   <block id="05280ae0f52dfc03d23962982cf79f21" category="list-text">Advancedビュー：System Manager（ONTAP 9.10.0以降でサポート）を使用した管理を提供します。</block>
-  <block id="18913a11bfb9265ce650e9b06d80da69" category="inline-xref">要件と以下のステップバイステップの手順を確認してください</block>
-  <block id="b96973ab12dad5cf917d59fa426d501e" category="paragraph">コネクタは、クラウドプロバイダまたはオンプレミスにインストールする必要があります。 <block ref="578fb4b6eccb6dc6ce978336e196fff7" category="inline-xref-macro-rx"></block>。</block>
-  <block id="be7a52baf7d7b7389782214033190cd4" category="paragraph">このオプションにはコネクタは必要ありません。 <block ref="0820951a94f165da4a5239e04ce4e106" category="inline-xref-macro-rx"></block>。</block>
   <block id="797c4c6d452fc60610219b263c22393d" category="paragraph">後で他の検出オプションを使用する場合は、Canvas上の別の作業環境としてオンプレミスクラスタを検出する必要があります。そのあとで、もう一方の作業環境を削除することもできます。</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">結果</block>
-  <block id="95cf39b88222fd06560109489ee91506" category="paragraph">BlueXPはクラスタを検出し、それをキャンバス上の作業環境として追加します。</block>
   <block id="971b56bb19698ede33f8f4ef782f3774" category="list-text">オンプレミスクラスタでONTAP 9.12.1以降が実行されている必要があります。</block>
   <block id="d8140eebe21fbc87913a211d15aa72f0" category="list-text">クラスタは、BlueXPサービスへのインバウンドおよびアウトバウンド接続を備えている必要があります。</block>
   <block id="3693065b074c131d0dd4c103327a1d7b" category="paragraph">\ https://cloudmanager.cloud.netapp.com/ontap-service/check-service-connection</block>
@@ -425,7 +399,6 @@
   <block id="bfe73fc0abe25019e3e0d76f17653911" category="paragraph"><block ref="736a4b96dd4361a68ef1dd0a557122e0" category="inline-link-macro-rx"></block>。</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">始める前に</block>
   <block id="bc3d7bdad28e2f8cac321d5cae0b897c" category="paragraph">一部のSystem Manager機能は、BlueXPではサポートされていません。</block>
-  <block id="059eb0e13bd9e186363bedd175a5226b" category="list-text">プロンプトが表示されたら、ONTAP クレデンシャルを入力します。</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新機能</block>
   <block id="03be90bdc455bf51f8b56b71203c2e11" category="list-text">BlueXPコンソールにアクセスするために使用するコンピュータには、プライベートネットワーク内の他のリソースへの接続方法と同様に、オンプレミスのONTAP クラスタへのネットワーク接続が必要です。</block>
   <block id="9b97b7bd5e0a87be7bf218224ada83cf" category="paragraph-title">要件</block>
@@ -437,7 +410,6 @@
   <block id="b269330dc42e4f7fc82bba99c0dd5fd7" category="paragraph"><block ref="b269330dc42e4f7fc82bba99c0dd5fd7" category="inline-link-rx"></block></block>
   <block id="c09e2822c570628d904cc9ae1b81258c" category="section-title">「社内ONTAP 」タブはデジタルウォレットで使用できます</block>
   <block id="884e6fc7085a6b2763738e713000a65f" category="section-title">オンプレミスのONTAP クラスタのボリュームに追加するタグは、Taggingサービスで使用できます</block>
-  <block id="a3712341ec8d6b2a8227c05fca90e65c" category="paragraph">作業環境を開くたびに、ONTAP クレデンシャルを使用してログインするように求められます。クレデンシャルを保存して、毎回入力する必要がないようにすることもできます。このオプションを使用すると、資格情報はBlueXPユーザーのみに関連付けられます。アカウント内の他のユーザーが使用するために保存されることはありません。</block>
   <block id="c4d0d6d40840ebb3d4f4f87b4309d6b6" category="inline-image-macro">ONTAP クラスタのユーザ名とパスワードを入力するよう求めるプロンプトのスクリーンショット。</block>
   <block id="ae0f0582f8fc53d392de639973d7187a" category="paragraph"><block ref="ae0f0582f8fc53d392de639973d7187a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="085602a04bf66e6b72300eefb21c9c32" category="list-text">このオプションを使用すると、ONTAP 9.12.1以降を実行するクラスタをSystem Managerで管理できます。他の管理オプションはありません。標準ビューは使用できず、データサービスを有効にすることもできません。</block>
@@ -452,7 +424,6 @@
   <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">Cloud Volumes Service for Google Cloud</block>
   <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
   <block id="2901a10a7b1d7a91ad19913b88e371a6" category="list-text">オンプレミスのONTAP の横にある*検出*を選択します。</block>
-  <block id="51c9688d0c74494fcdb4e052b85ecbf5" category="list-text">[Local On-Premises ONTAP （Direct）]の横にある*[Discover]*を選択します。</block>
   <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">セルフサポートオプションを使用します</block>
   <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">ネットアップサポートと一緒にケースを作成します</block>
   <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">[*Resources*]ページで、[Technical Support]で次のいずれかのオプションを選択します。</block>
@@ -484,7 +455,6 @@
   <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">テーブルの最後の列に表示される3つの点を持つアイコン</block>
   <block id="98efef1c8a47ed5791b41944e8ff4ec2" category="list-text">をクリックして既存のケースを管理します <block ref="a0b152b50a56901a75affebabc26ed61" category="inline-image-macro-rx" type="image"></block> 使用可能なオプションのいずれかを選択します。</block>
   <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*ケースの表示*:特定のケースの詳細を表示します。</block>
-  <block id="482429810c2b00a4fa04f9900c560232" category="list-text">*ケースノートの更新*：問題の詳細を入力します。</block>
   <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*ケースをクローズ*：ケースをクローズする理由の詳細を入力し、*ケースをクローズ*をクリックします。</block>
   <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">テーブルの最後の列でメニューを選択した後に実行できる操作を示すスクリーンショット。</block>
   <block id="e9a5c374fb47ed2ae5cc6108fb36d829" category="paragraph"><block ref="e9a5c374fb47ed2ae5cc6108fb36d829" category="inline-image-macro-rx" type="image"></block></block>
@@ -496,4 +466,47 @@
   <block id="452cd4df7b0d5eb1156519a2f3b0206b" category="paragraph">これはシステムによって生成されたIDで、電子メールにマッピングされます。[*NSS Management*]ページで、から電子メールを表示できます <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> メニュー。</block>
   <block id="fd02e84624a2fdfd58787131aa2820b5" category="list-text">ログイン認証情報トークンを更新する必要がある場合は、の[認証情報の更新*]オプションも使用できます <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> メニュー。</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">このオプションを使用すると、再度ログインするように求められます。これらのアカウントのトークンは90日後に期限切れになります。このことを通知する通知が投稿されます。</block>
+  <block id="623e1951042cd3019a0cc38bf7556bee" category="summary">BlueXPでオンプレミスのONTAP クラスタを検出すると、ONTAP System Manager（BlueXPで利用可能）を使用してボリュームの管理や高度な管理を開始できます。</block>
+  <block id="0cd9fea7f87f5a503f2d07cc992f0993" category="list-text">BlueXPデータサービスとの統合により、データレプリケーション、バックアップとリカバリ、データの分類、データ階層化を実現します</block>
+  <block id="e9b3b1686b45ea49547763029f379272" category="paragraph">このオプションにはコネクタが必要です。コネクタは、クラウドプロバイダまたはオンプレミスにインストールできます。</block>
+  <block id="d7aa3f7ee53003f5d75a0f500ddb1e6a" category="paragraph">このオプションにはコネクタは必要ありません。</block>
+  <block id="f75478b929f43a364a455cc34445b807" category="paragraph">BlueXPサービスに接続されている9.12.1以降を実行するオンプレミスONTAP クラスタのSystem Managerにアクセスすると、BlueXPからクラスタを直接管理するように求められます。このプロンプトを実行すると、BlueXPで直接検出オプションを使用してクラスタが検出されます。</block>
+  <block id="0f7cd5e1a723722aba147a095960b6f2" category="paragraph">オンプレミスのONTAP クラスタを検出する前に、次の要件を満たしていることを確認してください。</block>
+  <block id="a1a264e616e24563d4b8f8b5795ea403" category="section-title">一般的な要件</block>
+  <block id="57e3bd92879e52aabb2d704d581a7eca" category="section-title">コネクタの検出と管理の要件</block>
+  <block id="474308686741d3fac3585fee76ea82cb" category="section-title">直接的な検出と管理の要件</block>
+  <block id="20dbb48f93e265cf5e1f55346fd44629" category="section-title">クラスタを検出します</block>
+  <block id="16708274774701d9897c9865da185258" category="paragraph">BlueXPのキャンバスからオンプレミスのONTAP クラスタを検出できます。検出プロセスを開始すると、BlueXPで次のようにクラスタが検出されます。</block>
+  <block id="a1a1b3734bc79dc28eff3fad266ee579" category="list-text">ONTAP クラスタに接続しているアクティブなコネクタがある場合、BlueXPはそのコネクタを使用してクラスタを検出および管理します。</block>
+  <block id="1f98df6cf22b8e11ecbe762c7b523860" category="list-text">コネクタがない場合やコネクタがONTAP クラスタに接続されていない場合は、BlueXPで自動的に検出と管理の直接オプションが使用されます。</block>
+  <block id="1de006c684d29369fa4392137f9a3894" category="list-text">[Discover_page]で、クラスタ管理IPアドレス、および管理者ユーザアカウントのパスワードを入力します。</block>
+  <block id="f7372fe2a1c7b50e7c7d583296559005" category="list-text">クラスタを（コネクタなしで）直接検出する場合は、*[クレデンシャルを保存する]*を選択します。</block>
+  <block id="da8239e44e04f0173e627074f8abe90c" category="paragraph">このオプションを選択した場合は、作業環境を開くたびにクレデンシャルを再入力する必要はありません。これらのクレデンシャルはBlueXPユーザにのみ関連付けられます。アカウント内の他のユーザーが使用するために保存されることはありません。</block>
+  <block id="6717014f0e48b7ab08c9846925b42c93" category="list-text">[検出]*を選択します。</block>
+  <block id="150f022493510e4fc7851b23e0afdee7" category="paragraph">BlueXPはクラスタを検出し、それをキャンバス上の作業環境として追加します。これで、クラスタの管理を開始できます。</block>
+  <block id="299867ed6070a6cda18ae92e5d434213" category="inline-link-macro">直接検出されたクラスタを管理する方法について説明します</block>
+  <block id="c3995876aaed94f3589c1d9b516d3805" category="list-text"><block ref="c3995876aaed94f3589c1d9b516d3805" category="inline-link-macro-rx"></block></block>
+  <block id="b1f50daaafce361695fc65132af507a0" category="inline-link-macro">コネクタを使用して検出されたクラスタを管理する方法について説明します</block>
+  <block id="2dad31dff556d88636e28fd5a3f6e2ac" category="list-text"><block ref="2dad31dff556d88636e28fd5a3f6e2ac" category="inline-link-macro-rx"></block></block>
+  <block id="102787ed6297b34a7504b527e91d01d3" category="section-title">2023年4月3日</block>
+  <block id="44a722c1e42cdb4002c75bb29403670b" category="section-title">BlueXPコンソールから単一の検出オプションを選択できます</block>
+  <block id="7023e56782327af6f409e1889ae33345" category="paragraph">BlueXPコンソールからオンプレミスのONTAP クラスタを検出すると、次の1つのオプションが表示されます。</block>
+  <block id="d70ed695b081fff2505f285b0540727b" category="inline-image-macro">作業環境を作成するときに使用可能な[Discover On-Premises ONTAP （オンプレミスのを検出）]オプションを示すスクリーンショット</block>
+  <block id="aea8878e3e5cb0f622cbe596cc98ef50" category="paragraph"><block ref="aea8878e3e5cb0f622cbe596cc98ef50" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3d85937cd401956877664b5f7128cc5d" category="paragraph">以前は、直接検出用とコネクタによる検出用に別 々 のフローがありました。これらのオプションはどちらも引き続き使用できますが、単一のフローにマージされます。</block>
+  <block id="251a667be8662557b7aba30c53380da3" category="paragraph">検出プロセスを開始すると、BlueXPで次のようにクラスタが検出されます。</block>
+  <block id="02067bb3de9c60175abe8c4b7d81c3c2" category="list-text">ONTAP クラスタに接続しているアクティブなコネクタがある場合、BlueXPはそのコネクタを使用してクラスタを検出および管理します。</block>
+  <block id="873b328fabdfb8db13a38e03c836d37b" category="inline-link">検出と管理のオプションの詳細については、こちらをご覧ください</block>
+  <block id="d74db5b2b9703b60c98aead9c3c3275e" category="paragraph"><block ref="9ba91f2cd50d4cdc6a75347f1fff1126" category="inline-link-rx"></block>。</block>
+  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*添付ファイル（オプション）*：一度に1つずつ、最大5つの添付ファイルをアップロードできます。</block>
+  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">添付ファイルはファイルあたり25 MBに制限されています。サポートされているファイル拡張子は、txt、log、pdf、jpg/jpeg、rtf、 doc/docx、xls/xlsx、およびcsv。</block>
+  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*ケースノートの更新*：問題の詳細を入力するか、*ファイルのアップロード*を選択して最大5つのファイルを添付します。</block>
+  <block id="6935d4eff56228cdcc6138a57b8873c9" category="paragraph">コネクタで検出したクラスタの作業環境アイコンは、Canvasで次のように表示されます。</block>
+  <block id="db711502e98fa11f32f96dfd6ecc6e6b" category="inline-image-macro">キャンバスに表示される作業環境アイコンのスクリーンショット</block>
+  <block id="7191ab2cdb6e0f21fd1844124dd5642e" category="paragraph"><block ref="7191ab2cdb6e0f21fd1844124dd5642e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="128f3f75e6d7b802bf2dc0276793e8f6" category="paragraph">作業環境が直接検出された場合は、作業環境アイコンに「Direct」という単語が表示されます。</block>
+  <block id="e2868e6281d0ed6987fd505840c53ebb" category="paragraph">作業環境アイコンは、直接検出されたクラスタを示します。</block>
+  <block id="adae1368fef895169a40e9765864c2d0" category="paragraph"><block ref="adae1368fef895169a40e9765864c2d0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d6a0741adb3101b3ac8caa5bee63eb9e" category="list-text">プロンプトが表示されたら、ONTAP クレデンシャルを入力します。</block>
+  <block id="45d2775227d0faf611658c52b9e5d2da" category="paragraph">クレデンシャルを保存しない場合は、作業環境を開くたびにONTAP クレデンシャルでログインするように求められます。クレデンシャルを保存して、毎回入力する必要がないようにすることもできます。このオプションを使用すると、資格情報はBlueXPユーザーのみに関連付けられます。アカウント内の他のユーザーが使用するために保存されることはありません。</block>
 </blocks>

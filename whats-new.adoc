@@ -14,7 +14,29 @@ summary: BlueXPのオンプレミスONTAP クラスタ管理の新機能につ�
 
 
 [role="lead"]
-BlueXP（旧Cloud Manager）でオンプレミスONTAP クラスタ管理を導入した新機能について説明します。
+BlueXPのオンプレミスONTAP クラスタ管理の新機能について説明します。
+
+
+
+== 2023年4月3日
+
+
+
+=== BlueXPコンソールから単一の検出オプションを選択できます
+
+BlueXPコンソールからオンプレミスのONTAP クラスタを検出すると、次の1つのオプションが表示されます。
+
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-discover-on-prem-ontap.png["作業環境を作成するときに使用可能な[Discover On-Premises ONTAP （オンプレミスのを検出）]オプションを示すスクリーンショット"]
+
+以前は、直接検出用とコネクタによる検出用に別 々 のフローがありました。これらのオプションはどちらも引き続き使用できますが、単一のフローにマージされます。
+
+検出プロセスを開始すると、BlueXPで次のようにクラスタが検出されます。
+
+* ONTAP クラスタに接続しているアクティブなコネクタがある場合、BlueXPはそのコネクタを使用してクラスタを検出および管理します。
+* コネクタがない場合やコネクタがONTAP クラスタに接続されていない場合は、BlueXPで自動的に検出と管理の直接オプションが使用されます。
+
+
+https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["検出と管理のオプションの詳細については、こちらをご覧ください"]。
 
 
 
