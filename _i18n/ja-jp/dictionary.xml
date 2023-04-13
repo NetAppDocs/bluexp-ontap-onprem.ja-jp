@@ -19,11 +19,8 @@
   <block id="b06972aadece5eaa3ac9cc962a035477" category="list-text">コネクタホストが、ポート 443 経由のアウトバウンド HTTPS アクセスを許可する必要があります。</block>
   <block id="2b9e44ec073f65b2847ecb4d29f27fb3" category="paragraph">コネクタがクラウドにある場合、すべてのアウトバウンド通信は事前定義されたセキュリティグループによって許可されます。</block>
   <block id="6f9f6c9a212736eda9e7ebc73ff5b991" category="paragraph">デフォルトの「 mgmt 」ファイアウォールポリシーでは、すべての IP アドレスからの着信 HTTPS アクセスが許可されます。このデフォルトポリシーを変更した場合、または独自のファイアウォールポリシーを作成した場合は、 HTTPS プロトコルをそのポリシーに関連付けて、 Connector ホストからのアクセスを有効にする必要があります。</block>
-  <block id="e6dfd5017eebf97461338fa01b9cb076" category="paragraph">_Digital Wallet _ を使用して、クラスタの詳細、およびハードウェアとソフトウェアの契約ステータスを表示できます。</block>
-  <block id="7d8cc3d1d840829a8cdda42ed1f06341" category="list-text">* デジタルウォレット * で、 * オンプレミス ONTAP * タブをクリックします。</block>
   <block id="84c2c11254da9ee11c4482a60291186d" category="paragraph">各クラスタの行にソフトウェア契約とハードウェア契約の有効期限が表示されます。</block>
   <block id="18f84cf96ce5861e5585468ef883b180" category="inline-image-macro">クラスタのライセンス情報を表示するためにクラスタを拡張したスクリーンショット。</block>
-  <block id="5796086a716a7059f711cc33be934605" category="paragraph"><block ref="5796086a716a7059f711cc33be934605" category="inline-image-macro-rx" type="image"></block></block>
   <block id="25203f9c21dc384a4870095f19f67811" category="doc">オンプレミス ONTAP クラスタの新機能</block>
   <block id="d3f07c4c7baf0c60bc64c1cdc48732af" category="paragraph">オンプレミスの ONTAP クラスタのインベントリと、ハードウェアおよびサービス契約の有効期限を確認できるようになりました。クラスタに関するその他の詳細も確認できます。</block>
   <block id="184ca21b83c54a7ba12f9b1077ccb494" category="inline-link-macro">この重要なオンプレミスクラスタの情報を表示する方法を参照してください</block>
@@ -122,7 +119,6 @@
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知ファイルには、ネットアップソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が記載されています。</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">次のオプションは、 1 日 24 時間、週 7 日間無料でご利用いただけます。</block>
   <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">ナレッジベース</block>
-  <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
   <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">コミュニティ</block>
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">ドキュメント</block>
@@ -173,8 +169,6 @@
   <block id="168463a2e30ac746441036fb49df730e" category="list-text"><block ref="168463a2e30ac746441036fb49df730e" category="inline-link-rx"></block></block>
   <block id="6a9903314020e84e3af325216666825e" category="inline-image-macro">3つの点を持つアイコン。</block>
   <block id="a78d007a06bac736eaadb47926ca0155" category="list-text">をクリックします <block ref="8891ca04a345a35bd7da25d57718d9b7" category="inline-image-macro-rx" type="image"></block> &gt; * テンプレートからボリュームを追加 * 。</block>
-  <block id="2dc127a72bebec759447c53e48d44a81" category="inline-image-macro">下キャレットアイコン</block>
-  <block id="c3dcc3698432aa0b6e568ec48b5fe13f" category="list-text">詳細を確認するクラスタの場合は、をクリックします <block ref="88c68341c12fbc9f1bcf1c9927535845" category="inline-image-macro-rx" type="image"></block> をクリックしてクラスタ情報を展開します。</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022年9月18日</block>
   <block id="440be74a67502f9c3d55890782329328" category="paragraph">コネクタの3.9.22リリースでは、次の変更が加えられました。</block>
   <block id="c8328d07fc05c4708c68f547ce6f5e77" category="section-title">新しい概要ページ</block>
@@ -223,7 +217,6 @@
   <block id="a820c8babe9911ddf670332c6647b2cf" category="summary">ONTAP 作業環境をBlueXPから管理する必要がなくなった場合は'オンプレミス環境を削除します</block>
   <block id="bd60ce6149853fe9cc7d5bd848c0bde4" category="paragraph">作業環境を削除しても、 ONTAP クラスタには影響しません。BlueXPからいつでも再検出できます。</block>
   <block id="43bfd35e9b57eaace0eafa6750af5ff7" category="list-text">BlueXPナビゲーションメニューから、* Governance &gt; Digital Wallet *を選択します。</block>
-  <block id="891b391e7c699621fb61d87adcf4faba" category="list-text">契約が有効期限に近づいているか、期限が切れている場合は、BlueXPの右下にあるチャットアイコンをクリックして契約の延長をリクエストできます。</block>
   <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">ナビゲーションメニューから、*ストレージ&gt;キャンバス*を選択します。</block>
   <block id="886d154945ab6b1710e580c43bfabaf7" category="paragraph">CIFSを選択し、サーバがまだセットアップされていない場合は、Active Directoryまたはワークグループを使用してCIFSサーバをセットアップするように求められます。</block>
   <block id="c2cf3bd16a968cc398d9e36f7fee3e49" category="cell">NFS エクスポートポリシーは、ボリュームにアクセスできるサブネット内のクライアントを定義します。デフォルトでは、BlueXPはサブネット内のすべてのインスタンスへのアクセスを提供する値を入力します。</block>
@@ -294,7 +287,6 @@
   <block id="643ed1d8ada28dc21c68f0cf27770cdf" category="sidebar">Digital Advisorを使用してクラスタを最適化</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXPブログ</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">BlueXPのすべてのマニュアル</block>
-  <block id="4c36467537ed03dcde201f2a693ba5ec" category="summary">デジタルウォレットを使用すると、クラスタの詳細、およびハードウェアとソフトウェアの契約ステータスを表示できます。</block>
   <block id="4bbcdd6338e8631576e63f1156b1c51d" category="doc">クラスタ情報と契約の詳細を表示します</block>
   <block id="c5fbee6586294d81141f8dd158707985" category="doc">オンプレミスのONTAP クラスタを検出</block>
   <block id="e96ffca10c8548ba223da5a961f4e0bb" category="section-title">検出と管理のオプション</block>
@@ -517,4 +509,16 @@
   <block id="6469bc932e571a70af6dc9f155dc8c4f" category="list-text">容量が少ないクラスタを特定したり、クラスタを確認して容量の予測を確認したりできます。</block>
   <block id="68eb93c26a1fa5e191126273ae12b097" category="inline-link">経済効率に関する文書化</block>
   <block id="5a1ba2c518bc284a53dce33562379ae9" category="paragraph"><block ref="5a1ba2c518bc284a53dce33562379ae9" category="inline-link-rx"></block></block>
+  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
+  <block id="94fd71e366753efc2c71fcdd0fc3afd4" category="summary">BlueXPデジタルウォレットを使用すると、オンプレミスのONTAP クラスタごとに契約の詳細を確認できます。BlueXPでクラスタをまだ検出していない場合は、デジタルウォレットから検出することもできます。</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">作業を開始する前に</block>
+  <block id="2b474be1d4faf7d5e70a3977fa183a0a" category="paragraph">BlueXPデジタルウォレットには、作業環境として検出したオンプレミスのONTAP クラスタ、またはBlueXPに追加したNetApp Support Site アカウントに関連付けられているオンプレミスのクラスタに関する詳細が表示されます。</block>
+  <block id="e65135bd79d15db91bec6c98a9f8dabe" category="list-text">オンプレミスONTAP *を選択します。</block>
+  <block id="93416f52fcce3ab7a37ed87d0aeb8134" category="paragraph">NetApp Support Site（ NSS ）アカウントのクレデンシャルを最初に入力するように求められたら、サポートダッシュボードに入力します。アカウントを追加すると、そのアカウントに含まれているクラスタが表示されます。</block>
+  <block id="50b3dac67cf083c4a4dd133f8b8d0076" category="paragraph"><block ref="50b3dac67cf083c4a4dd133f8b8d0076" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="19d0494f8c332b6872314cab23b38a2d" category="list-text">作業環境としてクラスタが検出されていない場合は、*[検出]*を選択し、画面の指示に従います。</block>
+  <block id="87713871e17e5ef9a4e363132a527495" category="paragraph">クラスタを検出すると、そのクラスタを作業環境としてBlueXPで管理できるようになります。</block>
+  <block id="06afa66cf6eca938a45be835a47030e1" category="paragraph-title">関連リンク</block>
+  <block id="73aa008a6b5cf018ef8dbd33a51ac3c7" category="inline-link">オンプレミスのONTAP クラスタのライセンスをBlueXPデジタルウォレットで管理する方法の詳細をご確認ください</block>
+  <block id="576b63b6009db82dbb03f5fa245eb11c" category="paragraph"><block ref="576b63b6009db82dbb03f5fa245eb11c" category="inline-link-rx"></block></block>
 </blocks>
