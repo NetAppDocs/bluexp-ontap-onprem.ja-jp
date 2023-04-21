@@ -14,7 +14,7 @@ summary: オンプレミスのONTAP クラスタに対して高度な管理を�
 
 
 [role="lead"]
-コネクタを使用してオンプレミスONTAP クラスタを検出した場合は、標準ビューからボリュームを作成し、詳細ビューからSystem Managerを使用して、BlueXPデータサービスを有効にできます。
+コネクタを使用してオンプレミスのONTAP クラスタを検出した場合は、[標準]ビューでボリュームを作成し、[アドバンスト]ビューのSystem Managerを使用して、BlueXPデータサービスを有効にすることができます。
 
 コネクタで検出したクラスタの作業環境アイコンは、Canvasで次のように表示されます。
 
@@ -126,7 +126,7 @@ image:screenshot_template_creating_resource_ontap.png["テンプレートから�
 
 その後、新しいボリュームが作業環境に追加されます。
 
-また、テンプレートにセカンダリ操作が実装されている場合は、たとえばボリュームで Cloud Backup を有効にすると、その操作も実行されます。
+また、ボリュームでBlueXPのバックアップとリカバリを有効にするなど、テンプレートにセカンダリアクションが実装されている場合は、そのアクションも実行されます。
 
 .完了後
 CIFS 共有をプロビジョニングした場合は、ファイルとフォルダに対する権限をユーザまたはグループに付与し、それらのユーザが共有にアクセスしてファイルを作成できることを確認します。
@@ -216,7 +216,7 @@ ONTAP でSystem Managerを使用する際にサポートが必要な場合は、
 
 
 
-== BlueXPデータサービスを有効にします
+== BlueXPサービスを有効にする
 
 作業環境でBlueXPのデータサービスを有効にして、データのレプリケート、データのバックアップ、データの階層化などを実行できます。
 
@@ -226,22 +226,22 @@ ONTAP でSystem Managerを使用する際にサポートが必要な場合は、
 https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["レプリケーションのドキュメント"^]
 
 --
-データをバックアップ:: Cloud Backupを使用して、オンプレミスのONTAP システムからクラウドの低コストのオブジェクトストレージにデータをバックアップします。
+データをバックアップ:: オンプレミスのONTAP システムからクラウドの低コストのオブジェクトストレージにデータをバックアップします。
 +
 --
-https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["Cloud Backup のドキュメント"^]
+https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["バックアップとリカバリの文書化"^]
 
 --
 データをスキャン、マッピング、および分類します:: 社内のオンプレミスクラスタをスキャンして、データのマッピングと分類、個人情報の特定を行います。これにより、セキュリティとコンプライアンスのリスクを軽減し、ストレージコストを削減し、データ移行プロジェクトを支援できます。
 +
 --
-https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["Cloud Data Sense ドキュメント"^]
+https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["分類に関する文書"^]
 
 --
-データをクラウドに階層化:: クラウド階層化を使用して、アクセス頻度の低いデータを ONTAP クラスタからオブジェクトストレージに自動的に階層化することで、データセンターをクラウドに拡張します。
+データをクラウドに階層化:: ONTAP クラスタからオブジェクトストレージにアクセス頻度の低いデータを自動的に階層化することで、データセンターをクラウドに拡張します。
 +
 --
-https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["Cloud Tiering のドキュメント"^]
+https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["階層化に関するドキュメント"^]
 
 --
 健全性、アップタイム、パフォーマンスを維持:: システム停止や障害が発生する前に、推奨される修正策をONTAP クラスタに実施

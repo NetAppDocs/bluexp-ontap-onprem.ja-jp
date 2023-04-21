@@ -31,7 +31,7 @@ summary: 既知の制限事項は、このリリースの製品でサポート�
 
 * Cloud Backupのアクティブ化
 +
-オンプレミスクラスタでCloud BackupをCloud Backupから直接有効にします。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["開始方法をご確認ください"^]
+BlueXPのバックアップとリカバリから直接、オンプレミスクラスタでCloud Backupを有効にします。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["開始方法をご確認ください"^]
 
 * オンデマンドアップグレード
 +

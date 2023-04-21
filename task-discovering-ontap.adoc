@@ -14,7 +14,7 @@ summary: BlueXPでオンプレミスのONTAP クラスタを検出すると、ON
 
 
 [role="lead"]
-BlueXPでオンプレミスのONTAP クラスタを検出すると、ONTAP System Manager（BlueXPで利用可能）を使用してボリュームの管理や高度な管理を開始できます。
+BlueXPからオンプレミスのONTAP クラスタを検出すると、ONTAP System Manager（BlueXPから入手可能）を使用してボリュームの管理や高度な管理を開始できます。
 
 
 
@@ -27,7 +27,7 @@ BlueXPには、オンプレミスのONTAP クラスタを検出して管理す�
 --
 * 標準ビュー：基本的なボリューム処理を提供します
 * Advancedビュー：System Manager（ONTAP 9.10.0以降でサポート）を使用した管理を提供します。
-* BlueXPデータサービスとの統合により、データレプリケーション、バックアップとリカバリ、データの分類、データ階層化を実現します
+* BlueXPサービスとの統合。データレプリケーション、バックアップとリカバリ、データの分類、データ階層化を実現します
 
 
 このオプションにはコネクタが必要です。コネクタは、クラウドプロバイダまたはオンプレミスにインストールできます。
@@ -80,7 +80,7 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["B
 +
 ** https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["コネクタについて説明します"^]
 ** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html["コネクタ間の切り替え"^]
-** https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["Cloud Tiering の詳細をご確認ください"^]
+** https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["BlueXPの階層化機能の詳細をご確認ください"^]
 
 
 * コネクタホストが、ポート 443 経由のアウトバウンド HTTPS アクセスを許可する必要があります。

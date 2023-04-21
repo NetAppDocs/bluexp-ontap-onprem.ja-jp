@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concept-aiq-digital-advisor.html 
 keywords: concepts, active iq digital advisor, ontap 
-summary: 'Active IQ デジタルアドバイザは"BlueXP UIに統合されているため"1つの画面でONTAP クラスタの操作"セキュリティ"パフォーマンスを最適化できます' 
+summary: BlueXP Digital Advisorを使用すると、ONTAP クラスタの運用、セキュリティ、パフォーマンスを最適化できます。 
 ---
-= Digital Advisorを使用してクラスタを最適化
+= BlueXPデジタルアドバイザを使用してクラスタを最適化
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,13 +14,13 @@ summary: 'Active IQ デジタルアドバイザは"BlueXP UIに統合されて�
 
 
 [role="lead"]
-https://www.netapp.com/services/support/active-iq/["Digital Advisor"^] （旧称Active IQ ）は、ONTAP クラスタの操作、セキュリティ、パフォーマンスを1つの画面で最適化できるように、BlueXP UIに統合されています。
+BlueXP Digital Advisorを使用すると、ONTAP クラスタの運用、セキュリティ、パフォーマンスを最適化できます。
 
 
 
 == の機能
 
-Digital Advisorを使用して、ストレージシステムの全体的なステータス、システムの健全性に関する概要、インベントリ、計画、アップグレード、重要な分析情報を監視リストレベルで確認できます。
+BlueXPデジタルアドバイザを使用すると、ストレージシステムの全体的なステータス、システムの健全性に関する概要情報、インベントリ、計画、アップグレード、貴重な分析情報などを監視リストレベルで確認できます。
 
 * ストレージシステムの健常性を分析し、最適化できます
 * ストレージシステムのすべてのリスクと、リスクを軽減するための対処方法に関する分析情報を取得できます
@@ -34,10 +34,10 @@ Digital Advisorを使用して、ストレージシステムの全体的なス�
 
 == サポート対象の ONTAP システム
 
-Digital Advisorは、NSSアカウント内のすべてのオンプレミスONTAP システムとCloud Volumes ONTAP システムに関する情報を提供します。
+Digital Advisorは、NetApp Support Site （NSS）アカウントに関連付けられているすべてのオンプレミスONTAP システムとCloud Volumes ONTAP システムに関する情報を提供します。
 
 
 
-== Digital AdvisorがBlueXPとどのように連携するか
+== 詳細情報
 
-を参照してください https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html["Digital Advisorのドキュメント"^] を参照してください。
+https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html["Digital Advisorドキュメント"^]
