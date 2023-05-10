@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, on-prem' 
-summary: BlueXPのオンプレミスONTAP クラスタ管理の新機能について説明します。 
+summary: BlueXPでオンプレミスのONTAP クラスタ管理の新機能をご紹介します。 
 ---
-= オンプレミス ONTAP クラスタの新機能
+= オンプレミスのONTAP クラスタの最新情報
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,26 @@ summary: BlueXPのオンプレミスONTAP クラスタ管理の新機能につ�
 
 
 [role="lead"]
-BlueXPのオンプレミスONTAP クラスタ管理の新機能について説明します。
+BlueXPでオンプレミスのONTAP クラスタ管理の新機能をご紹介します。
+
+
+
+== 2023年5月4日
+
+
+
+=== BlueXPのバックアップとリカバリを有効にする
+
+ONTAP 9.13.1以降では、コネクタを使用してクラスタを検出した場合、System Manager（アドバンストビュー）を使用してBlueXPのバックアップとリカバリを有効にすることができます。 link:https://docs.netapp.com/us-en/ontap/task_cloud_backup_data_using_cbs.html["BlueXPのバックアップとリカバリの有効化の詳細については、こちらをご覧ください"^]
+
+
+
+=== ONTAP のバージョンイメージとハードウェアファームウェアをアップグレードします
+
+ONTAP 9.10.1以降では、System Manager（アドバンストビュー）を使用してONTAP のバージョンイメージとハードウェアファームウェアをアップグレードできます。自動アップグレードを利用して最新の状態を維持することも、ローカルマシンやBlueXPを使用してアクセスできるサーバから手動で更新することもできます。 link:https://docs.netapp.com/us-en/ontap/task_admin_update_firmware.html#prepare-for-firmware-update["ONTAP とファームウェアのアップグレードの詳細については、こちらをご覧ください"^]
+
+
+NOTE: コネクタがない場合は、ローカルマシンからは更新できず、BlueXPを使用してアクセスできるサーバからのみ更新できます。
 
 
 
@@ -36,7 +55,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/ma
 * コネクタがない場合やコネクタがONTAP クラスタに接続されていない場合は、BlueXPで自動的に検出と管理の直接オプションが使用されます。
 
 
-https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["検出と管理のオプションの詳細については、こちらをご覧ください"]。
+https://["検出と管理のオプションの詳細については、こちらをご覧ください"]。
 
 
 
@@ -46,9 +65,9 @@ https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.
 
 === ONTAP クレデンシャルを保存する
 
-コネクタを使用せずに直接検出されたオンプレミスのONTAP 作業環境を開くときに、作業環境を開くたびにクレデンシャルを入力する必要がないように、ONTAP クラスタのクレデンシャルを保存するオプションが利用できるようになりました。
+コネクタを使用せずに直接検出されたオンプレミスのONTAP 作業環境を開く場合、作業環境を開くたびに入力する必要がないように、ONTAP クラスタのクレデンシャルを保存できるようになりました。
 
-https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-direct.html["このオプションの詳細については、こちらをご覧ください。"]
+https://["このオプションの詳細については、こちらをご覧ください。"]
 
 
 
@@ -58,17 +77,17 @@ https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-direc
 
 
 
-=== オンプレミスのONTAP クラスタを新たに検出する方法
+=== オンプレミスのONTAP クラスタを検出する新しい方法
 
-コネクタを使用せずに、オンプレミスのONTAP クラスタを直接検出できるようになりました。このオプションを指定すると、System Managerでのみクラスタ管理が有効になります。このような作業環境では、BlueXPデータサービスを有効にすることはできません。
+コネクタを使用せずにオンプレミスのONTAP クラスタを直接検出できるようになりました。このオプションを指定すると、System Managerでのみクラスタ管理が有効になります。このような作業環境では、BlueXPデータサービスを有効にすることはできません。
 
-https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["この検出と管理オプションの詳細については、こちらをご覧ください"]。
+https://["この検出と管理オプションの詳細については、こちらをご覧ください"]。
 
 
 
 === FlexGroup ボリューム
 
-コネクタから検出されたオンプレミスのONTAP クラスタでは、BlueXPの標準ビューに、System ManagerまたはONTAP CLIから作成されたFlexGroup ボリュームが表示されるようになりました。また、ボリュームのクローニング、設定の編集、削除などを行って、それらのボリュームを管理することもできます。
+コネクタで検出されたオンプレミスのONTAP クラスタの場合、BlueXPの[標準]ビューに、System ManagerまたはONTAP CLIで作成されたFlexGroup ボリュームが表示されるようになりました。また、ボリュームのクローニング、設定の編集、削除などを行って、それらのボリュームを管理することもできます。
 
 image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-flexgroup-volumes.png["オンプレミスのONTAP クラスタの[ボリューム]ページに表示されるFlexGroup ボリュームのスクリーンショット。"]
 
@@ -124,9 +143,9 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/ma
 
 === 「社内ONTAP 」タブはデジタルウォレットで使用できます
 
-オンプレミスの ONTAP クラスタのインベントリと、ハードウェアおよびサービス契約の有効期限を確認できるようになりました。クラスタに関するその他の詳細も確認できます。
+オンプレミスのONTAP クラスタのインベントリと、ハードウェアおよびサービス契約の有効期限を表示できるようになりました。クラスタに関するその他の詳細も確認できます。
 
-https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-view-cluster-info.html["オンプレミスクラスタに関するこの重要な情報を表示する方法について説明します"]。クラスタ用のNetApp Support Siteのアカウント（ NSS ）が必要です。また、 NSS のクレデンシャルを Cloud Manager アカウントに接続する必要があります。
+https://["オンプレミスクラスタに関するこの重要な情報を表示する方法について説明します"]。クラスタ用のNetApp Support Siteのアカウント（ NSS ）が必要です。また、 NSS のクレデンシャルを Cloud Manager アカウントに接続する必要があります。
 
 
 
@@ -134,16 +153,6 @@ https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-view-cluster-info.
 
 
 
-=== オンプレミスのONTAP クラスタのボリュームに追加するタグは、Taggingサービスで使用できます
+=== オンプレミスのONTAP クラスタ上のボリュームに追加したタグは、タギングサービスで使用できます
 
 ボリュームに追加するタグは、アプリケーションテンプレートサービスのタグ機能に関連付けられます。これにより、リソースの管理を整理して簡単にすることができます。
-
-
-
-== 2021 年 11 月 28 日
-
-
-
-=== オンプレミスの ONTAP クラスタ向けのボリューム作成ウィザードが簡易化されました
-
-使いやすいようにボリューム作成ウィザードが再設計され、カスタムのエクスポートポリシーを選択できるようになりました。

@@ -207,11 +207,11 @@ image:screenshot-standard-view.png["標準ビューに切り替えオプショ�
 
 === System Managerのヘルプを参照してください
 
-ONTAP でSystem Managerを使用する際にサポートが必要な場合は、を参照してください https://docs.netapp.com/us-en/ontap/index.html["ONTAP のドキュメント"^] を参照してください。役立つリンクをいくつか紹介します。
+ONTAP でSystem Managerを使用する際にサポートが必要な場合は、を参照してください https://["ONTAP のドキュメント"^] を参照してください。役立つリンクをいくつか紹介します。
 
-* https://docs.netapp.com/us-en/ontap/volume-admin-overview-concept.html["ボリュームとLUNの管理"^]
-* https://docs.netapp.com/us-en/ontap/network-manage-overview-concept.html["Network Management の略"^]
-* https://docs.netapp.com/us-en/ontap/concept_dp_overview.html["データ保護"^]
+* https://["ボリュームとLUNの管理"^]
+* https://["Network Management の略"^]
+* https://["データ保護"^]
 
 
 
@@ -223,37 +223,37 @@ ONTAP でSystem Managerを使用する際にサポートが必要な場合は、
 データのレプリケート:: Cloud Volumes ONTAP システム、Amazon FSx for ONTAP ファイルシステム、ONTAP クラスタ間でデータをレプリケートクラウドとの間でデータを移動するのに役立つ1回限りのデータレプリケーションと、ディザスタリカバリや長期的なデータ保持に役立つ定期的なスケジュールを選択できます。
 +
 --
-https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["レプリケーションのドキュメント"^]
+https://["レプリケーションのドキュメント"^]
 
 --
 データをバックアップ:: オンプレミスのONTAP システムからクラウドの低コストのオブジェクトストレージにデータをバックアップします。
 +
 --
-https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["バックアップとリカバリの文書化"^]
+https://["バックアップとリカバリの文書化"^]
 
 --
 データをスキャン、マッピング、および分類します:: 社内のオンプレミスクラスタをスキャンして、データのマッピングと分類、個人情報の特定を行います。これにより、セキュリティとコンプライアンスのリスクを軽減し、ストレージコストを削減し、データ移行プロジェクトを支援できます。
 +
 --
-https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["分類に関する文書"^]
+https://["分類に関する文書"^]
 
 --
 データをクラウドに階層化:: ONTAP クラスタからオブジェクトストレージにアクセス頻度の低いデータを自動的に階層化することで、データセンターをクラウドに拡張します。
 +
 --
-https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["階層化に関するドキュメント"^]
+https://["階層化に関するドキュメント"^]
 
 --
 健全性、アップタイム、パフォーマンスを維持:: システム停止や障害が発生する前に、推奨される修正策をONTAP クラスタに実施
 +
 --
-https://docs.netapp.com/us-en/bluexp-operational-resiliency/index.html["運用の耐障害性に関する文書化"^]
+https://["運用の耐障害性に関する文書化"^]
 
 --
 容量が少ないクラスタを特定します:: 容量が少ないクラスタを特定したり、クラスタを確認して容量の予測を確認したりできます。
 +
 --
-https://docs.netapp.com/us-en/bluexp-economic-efficiency/index.html["経済効率に関する文書化"^]
+https://["経済効率に関する文書化"^]
 
 --
 

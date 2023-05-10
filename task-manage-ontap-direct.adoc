@@ -41,12 +41,12 @@ image:screenshot-credentials.png["ONTAP クラスタのユーザ名とパスワ�
 
 . System Managerを使用してONTAP を管理する。
 +
-ONTAP でSystem Managerを使用する際にサポートが必要な場合は、を参照してください https://docs.netapp.com/us-en/ontap/index.html["ONTAP のドキュメント"^] を参照してください。役立つリンクをいくつか紹介します。
+ONTAP でSystem Managerを使用する際にサポートが必要な場合は、を参照してください https://["ONTAP のドキュメント"^] を参照してください。役立つリンクをいくつか紹介します。
 
 +
-** https://docs.netapp.com/us-en/ontap/volume-admin-overview-concept.html["ボリュームとLUNの管理"^]
-** https://docs.netapp.com/us-en/ontap/network-manage-overview-concept.html["Network Management の略"^]
-** https://docs.netapp.com/us-en/ontap/concept_dp_overview.html["データ保護"^]
+** https://["ボリュームとLUNの管理"^]
+** https://["Network Management の略"^]
+** https://["データ保護"^]
 
 
 
