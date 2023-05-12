@@ -11,9 +11,7 @@
   <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="section-title">要件</block>
   <block id="cb754929bd2884eb53bfc39ddd5aadad" category="paragraph">コールドデータをクラウドに階層化する場合は、コールドデータの階層化先に基づいてコネクタの要件を確認してください。</block>
   <block id="e6e80588e9fe7cf89218fea44300f7ca" category="inline-link">コネクタについて説明します</block>
-  <block id="da1264a616f156bd6836a85f7dfdea5a" category="list-text"><block ref="da1264a616f156bd6836a85f7dfdea5a" category="inline-link-rx"></block></block>
   <block id="c870531773e82c374eb4125c8029e25e" category="inline-link">コネクタ間の切り替え</block>
-  <block id="74d39f4b6fe0e32c5cfa2ed86891bf44" category="list-text"><block ref="74d39f4b6fe0e32c5cfa2ed86891bf44" category="inline-link-rx"></block></block>
   <block id="b06972aadece5eaa3ac9cc962a035477" category="list-text">コネクタホストが、ポート 443 経由のアウトバウンド HTTPS アクセスを許可する必要があります。</block>
   <block id="2b9e44ec073f65b2847ecb4d29f27fb3" category="paragraph">コネクタがクラウドにある場合、すべてのアウトバウンド通信は事前定義されたセキュリティグループによって許可されます。</block>
   <block id="6f9f6c9a212736eda9e7ebc73ff5b991" category="paragraph">デフォルトの「 mgmt 」ファイアウォールポリシーでは、すべての IP アドレスからの着信 HTTPS アクセスが許可されます。このデフォルトポリシーを変更した場合、または独自のファイアウォールポリシーを作成した場合は、 HTTPS プロトコルをそのポリシーに関連付けて、 Connector ホストからのアクセスを有効にする必要があります。</block>
@@ -76,12 +74,6 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">クラウドに関する Web セミナー</block>
   <block id="ba26e4556a0f160834687982b0479336" category="section-title">2022 年 2 月 27 日</block>
   <block id="ef1bf4095b622ba80ac24b48b8e45eac" category="section-title">2022 年 1 月 11 日</block>
-  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">[ ヘルプ ] メニューのスクリーンショット。サポートは最初に表示されるオプションです</block>
-  <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">[*NSS Management] &gt; [Add NSS Account*] をクリックします。</block>
-  <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">メッセージが表示されたら、 [* Continue （続行） ] をクリックして Microsoft ログインページにリダイレクトします。</block>
-  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">ネットアップは、サポートとライセンスに固有の認証サービスのアイデンティティプロバイダとして Microsoft Azure Active Directory を使用しています。</block>
-  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">ログインページで、ネットアップサポートサイトの登録 E メールアドレスとパスワードを入力して認証プロセスを実行します。</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">著作権に関する声明、商標、特許などにアクセスできます。</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">著作権</block>
   <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
@@ -95,12 +87,6 @@
   <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">オープンソース</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知ファイルには、ネットアップソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が記載されています。</block>
-  <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">次のオプションは、 1 日 24 時間、週 7 日間無料でご利用いただけます。</block>
-  <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">ナレッジベース</block>
-  <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">コミュニティ</block>
-  <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
-  <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">ドキュメント</block>
-  <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto ： ng-cloudmanager-feedback@netapp.com [ フィードバックメール ]</block>
   <block id="f8b475a3fefebada77a30229238d0a1a" category="section-title">2022年6月7日</block>
   <block id="4f03a5c652641013d1e43811930f5769" category="paragraph">コネクタの3.9.19リリースでは、次の変更が加えられました。</block>
   <block id="ffe3ec3b5faef58a758d9449470882a0" category="section-title">新しい詳細ビュー</block>
@@ -149,44 +135,14 @@
   <block id="c8328d07fc05c4708c68f547ce6f5e77" category="section-title">新しい概要ページ</block>
   <block id="8e41db9b51f790909ef80a064153f722" category="paragraph">オンプレミスのONTAP クラスタに関する重要な詳細情報を提供するために、新しい概要ページが導入されました。たとえば、Storage Efficiency、容量分散、システム情報などの詳細を表示できるようになりました。</block>
   <block id="fba766c98683be4af93f93b5d7909f1e" category="inline-image-macro">オンプレミスのONTAP クラスタの概要ページを示すスクリーンショット。</block>
-  <block id="5277a2f54c2173b12f8eb86ae9da078e" category="paragraph"><block ref="5277a2f54c2173b12f8eb86ae9da078e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c76ff3fb4e35074fc6f04c1cb8ea02af" category="section-title">ボリュームページが再設計されました</block>
   <block id="99cbfcbab5c608668044fc3849d8db46" category="paragraph">ボリュームページの設計が見直され、クラスタ上のボリュームの概要が表示されるようになりました。この概要には、ボリュームの総数、プロビジョニングされた容量、使用済み容量とリザーブ容量、および階層化されたデータの量が表示されます。</block>
   <block id="2f82cdfc06b6747c85937b5cceabaaee" category="inline-image-macro">オンプレミスのONTAP クラスタのボリュームページを示すスクリーンショット。</block>
-  <block id="bb4feb07894e787f9d7a8a9c00fa4d55" category="paragraph"><block ref="bb4feb07894e787f9d7a8a9c00fa4d55" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d71f4e248e7b72dc823a682ad81ee0a7" category="list-text">メニューアイコンをクリックし、*ワークスペースから削除*を選択します。</block>
-  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">上記のセルフサポートオプションに加え、サポートを有効にしたあとで問題が発生した場合は、ネットアップサポートの担当者と相談して解決できます。</block>
-  <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">サポートに登録する方法について説明します</block>
-  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">電話の相手と話したい場合は、「*お電話」をクリックしてください。netapp.comのページに移動し、電話番号が表示されます。</block>
-  <block id="b53e0a259f4a0c8e7da80d6c94e26c84" category="list-text">* NetApp Support Site アカウント*：サポートケースをオープンしたユーザーに関連付けられている該当のNSSアカウントを選択します。この担当者は、以下に記載する追加のEメールに加えて、ネットアップから連絡を受け取る主要担当者となります。</block>
-  <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*作業環境*：ストレージに該当する場合は、* Cloud Volumes ONTAP *または*オンプレミス*を選択し、関連する作業環境を選択します。</block>
-  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*ケース優先度*：ケースの優先度を選択します。優先度は、[低]、[中]、[高]、[クリティカル]のいずれかになります。</block>
-  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">これらの優先度の詳細を確認するには、フィールド名の横にある情報アイコンの上にマウスポインタを合わせます。</block>
-  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*事象の説明 *：実行したエラーメッセージやトラブルシューティング手順など、問題の詳細な概要 を入力します。</block>
-  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*その他のメールアドレス*：この問題 を他のユーザーに知らせる場合は、追加のメールアドレスを入力します。</block>
-  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">ネットアップサポートでケースを作成できるケースの作成フォームのスクリーンショット。</block>
-  <block id="a2ff30886e1baf1e7d5045b5fc24f5b9" category="paragraph"><block ref="a2ff30886e1baf1e7d5045b5fc24f5b9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">ポップアップにサポートケース番号が表示されます。ネットアップのサポート担当者がケースを確認し、すぐに対応させていただきます。</block>
-  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">サポートケースの履歴を確認するには、[*設定]、[タイムライン*]の順にクリックして、[サポートケースの作成]という名前のアクションを探します。 右端のボタンをクリックすると、アクションを展開して詳細を表示できます。</block>
-  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">ケースを作成しようとすると、次のエラーメッセージが表示される場合があります。</block>
-  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"選択したサービスに対してケースを作成する権限がありません"</block>
-  <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">製品内のチャットを使用します</block>
-  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">テクニカル以外のケースをに送信します<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
   <block id="bfd7860b885159ef1631572dc506bf0e" category="list-text">[* Volumes（ボリューム）]&gt;[Add Volume（ボリュームの追加）]*</block>
   <block id="97a34ca7d328720ed48cf2e2010985be" category="list-text">*詳細、保護、タグ*：ボリュームの名前やサイズなどの詳細を入力し、Snapshotポリシーを選択し、必要に応じてボリュームタグを指定します。</block>
   <block id="17b6d3e2bf5506b5e797dfb98b76c0c2" category="list-text">*プロトコル*：ボリュームのプロトコル（NFS、CIFS、またはiSCSI）を選択し、ボリュームのアクセス制御または権限を設定します。</block>
   <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">ネットアップでは、さまざまな方法でBlueXPをサポートしています。ナレッジベース（ KB ）記事やコミュニティフォーラムなど、 24 時間 365 日利用可能な幅広いセルフサポートオプションをご用意しています。サポート登録には、 Web チケット処理によるリモートテクニカルサポートが含まれます。</block>
-  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">ネットアップでは、BlueXPとその クラウド サービス をさまざまな方法でサポートしています。ナレッジベース（ KB ）記事やコミュニティフォーラムなど、 24 時間 365 日利用可能な幅広いセルフサポートオプションをご用意しています。サポート登録には、 Web チケット処理によるリモートテクニカルサポートが含まれます。</block>
-  <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">BlueXPナレッジベースで問題のトラブルシューティングに役立つ記事を検索します。</block>
-  <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">BlueXPコミュニティに参加して、進行中のディスカッションをフォローしたり、新しいディスカッションを作成したりできます。</block>
-  <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">現在表示しているBlueXPのマニュアル。</block>
-  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">お客様のご意見をお考えください。フィードバックを送信して、BlueXPの改善に役立ててください。</block>
-  <block id="1012a287397c66025d7748edf06a36e2" category="paragraph">[ケースの作成]機能を使用するには、まず、BlueXPアカウントIDのシリアル番号(例960xxxx）にネットアップが付属 <block ref="3349e4b3d05f646f2f1421bee7c2ad26" category="inline-link-macro-rx"></block>。</block>
-  <block id="6254a4afeeb76765a127fe74d31c1b3d" category="list-text">BlueXPで、[ヘルプ]、[サポート]の順にクリックします。</block>
-  <block id="d950fb930d7f7e6bfdda1b91b4639a02" category="paragraph">NSSアカウントが表示されない場合は、BlueXPのサポートセクションにある*NSS Management*タブに移動して追加できます。</block>
-  <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*Service*:問題 が関連付けられているサービスを選択します。たとえば、サービス内のワークフローまたは機能を備えたテクニカルサポート問題 に固有のBlueXPなどです。</block>
-  <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">作業環境のリストは、サービスの上部バナーで選択したBlueXPアカウント、ワークスペース、コネクタの範囲内にあります。</block>
-  <block id="fa6b601b2fb4e3e5c7b466ecb8bd70ac" category="paragraph">このエラーは、NSSアカウントとそれに関連付けられているレコードの会社が、BlueXPアカウントのシリアル番号(例960xxxx）または動作環境のシリアル番号。[ケースの作成]フォームの上部にあるNSSアカウントの一覧を確認して、適切な一致を見つけることができます。または、次のいずれかのオプションを使用してサポートを依頼することもできます。</block>
   <block id="a820c8babe9911ddf670332c6647b2cf" category="summary">ONTAP 作業環境をBlueXPから管理する必要がなくなった場合は'オンプレミス環境を削除します</block>
   <block id="bd60ce6149853fe9cc7d5bd848c0bde4" category="paragraph">作業環境を削除しても、 ONTAP クラスタには影響しません。BlueXPからいつでも再検出できます。</block>
   <block id="43bfd35e9b57eaace0eafa6750af5ff7" category="list-text">BlueXPナビゲーションメニューから、* Governance &gt; Digital Wallet *を選択します。</block>
@@ -195,55 +151,6 @@
   <block id="c2cf3bd16a968cc398d9e36f7fee3e49" category="cell">NFS エクスポートポリシーは、ボリュームにアクセスできるサブネット内のクライアントを定義します。デフォルトでは、BlueXPはサブネット内のすべてのインスタンスへのアクセスを提供する値を入力します。</block>
   <block id="71fe7750eaf8ad346bfa5f8d17e350aa" category="paragraph">BlueXPはボリュームをプロビジョニングし、進行状況を確認できるページを表示します。</block>
   <block id="243263104c829e77835d632f591230d5" category="summary">ネットアップテクニカルサポートでサポートケースをオープンするには、まずNetApp Support Site アカウントをBlueXPに追加し、サポートに登録する必要があります。</block>
-  <block id="8bf30fadf784022b073adb9233678a71" category="paragraph">ネットアップテクニカルサポートでサポートケースをオープンするには、まずNetApp Support Site （NSS）アカウントをBlueXPに追加し、サポートに登録する必要があります。</block>
-  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">サポート登録の概要</block>
-  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">サポート資格を有効にする登録には、次の2つの形式があります。</block>
-  <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">BlueXPアカウントIDサポートサブスクリプションの登録(BlueXPの[サポートリソース]ページにある20桁の960xxxxxxxxxシリアル番号)。</block>
-  <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">これは、BlueXP内のすべてのサービスのシングルサポートサブスクリプションIDとして機能します。各BlueXPアカウントレベルのサポート契約が登録されている必要があります。</block>
-  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">クラウドプロバイダのマーケットプレイスでのサブスクリプションに関連付けられているCloud Volumes ONTAP のシリアル番号を登録している（909201xxxxxxxxのシリアル番号）。</block>
-  <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">これらのシリアル番号は、通常PAY_GOシリアル番号と呼ばれ、Cloud Volumes ONTAP の導入時にBlueXPによって生成されます。</block>
-  <block id="9d4125dc88bb9db6eb4be939905761ce" category="paragraph">両方のタイプのシリアル番号を登録することで、サポートチケットのオープンやケースの自動生成などの機能を利用できます。</block>
-  <block id="98bc603dcb6d5a57d540b13b541fa41a" category="paragraph">登録方法は、新規のお客様か既存のお客様かパートナーかによって異なります。</block>
-  <block id="e5646198d2e01aab2cec9ef946f9c53a" category="list-text">既存のお客様またはパートナー</block>
-  <block id="76928f97884b4332b83c5be9b99d93d3" category="paragraph">ネットアップの既存のお客様またはパートナー様は、NetApp Support Site （NSS）SSOアカウントを使用して上記の登録を実行することができます。サポートダッシュボードでは、BlueXPには、NSSアカウントを追加できる*NSS Management*ページがあります。NSSアカウントを追加すると、これらのシリアル番号が自動的に登録されます。</block>
-  <block id="4e6af37fb81d50483d832d4de6e2b26a" category="inline-xref">NSSアカウントを追加する方法について説明します</block>
-  <block id="8d80298f51b7ff2da78e26e60195c7a3" category="paragraph"><block ref="cbec7c1a4a2acff5e84457dd449ac01d" category="inline-xref-macro-rx"></block>。</block>
-  <block id="1c91f3adc957364cb01d33e100ee1ea3" category="list-text">初めて導入する場合は</block>
-  <block id="679f2cae4657f177cc89458d49c97e5f" category="paragraph">ネットアップを初めてご利用になる場合は、ネットアップのサポート登録サイトで、BlueXPアカウントのシリアル番号の登録を1回だけ完了する必要があります。この登録を完了し、新しいNSSアカウントを作成したら、BlueXPでこのアカウントを使用して自動登録を行うことができます。</block>
-  <block id="00fc9d0c515c69ea2c368521453d982e" category="inline-xref">ネットアップへの登録方法をご確認ください</block>
-  <block id="97454ce87333f7ebd50ee38b8126fb39" category="paragraph"><block ref="37544f11913357c4e8c8a4ec607ae247" category="inline-xref-macro-rx"></block>。</block>
-  <block id="a92ec860f505b318fd0f0eba6165d607" category="section-title">NSSアカウントをBlueXPに追加します</block>
-  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">お客様レベルのアカウントをお持ちの場合は、1つ以上のNSSアカウントを追加することもできます。</block>
-  <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">BlueXPコンソールの右上にある[ヘルプ]アイコンをクリックし、[*Support*]を選択します。</block>
-  <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">これらのアクションにより、BlueXPはライセンスのダウンロード、ソフトウェアのアップグレード検証、および将来のサポート登録などの目的でNSSアカウントを使用できます。</block>
-  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">次の点に注意してください。</block>
-  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">3つの水平ドットのアイコン</block>
-  <block id="ad56c7289bc13dcf4f78c285f7f03878" category="section-title">ネットアップに登録してください</block>
-  <block id="f1bac79c2c71fbd93863b9fbd718094c" category="paragraph">ネットアップサポートへの登録方法は、NetApp Support Site （NSS）アカウントがあるかどうかによって異なります。</block>
-  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">NSSアカウントをお持ちの既存のお客様</block>
-  <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">NSSアカウントをお持ちのネットアップのお客様は、BlueXPからサポートに登録するだけで済みます。</block>
-  <block id="25b94e7b58140f12be91fa8fd935fa59" category="list-text">NSSアカウントをまだ追加していない場合は、BlueXPに追加します。</block>
-  <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">[*リソース]ページで、[*サポートに登録*]をクリックします。</block>
-  <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">アカウントのシリアル番号と[サポートに登録]オプションを示すスクリーンショット</block>
-  <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">NSSアカウントを持たない既存のお客様</block>
-  <block id="cc1d3c161bcf25e6445c2fc771647849" category="paragraph">既存のライセンスとシリアル番号をお持ちで、_no-NSSアカウントをお持ちのネットアップのお客様は、NSSアカウントを作成するだけで十分です。</block>
-  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp Support Site ユーザー登録フォーム</block>
-  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">を実行してNetApp Support Site アカウントを作成します<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
-  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">適切なユーザレベルを選択してください。通常は*ネットアップのお客様/エンドユーザ*がこれに該当します。</block>
-  <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">必ず、上記のシリアル番号フィールドに使用されているBlueXPアカウントのシリアル番号(960xxxx)をコピーしてください。これにより、アカウント処理が高速化されます。</block>
-  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">ネットアップのソリューションを初めて導入する場合は</block>
-  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">ネットアップ製品を初めてご利用になり、NSSアカウントをお持ちでない場合は、以下の手順に従ってください。</block>
-  <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">ネットアップサポート登録サイト</block>
-  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">に移動します<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> 「*ネットアップ登録のお客様ではありません*」を選択します。</block>
-  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">必須フィールドに入力します（赤いアスタリスクのフィールド）。</block>
-  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">[*製品ライン*（Product Line *）]フィールドで、[* Cloud Manager *]を選択し、該当する課金プロバイダーを選択します。</block>
-  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">この安全なトランザクションを完了するために、メールボックスに電子メールがすぐに送信されます。確認メールが数分で届かない場合は、必ずスパムフォルダを確認してください。</block>
-  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">Eメールからアクションを確認します。</block>
-  <block id="201080500e946070a2e4873042507c77" category="paragraph">確認ではネットアップにリクエストが送信され、NetApp Support Site アカウントを作成することを推奨します。</block>
-  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">このプロセスについては、ネットアップからご連絡ください。これは、新規ユーザ向けの1回限りのオンボーディング演習です。</block>
-  <block id="1c0e45ef07d0dbc13ca2394d5e285fd7" category="paragraph">NetApp Support Site アカウントを作成したら、BlueXPに移動して、このNSSアカウントを追加して今後の登録を行うことができます。</block>
   <block id="c6b78f20a92771fa152f068d245ad75e" category="summary">オンプレミスのONTAP クラスタに対して高度な管理を実行する必要がある場合は、ONTAP システムに付属の管理インターフェイスであるONTAP System Managerを使用できます。BlueXPにはSystem Managerインターフェイスが搭載されているので、高度な管理のためにBlueXPを残す必要はありません。</block>
   <block id="38ff1351e45b1e4303e79145f4bc10b4" category="paragraph">BlueXPの詳細ビューでは、次の管理機能を使用できます。</block>
   <block id="e7b3f56c45c6705f279b059a9274225d" category="list-text">必要に応じて、[標準表示に切り替える]をクリックして、BlueXPを使用した標準管理に戻ります。</block>
@@ -261,7 +168,6 @@
   <block id="5883223e097bdc0962b33579a610a819" category="paragraph">検出されたクラスタは、BlueXP Canvasで作業環境として使用できます。</block>
   <block id="5b972456043217ec9e0b836b869e5061" category="list-text">BlueXPを使い始めました。これにはログインとアカウントの設定が含まれます。</block>
   <block id="89e019c15bf54627a2a1e4918e66bab6" category="inline-link">BlueXPの使用を開始する方法について説明します</block>
-  <block id="69c4d579a506c05e94d3e4986ec536a3" category="paragraph"><block ref="69c4d579a506c05e94d3e4986ec536a3" category="inline-link-rx"></block></block>
   <block id="7d613f340824eb9c65d2bc768aa43577" category="list-text">キャンバスページで、*作業環境の追加*をクリックし、*オンプレミス*を選択します。</block>
   <block id="7d0b01345a5038f25fdd17dc04d8872e" category="list-text">クラスタ管理IPアドレスとadminユーザアカウントのパスワードが必要です。</block>
   <block id="95773f82d1d681361d7f2215f3912515" category="paragraph">BlueXPはHTTPSを使用してONTAP クラスタを検出しましたカスタムファイアウォールポリシーを使用する場合は、ONTAP クラスタがポート443経由のインバウンドHTTPSアクセスを許可する必要があります。</block>
@@ -291,16 +197,9 @@
   <block id="83ec139c80a3d5b2f11f1a94eed47cd2" category="section-title">2022年12月4日</block>
   <block id="612111851a1740ab34a9d35045621084" category="paragraph">コネクタの3.9.24リリースでは、次の変更が加えられました。</block>
   <block id="336404297eaddf0051e1d62c3d3bb48e" category="inline-link">この検出と管理オプションの詳細については、こちらをご覧ください</block>
-  <block id="7b755afb39a1416600c762f9fe472d98" category="paragraph"><block ref="72c8a0f1bc00bb52f3d78997feb64e77" category="inline-link-rx"></block>。</block>
   <block id="ee1ef6cf0f3971b44eb2abcac958fb8d" category="section-title">FlexGroup ボリューム</block>
   <block id="2907843476579cb2696e8e0e783a2a07" category="inline-image-macro">オンプレミスのONTAP クラスタの[ボリューム]ページに表示されるFlexGroup ボリュームのスクリーンショット。</block>
-  <block id="aa60f08e9c5a748d9b57c0e7689a43f5" category="paragraph"><block ref="aa60f08e9c5a748d9b57c0e7689a43f5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1c081854506aed2f757f753e779bc45f" category="paragraph">BlueXPでは、FlexGroup ボリュームの作成はサポートされていません。FlexGroup ボリュームの作成には、引き続きSystem ManagerまたはCLIを使用する必要があります。</block>
-  <block id="f2575f6d19024f7288cf78d7dc5b3db9" category="paragraph">サポートダッシュボードを使用すると、NetApp Support Site アカウントを追加して管理し、BlueXPで使用できます。</block>
-  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">パートナーアカウントまたはリセラーアカウントをお持ちの場合は、1つ以上のNSSアカウントを追加することはできますが、お客様レベルのアカウントと一緒に追加することはできません。</block>
-  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">サポート登録ページでアカウントIDのシリアル番号を確認します。</block>
-  <block id="50a1dc01b7312307c34a888071586955" category="list-text">上記の手順2からアカウントのシリアル番号をコピーし、セキュリティチェックを完了して、ネットアップのグローバルデータプライバシーポリシーを確認します。</block>
-  <block id="cc8b0535948da368f832027c19b7f853" category="list-text">シリアル番号フィールドには、上記のアカウントのシリアル番号（960xxxx）を必ずコピーしてください。これにより、アカウント処理が高速化されます。</block>
   <block id="e99ba2e85cd14247616b34e8e537a2a3" category="summary">コネクタを使用せずにオンプレミスのONTAP クラスタを直接検出した場合は、作業環境に入り、System Managerを使用してクラスタを管理できます。</block>
   <block id="1baa0a6e8459b336e97ce9f196d90c4a" category="doc">直接検出されたオンプレミスのONTAP クラスタを管理します</block>
   <block id="4b00b5b65d810ab0ae0bc0144d73b71a" category="paragraph">コネクタを使用せずにオンプレミスのONTAP クラスタを直接検出した場合は、作業環境を開いてクラスタを管理することができます。</block>
@@ -327,7 +226,6 @@
   <block id="ae5ebdf987b9634f1c41168db5af6124" category="paragraph">BlueXPでAdvanced Viewを使用している場合、オンプレミスのONTAP クラスタでは一部のSystem Manager機能はサポートされません。</block>
   <block id="480454c8f8beef2524f1fbdddc48ea12" category="inline-link-macro">制限事項のリストを確認します</block>
   <block id="bfe73fc0abe25019e3e0d76f17653911" category="paragraph"><block ref="736a4b96dd4361a68ef1dd0a557122e0" category="inline-link-macro-rx"></block>。</block>
-  <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">始める前に</block>
   <block id="bc3d7bdad28e2f8cac321d5cae0b897c" category="paragraph">一部のSystem Manager機能は、BlueXPではサポートされていません。</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新機能</block>
   <block id="03be90bdc455bf51f8b56b71203c2e11" category="list-text">BlueXPコンソールにアクセスするために使用するコンピュータには、プライベートネットワーク内の他のリソースへの接続方法と同様に、オンプレミスのONTAP クラスタへのネットワーク接続が必要です。</block>
@@ -342,57 +240,7 @@
   <block id="085602a04bf66e6b72300eefb21c9c32" category="list-text">このオプションを使用すると、ONTAP 9.12.1以降を実行するクラスタをSystem Managerで管理できます。他の管理オプションはありません。標準ビューは使用できず、データサービスを有効にすることもできません。</block>
   <block id="8ab7236e714d67d0d2cdb0f6c0c6bdea" category="list-text">オンプレミスクラスタでONTAP 8.3以降が実行されている必要があります。</block>
   <block id="a3736487d08fb63c22adeaf7035f0bca" category="list-text">このオプションでは、次の機能を使用してONTAP 8.3以降を実行するクラスタを管理できます。</block>
-  <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">クラウドプロバイダソリューションのサポート</block>
-  <block id="be845c219bb74b14349ffa6e27e7aef3" category="paragraph">BlueXPに統合した次のクラウドプロバイダソリューションのテクニカルサポートについては、その製品のBlueXPマニュアルの「困ったときは」を参照してください。</block>
-  <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">ONTAP 対応の Amazon FSX</block>
-  <block id="5bf5309465f91318228a7f956b826348" category="list-text"><block ref="5bf5309465f91318228a7f956b826348" category="inline-link-macro-rx"></block></block>
-  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files の特長</block>
-  <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
-  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">Cloud Volumes Service for Google Cloud</block>
-  <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
   <block id="2901a10a7b1d7a91ad19913b88e371a6" category="list-text">オンプレミスのONTAP の横にある*検出*を選択します。</block>
-  <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">セルフサポートオプションを使用します</block>
-  <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">ネットアップサポートと一緒にケースを作成します</block>
-  <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">[*Resources*]ページで、[Technical Support]で次のいずれかのオプションを選択します。</block>
-  <block id="5be2e1dfe4bf215289731df45ec8157b" category="list-text">[ケースの作成]*をクリックして、ネットアップサポートスペシャリストとのチケットをオープンします。</block>
-  <block id="898e35e1a4bf4b025c3edec879439b08" category="section-title">サポートケースの管理（プレビュー）</block>
-  <block id="8b74b053fbeeff5c3b6f4991cb1d028d" category="paragraph">アクティブなサポートケースと解決済みのサポートケースは、BlueXPから直接表示および管理できます。NSSアカウントと会社に関連付けられたケースを管理できます。</block>
-  <block id="394ef093ad3259b9ff0fe7406f015b83" category="paragraph">ケース管理はプレビューとして使用できます。今後のリリースでは、この点をさらに改良し、機能を強化する予定です。製品内のチャットでご意見をお寄せください。</block>
-  <block id="5e4e7672ec2ba2b8a763da7f6714e212" category="list-text">ページ上部のケース管理ダッシュボードには、次の2つのビューがあります。</block>
-  <block id="01c3ffea552d74a5ae390b10e71a1f26" category="list-text">左側のビューには、指定したユーザNSSアカウントによって過去3カ月間にオープンされたケースの総数が表示されます。</block>
-  <block id="e3b6c09a5686233f72ce1ea60a1eb088" category="list-text">右側のビューには、ユーザのNSSアカウントに基づいて、過去3カ月間にオープンしたケースの総数が会社レベルで表示されます。</block>
-  <block id="b19b168cc8a2b8c984465e140256b3a2" category="paragraph">テーブルの結果には、選択したビューに関連するケースが反映されます。</block>
-  <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">目的の列を追加または削除したり、[優先度]や[ステータス]などの列の内容をフィルタリングしたりできます。他の列には、並べ替え機能だけがあります。</block>
-  <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">詳細については、以下の手順を参照してください。</block>
-  <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">ケースごとに、ケースノートを更新したり、ステータスが「Closed」または「Pending Closed」でないケースをクローズしたりすることができます。</block>
-  <block id="34b1296d31cefa72dae9b3a364b1f444" category="list-text">[ケース管理]*をクリックし、プロンプトが表示されたらNSSアカウントをBlueXPに追加します。</block>
-  <block id="d8ce1865cf1fe3cffd60300b4b86ad63" category="paragraph">ケース管理*ページには、BlueXPユーザアカウントに関連付けられたNSSアカウントに関連するオープンケースが表示されます。これは、* NSS管理*ページの上部に表示されるNSSアカウントと同じです。</block>
-  <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">必要に応じて、テーブルに表示される情報を変更します。</block>
-  <block id="27635a52fe4c34c39ffc6430f4244ec6" category="list-text">[Organization's Cases]*で[View]*をクリックすると、会社に関連付けられているすべてのケースが表示されます。</block>
-  <block id="059e856250b59be3069246887b74a23c" category="list-text">正確な日付範囲を選択するか、別の期間を選択して、日付範囲を変更します。</block>
-  <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">[Case Management]ページのテーブルの上にあるオプションのスクリーンショット。正確な日付範囲、または過去7日、30日、または3カ月を選択できます。</block>
-  <block id="7fcba8aeefa9960d3fc3fa08b360ba2e" category="paragraph"><block ref="7fcba8aeefa9960d3fc3fa08b360ba2e" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">列の内容をフィルタリングします。</block>
-  <block id="3753f10a59e21f58b30e3e67d416453e" category="inline-image-macro">[Status]列のフィルタオプションのスクリーンショット。[Active]や[Closed]など、特定のステータスに一致するケースを除外できます。</block>
-  <block id="37709be3a43df07d5975287545d0ba12" category="paragraph"><block ref="37709be3a43df07d5975287545d0ba12" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">テーブルに表示されるプラスアイコン</block>
-  <block id="1614dc8e47c0492434152c990d6c1040" category="list-text">をクリックして、テーブルに表示される列を変更します <block ref="effeab06130cddc8360822b2b706805b" category="inline-image-macro-rx" type="image"></block> 次に、表示する列を選択します。</block>
-  <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">表に表示できる列を示すスクリーンショット。</block>
-  <block id="5de408d7cbad49634fb25f9047498132" category="paragraph"><block ref="5de408d7cbad49634fb25f9047498132" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">テーブルの最後の列に表示される3つの点を持つアイコン</block>
-  <block id="98efef1c8a47ed5791b41944e8ff4ec2" category="list-text">をクリックして既存のケースを管理します <block ref="a0b152b50a56901a75affebabc26ed61" category="inline-image-macro-rx" type="image"></block> 使用可能なオプションのいずれかを選択します。</block>
-  <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*ケースの表示*:特定のケースの詳細を表示します。</block>
-  <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*ケースをクローズ*：ケースをクローズする理由の詳細を入力し、*ケースをクローズ*をクリックします。</block>
-  <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">テーブルの最後の列でメニューを選択した後に実行できる操作を示すスクリーンショット。</block>
-  <block id="e9a5c374fb47ed2ae5cc6108fb36d829" category="paragraph"><block ref="e9a5c374fb47ed2ae5cc6108fb36d829" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">NSSアカウントは、お客様レベルのアカウントである必要があります（ゲストアカウントや一時アカウントではありません）。複数のお客様レベルのNSSアカウントを設定できます。</block>
-  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">NSSアカウントがパートナーレベルのアカウントの場合、作成できるNSSアカウントは1つだけです。お客様レベルのNSSアカウントを追加しようとすると、パートナーレベルのアカウントが存在する場合は、次のエラーメッセージが表示されます。</block>
-  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">「別のタイプのNSSユーザーがすでに存在するため、このアカウントではNSS顧客タイプは許可されていません。」</block>
-  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">既存のお客様レベルのNSSアカウントがあり、パートナーレベルのアカウントを追加しようとする場合も同様です。</block>
-  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">ログインに成功すると、ネットアップはNSSのユーザ名を保存します。</block>
-  <block id="452cd4df7b0d5eb1156519a2f3b0206b" category="paragraph">これはシステムによって生成されたIDで、電子メールにマッピングされます。[*NSS Management*]ページで、から電子メールを表示できます <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> メニュー。</block>
-  <block id="fd02e84624a2fdfd58787131aa2820b5" category="list-text">ログイン認証情報トークンを更新する必要がある場合は、の[認証情報の更新*]オプションも使用できます <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> メニュー。</block>
-  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">このオプションを使用すると、再度ログインするように求められます。これらのアカウントのトークンは90日後に期限切れになります。このことを通知する通知が投稿されます。</block>
   <block id="623e1951042cd3019a0cc38bf7556bee" category="summary">BlueXPでオンプレミスのONTAP クラスタを検出すると、ONTAP System Manager（BlueXPで利用可能）を使用してボリュームの管理や高度な管理を開始できます。</block>
   <block id="e9b3b1686b45ea49547763029f379272" category="paragraph">このオプションにはコネクタが必要です。コネクタは、クラウドプロバイダまたはオンプレミスにインストールできます。</block>
   <block id="d7aa3f7ee53003f5d75a0f500ddb1e6a" category="paragraph">このオプションにはコネクタは必要ありません。</block>
@@ -418,15 +266,10 @@
   <block id="44a722c1e42cdb4002c75bb29403670b" category="section-title">BlueXPコンソールから単一の検出オプションを選択できます</block>
   <block id="7023e56782327af6f409e1889ae33345" category="paragraph">BlueXPコンソールからオンプレミスのONTAP クラスタを検出すると、次の1つのオプションが表示されます。</block>
   <block id="d70ed695b081fff2505f285b0540727b" category="inline-image-macro">作業環境を作成するときに使用可能な[Discover On-Premises ONTAP （オンプレミスのを検出）]オプションを示すスクリーンショット</block>
-  <block id="aea8878e3e5cb0f622cbe596cc98ef50" category="paragraph"><block ref="aea8878e3e5cb0f622cbe596cc98ef50" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3d85937cd401956877664b5f7128cc5d" category="paragraph">以前は、直接検出用とコネクタによる検出用に別 々 のフローがありました。これらのオプションはどちらも引き続き使用できますが、単一のフローにマージされます。</block>
   <block id="251a667be8662557b7aba30c53380da3" category="paragraph">検出プロセスを開始すると、BlueXPで次のようにクラスタが検出されます。</block>
   <block id="02067bb3de9c60175abe8c4b7d81c3c2" category="list-text">ONTAP クラスタに接続しているアクティブなコネクタがある場合、BlueXPはそのコネクタを使用してクラスタを検出および管理します。</block>
   <block id="873b328fabdfb8db13a38e03c836d37b" category="inline-link">検出と管理のオプションの詳細については、こちらをご覧ください</block>
-  <block id="d74db5b2b9703b60c98aead9c3c3275e" category="paragraph"><block ref="9ba91f2cd50d4cdc6a75347f1fff1126" category="inline-link-rx"></block>。</block>
-  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*添付ファイル（オプション）*：一度に1つずつ、最大5つの添付ファイルをアップロードできます。</block>
-  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">添付ファイルはファイルあたり25 MBに制限されています。サポートされているファイル拡張子は、txt、log、pdf、jpg/jpeg、rtf、 doc/docx、xls/xlsx、およびcsv。</block>
-  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*ケースノートの更新*：問題の詳細を入力するか、*ファイルのアップロード*を選択して最大5つのファイルを添付します。</block>
   <block id="6935d4eff56228cdcc6138a57b8873c9" category="paragraph">コネクタで検出したクラスタの作業環境アイコンは、Canvasで次のように表示されます。</block>
   <block id="db711502e98fa11f32f96dfd6ecc6e6b" category="inline-image-macro">キャンバスに表示される作業環境アイコンのスクリーンショット</block>
   <block id="7191ab2cdb6e0f21fd1844124dd5642e" category="paragraph"><block ref="7191ab2cdb6e0f21fd1844124dd5642e" category="inline-image-macro-rx" type="image"></block></block>
@@ -439,7 +282,6 @@
   <block id="c0c23b19a5402f833c9c6d50dc076f38" category="paragraph">作業環境でBlueXPのデータサービスを有効にして、データのレプリケート、データのバックアップ、データの階層化などを実行できます。</block>
   <block id="7dfe1792c76bc1bec7f64c0b01460178" category="list-text">Cloud Volumes ONTAP システム、Amazon FSx for ONTAP ファイルシステム、ONTAP クラスタ間でデータをレプリケートクラウドとの間でデータを移動するのに役立つ1回限りのデータレプリケーションと、ディザスタリカバリや長期的なデータ保持に役立つ定期的なスケジュールを選択できます。</block>
   <block id="dc699e704dec5502b9aa219f9381ad94" category="inline-link">レプリケーションのドキュメント</block>
-  <block id="5f87e564b371518f04853fd701600836" category="paragraph"><block ref="5f87e564b371518f04853fd701600836" category="inline-link-rx"></block></block>
   <block id="6c8d5da78ab1fbae76a8c2a84cdb0a7c" category="list-text">社内のオンプレミスクラスタをスキャンして、データのマッピングと分類、個人情報の特定を行います。これにより、セキュリティとコンプライアンスのリスクを軽減し、ストレージコストを削減し、データ移行プロジェクトを支援できます。</block>
   <block id="d645b6604b6bed9eead9cae8fe011de8" category="list-text">健全性、アップタイム、パフォーマンスを維持</block>
   <block id="a49bfeae157cc560a89bac37a142be7d" category="list-text">システム停止や障害が発生する前に、推奨される修正策をONTAP クラスタに実施</block>
@@ -449,7 +291,6 @@
   <block id="6469bc932e571a70af6dc9f155dc8c4f" category="list-text">容量が少ないクラスタを特定したり、クラスタを確認して容量の予測を確認したりできます。</block>
   <block id="68eb93c26a1fa5e191126273ae12b097" category="inline-link">経済効率に関する文書化</block>
   <block id="5a1ba2c518bc284a53dce33562379ae9" category="paragraph"><block ref="5a1ba2c518bc284a53dce33562379ae9" category="inline-link-rx"></block></block>
-  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
   <block id="94fd71e366753efc2c71fcdd0fc3afd4" category="summary">BlueXPデジタルウォレットを使用すると、オンプレミスのONTAP クラスタごとに契約の詳細を確認できます。BlueXPでクラスタをまだ検出していない場合は、デジタルウォレットから検出することもできます。</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">作業を開始する前に</block>
   <block id="2b474be1d4faf7d5e70a3977fa183a0a" category="paragraph">BlueXPデジタルウォレットには、作業環境として検出したオンプレミスのONTAP クラスタ、またはBlueXPに追加したNetApp Support Site アカウントに関連付けられているオンプレミスのクラスタに関する詳細が表示されます。</block>
@@ -464,7 +305,6 @@
   <block id="eacd3ed630ae5b36126bd8cf27a43632" category="paragraph">BlueXPからオンプレミスのONTAP クラスタを検出すると、ONTAP System Manager（BlueXPから入手可能）を使用してボリュームの管理や高度な管理を開始できます。</block>
   <block id="137ffb60b26b3895f9ae6f3042e0d587" category="list-text">BlueXPサービスとの統合。データレプリケーション、バックアップとリカバリ、データの分類、データ階層化を実現します</block>
   <block id="e920ef862d77b3f54bb7bf3e535062a3" category="inline-link">BlueXPの階層化機能の詳細をご確認ください</block>
-  <block id="ab39f7f9b8000627309eae76de10963b" category="list-text"><block ref="ab39f7f9b8000627309eae76de10963b" category="inline-link-rx"></block></block>
   <block id="6568b62a7d7e403aa25f80da4df48e9a" category="summary">ネットアップのAFF システムとFAS システムをBlueXPから管理し、ストレージのプロビジョニング、データのレプリケート、重要なクラウドベースデータサービスの設定を行うことができます。</block>
   <block id="afecfcae87b8b8aa94335648c348ba12" category="summary">BlueXP Digital Advisorを使用すると、ONTAP クラスタの運用、セキュリティ、パフォーマンスを最適化できます。</block>
   <block id="3d47a3f36b63e7d673bae6921c58af01" category="doc">BlueXPデジタルアドバイザを使用してクラスタを最適化</block>
@@ -474,7 +314,6 @@
   <block id="a97bd659401a9123a280fa1ec2f34874" category="inline-link">Digital Advisorドキュメント</block>
   <block id="ac26a062f287ef22a73c3d66ac423fc6" category="paragraph"><block ref="ac26a062f287ef22a73c3d66ac423fc6" category="inline-link-rx"></block></block>
   <block id="c363f739f5bdf65a6ab4cae2b97b0d8a" category="inline-link">オンプレミスクラスタに関するこの重要な情報を表示する方法について説明します</block>
-  <block id="09cc582da9a3118b6520cf72b79e82b3" category="paragraph"><block ref="169e7af99ba2470a2a9f3de00e6dd5f8" category="inline-link-rx"></block>。クラスタ用のNetApp Support Siteのアカウント（ NSS ）が必要です。また、 NSS のクレデンシャルを Cloud Manager アカウントに接続する必要があります。</block>
   <block id="2e709f51ffde46c86ebf493de1158cdd" category="doc">BlueXPからオンプレミスのONTAP クラスタを管理</block>
   <block id="55fd1b0a10f3ffa4fd854f3b58535a0d" category="list-text">BlueXPサービスを使用して、データをレプリケート、バックアップ、スキャン、分類、階層化できます</block>
   <block id="e6855a96bbe46265b9ff5968ea2f7ea1" category="list-text">BlueXPのデジタルウォレットで、ハードウェアとソフトウェアの契約ステータス情報を確認できます</block>
@@ -484,14 +323,10 @@
   <block id="c362ab732a9d440fb98db1e9b1395e29" category="section-title">BlueXPサービスを有効にする</block>
   <block id="32f4a4b77e8bb8a5997c35c84f226d07" category="list-text">オンプレミスのONTAP システムからクラウドの低コストのオブジェクトストレージにデータをバックアップします。</block>
   <block id="b781e6c9d1cf8ce1e5e954c2b07e6e8a" category="inline-link">バックアップとリカバリの文書化</block>
-  <block id="6645031c9d411c3036d45429e7b9b169" category="paragraph"><block ref="6645031c9d411c3036d45429e7b9b169" category="inline-link-rx"></block></block>
   <block id="88038b21c0389de878b5955d44c08444" category="inline-link">分類に関する文書</block>
-  <block id="4f24a5d25954834b6fff1a00bf7ad8e8" category="paragraph"><block ref="4f24a5d25954834b6fff1a00bf7ad8e8" category="inline-link-rx"></block></block>
   <block id="bdaba8e114e06250b64623fa35d279e2" category="list-text">ONTAP クラスタからオブジェクトストレージにアクセス頻度の低いデータを自動的に階層化することで、データセンターをクラウドに拡張します。</block>
   <block id="ec6926409b25c27a5821ec39e0552956" category="inline-link">階層化に関するドキュメント</block>
-  <block id="4be55bddfe0135eea0cb86495548cff5" category="paragraph"><block ref="4be55bddfe0135eea0cb86495548cff5" category="inline-link-rx"></block></block>
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXPに関する注意事項</block>
-  <block id="e8a6d0f19a957eac14b9917a6c92899b" category="paragraph"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
   <block id="51f9789c1f459351ccbb34c7b6043a74" category="section-title">サポート対象外のクラスタです</block>
   <block id="b9dbfde306bbf057c758e6f86b276382" category="paragraph">SAML認証が設定されたオンプレミスのONTAP クラスタはBlueXPではサポートされません。</block>
   <block id="3b4a393ec2775335fff67bde36ea1a2c" category="section-title">System Managerの制限事項</block>
@@ -499,9 +334,8 @@
   <block id="261bc811b9bbbc3734400b9346c7fb8c" category="paragraph">オンプレミスのONTAP クラスタで管理IPアドレスを設定し、管理パスワードを設定したら、BlueXPでクラスタを検出できます。</block>
   <block id="34c1945f842cdbb42113c3fcd2112f01" category="list-text">BlueXPのバックアップとリカバリ（Cloud Backup）のアクティブ化</block>
   <block id="760e4f8eb4309ef6902a64eef43dd0ad" category="paragraph">System ManagerからBlueXPのバックアップとリカバリを実行するには、クラスタのバージョンが9.13.1である必要があります。</block>
-  <block id="60e3e552b7c04f591ad059edee5b1581" category="paragraph">コネクタを使用してクラスタを検出しなかった場合、System Manager（アドバンストビュー）でバックアップとリカバリを有効にすることはできません。ただし、オンプレミスのクラスタでバックアップとリカバリをBlueXPから直接有効にすることもできます。<block ref="d78fdae783f693d400093119494a670a" category="inline-link-rx"></block></block>
   <block id="9eb06491d0dc3d6fae682e802616dce9" category="paragraph">クラスタのバージョンがONTAP 9.9.1以前の場合、ファームウェアとソフトウェアのオンデマンドアップグレードは実行できません。</block>
-  <block id="09dfe5e2e7b8574b925ad72bc7875409" category="paragraph">コネクタがない場合は、ローカルマシンからは更新できず、BlueXPを使用してアクセスできるサーバからのみ更新できます。</block>
+  <block id="09dfe5e2e7b8574b925ad72bc7875409" category="admonition">コネクタがない場合は、ローカルマシンからは更新できず、BlueXPを使用してアクセスできるサーバからのみ更新できます。</block>
   <block id="f38bfe4e4ca70348bab102b16fa118d4" category="summary">BlueXPでオンプレミスのONTAP クラスタ管理の新機能をご紹介します。</block>
   <block id="b2eb7fa62697c601a5dc03cfa8317323" category="doc">オンプレミスのONTAP クラスタの最新情報</block>
   <block id="7e43a762816453626bbf35533afa1755" category="section-title">2023年5月4日</block>
@@ -518,4 +352,23 @@
   <block id="b6476152a5181e4e223915202e88e1a9" category="paragraph">オンプレミスのONTAP クラスタのインベントリと、ハードウェアおよびサービス契約の有効期限を表示できるようになりました。クラスタに関するその他の詳細も確認できます。</block>
   <block id="43129a2fa4cbb252b200eba8ad6d79d2" category="section-title">オンプレミスのONTAP クラスタ上のボリュームに追加したタグは、タギングサービスで使用できます</block>
   <block id="ba38e2fd40d303ca0ee880c6170d261e" category="paragraph">ボリュームに追加するタグは、アプリケーションテンプレートサービスのタグ機能に関連付けられます。これにより、リソースの管理を整理して簡単にすることができます。</block>
+  <block id="52ba8ac12050d2494572b940a0d65b25" category="paragraph"><block ref="52ba8ac12050d2494572b940a0d65b25" category="inline-link-rx"></block></block>
+  <block id="46e16d450355db311a24bdae6ad210a1" category="paragraph">&lt;stdin&gt; の未解決のディレクティブ-インクルード:: https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/_include/support-registration.adoc[]</block>
+  <block id="d93a09be0b0872faa2d3d875b18887fc" category="paragraph"><block ref="d93a09be0b0872faa2d3d875b18887fc" category="inline-link-rx"></block></block>
+  <block id="fd9e7f2efb7b534c131af14e52f6f177" category="paragraph"><block ref="fd9e7f2efb7b534c131af14e52f6f177" category="inline-link-rx"></block></block>
+  <block id="dc0996cd1d51bfc6757495eca3daa9f6" category="paragraph"><block ref="dc0996cd1d51bfc6757495eca3daa9f6" category="inline-link-rx"></block></block>
+  <block id="468caeffde72f6e5b0fda6369c3f5f0d" category="paragraph"><block ref="468caeffde72f6e5b0fda6369c3f5f0d" category="inline-link-rx"></block></block>
+  <block id="0377f2dd7cfc90832cf86e4cdea18b27" category="paragraph"><block ref="0377f2dd7cfc90832cf86e4cdea18b27" category="inline-link-rx"></block></block>
+  <block id="02156a4727415877195dc5302fa69275" category="list-text"><block ref="02156a4727415877195dc5302fa69275" category="inline-link-rx"></block></block>
+  <block id="2aeeba0020a7848f7902186fbd8cb9e8" category="list-text"><block ref="2aeeba0020a7848f7902186fbd8cb9e8" category="inline-link-rx"></block></block>
+  <block id="0831a12ebe326ec4e6566367bf5ee293" category="list-text"><block ref="0831a12ebe326ec4e6566367bf5ee293" category="inline-link-rx"></block></block>
+  <block id="6456f90a24e3ce74e10fac140453a9e4" category="paragraph"><block ref="6456f90a24e3ce74e10fac140453a9e4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="31704fc30eb2f5485c6844b2921554ff" category="paragraph"><block ref="9ff7898ac3309c19fb8d99f370e44be1" category="inline-link-rx"></block>。</block>
+  <block id="607908527266c2c3691c473d8332b929" category="paragraph"><block ref="4830a0106964b5dc10f8dd73952f6223" category="inline-link-rx"></block>。</block>
+  <block id="15a86e5184e80e42ba4031c0d973fa52" category="paragraph"><block ref="15a86e5184e80e42ba4031c0d973fa52" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="efc2b836458a13f2a0da7fc33a5f1396" category="paragraph"><block ref="efc2b836458a13f2a0da7fc33a5f1396" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ae2cf98bd081450f4b6cbdeff70edb4d" category="paragraph"><block ref="ae2cf98bd081450f4b6cbdeff70edb4d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="80cda7d463cdf911207ba0813ba128e8" category="paragraph"><block ref="9408b8fb91ee9dbbd42e5f3042dd6d8b" category="inline-link-rx"></block>。クラスタ用のNetApp Support Siteのアカウント（ NSS ）が必要です。また、 NSS のクレデンシャルを Cloud Manager アカウントに接続する必要があります。</block>
+  <block id="47244a3ad2d3de893018537dc415ceaa" category="paragraph">コネクタを使用してクラスタを検出しなかった場合、System Manager（アドバンストビュー）でバックアップとリカバリを有効にすることはできません。ただし、オンプレミスのクラスタでバックアップとリカバリをBlueXPから直接有効にすることもできます。<block ref="e3bdf105d163a62b1d83e3f92f872319" category="inline-link-rx"></block></block>
+  <block id="6828272c02a6fcbd01d1f27906de2d7f" category="paragraph">&lt;stdin&gt; の未解決のディレクティブ-インクルード:: https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/_include/get-help.adoc[]</block>
 </blocks>
