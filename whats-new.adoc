@@ -45,7 +45,7 @@ NOTE: コネクタがない場合は、ローカルマシンからは更新で�
 
 BlueXPコンソールからオンプレミスのONTAP クラスタを検出すると、次の1つのオプションが表示されます。
 
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/media/screenshot-discover-on-prem-ontap.png["作業環境を作成するときに使用可能な[Discover On-Premises ONTAP （オンプレミスのを検出）]オプションを示すスクリーンショット"]
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-discover-on-prem-ontap.png["作業環境を作成するときに使用可能な[Discover On-Premises ONTAP （オンプレミスのを検出）]オプションを示すスクリーンショット"]
 
 以前は、直接検出用とコネクタによる検出用に別 々 のフローがありました。これらのオプションはどちらも引き続き使用できますが、単一のフローにマージされます。
 
@@ -55,7 +55,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/medi
 * コネクタがない場合やコネクタがONTAP クラスタに接続されていない場合は、BlueXPで自動的に検出と管理の直接オプションが使用されます。
 
 
-https://["検出と管理のオプションの詳細については、こちらをご覧ください"]。
+https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["検出と管理のオプションの詳細については、こちらをご覧ください"]。
 
 
 
@@ -67,7 +67,7 @@ https://["検出と管理のオプションの詳細については、こちら�
 
 コネクタを使用せずに直接検出されたオンプレミスのONTAP 作業環境を開く場合、作業環境を開くたびに入力する必要がないように、ONTAP クラスタのクレデンシャルを保存できるようになりました。
 
-https://["このオプションの詳細については、こちらをご覧ください。"]
+https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-direct.html["このオプションの詳細については、こちらをご覧ください。"]
 
 
 
@@ -81,7 +81,7 @@ https://["このオプションの詳細については、こちらをご覧く�
 
 コネクタを使用せずにオンプレミスのONTAP クラスタを直接検出できるようになりました。このオプションを指定すると、System Managerでのみクラスタ管理が有効になります。このような作業環境では、BlueXPデータサービスを有効にすることはできません。
 
-https://["この検出と管理オプションの詳細については、こちらをご覧ください"]。
+https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["この検出と管理オプションの詳細については、こちらをご覧ください"]。
 
 
 
@@ -89,7 +89,7 @@ https://["この検出と管理オプションの詳細については、こち�
 
 コネクタで検出されたオンプレミスのONTAP クラスタの場合、BlueXPの[標準]ビューに、System ManagerまたはONTAP CLIで作成されたFlexGroup ボリュームが表示されるようになりました。また、ボリュームのクローニング、設定の編集、削除などを行って、それらのボリュームを管理することもできます。
 
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/media/screenshot-flexgroup-volumes.png["オンプレミスのONTAP クラスタの[ボリューム]ページに表示されるFlexGroup ボリュームのスクリーンショット。"]
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-flexgroup-volumes.png["オンプレミスのONTAP クラスタの[ボリューム]ページに表示されるFlexGroup ボリュームのスクリーンショット。"]
 
 BlueXPでは、FlexGroup ボリュームの作成はサポートされていません。FlexGroup ボリュームの作成には、引き続きSystem ManagerまたはCLIを使用する必要があります。
 
@@ -107,7 +107,7 @@ BlueXPでは、FlexGroup ボリュームの作成はサポートされていま�
 
 また、データ階層化、データレプリケーション、バックアップを可能にする他のBlueXPサービスとの統合に関する詳細も確認できます。
 
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/media/screenshot-overview.png["オンプレミスのONTAP クラスタの概要ページを示すスクリーンショット。"]
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-overview.png["オンプレミスのONTAP クラスタの概要ページを示すスクリーンショット。"]
 
 
 
@@ -115,7 +115,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/medi
 
 ボリュームページの設計が見直され、クラスタ上のボリュームの概要が表示されるようになりました。この概要には、ボリュームの総数、プロビジョニングされた容量、使用済み容量とリザーブ容量、および階層化されたデータの量が表示されます。
 
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/media/screenshot-volumes.png["オンプレミスのONTAP クラスタのボリュームページを示すスクリーンショット。"]
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-volumes.png["オンプレミスのONTAP クラスタのボリュームページを示すスクリーンショット。"]
 
 
 
@@ -145,7 +145,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/medi
 
 オンプレミスのONTAP クラスタのインベントリと、ハードウェアおよびサービス契約の有効期限を表示できるようになりました。クラスタに関するその他の詳細も確認できます。
 
-https://["オンプレミスクラスタに関するこの重要な情報を表示する方法について説明します"]。クラスタ用のNetApp Support Siteのアカウント（ NSS ）が必要です。また、 NSS のクレデンシャルを Cloud Manager アカウントに接続する必要があります。
+https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-view-cluster-info.html["オンプレミスクラスタに関するこの重要な情報を表示する方法について説明します"]。クラスタ用のNetApp Support Siteのアカウント（ NSS ）が必要です。また、 NSS のクレデンシャルを Cloud Manager アカウントに接続する必要があります。
 
 
 

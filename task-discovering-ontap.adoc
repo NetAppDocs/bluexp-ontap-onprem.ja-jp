@@ -59,7 +59,7 @@ BlueXPサービスに接続されている9.12.1以降を実行するオンプ�
 
 * BlueXPを使い始めました。これにはログインとアカウントの設定が含まれます。
 +
-https://["BlueXPの使用を開始する方法について説明します"^]
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["BlueXPの使用を開始する方法について説明します"^]
 
 * クラスタ管理IPアドレスとadminユーザアカウントのパスワードが必要です。
 * BlueXPはHTTPSを使用してONTAP クラスタを検出しましたカスタムファイアウォールポリシーを使用する場合は、ONTAP クラスタがポート443経由のインバウンドHTTPSアクセスを許可する必要があります。
@@ -78,9 +78,9 @@ https://["BlueXPの使用を開始する方法について説明します"^]
 コールドデータをクラウドに階層化する場合は、コールドデータの階層化先に基づいてコネクタの要件を確認してください。
 
 +
-** https://["コネクタについて説明します"^]
-** https://["コネクタ間の切り替え"^]
-** https://["BlueXPの階層化機能の詳細をご確認ください"^]
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["コネクタについて説明します"^]
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html["コネクタ間の切り替え"^]
+** https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["BlueXPの階層化機能の詳細をご確認ください"^]
 
 
 * コネクタホストが、ポート 443 経由のアウトバウンド HTTPS アクセスを許可する必要があります。

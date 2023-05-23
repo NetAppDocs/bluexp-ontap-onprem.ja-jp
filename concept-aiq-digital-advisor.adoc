@@ -40,4 +40,4 @@ Digital Advisorは、NetApp Support Site （NSS）アカウントに関連付け
 
 == 詳細情報
 
-https://["Digital Advisorドキュメント"^]
+https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html["Digital Advisorドキュメント"^]
