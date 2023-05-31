@@ -223,25 +223,25 @@ ONTAP でSystem Managerを使用する際にサポートが必要な場合は、
 データのレプリケート:: Cloud Volumes ONTAP システム、Amazon FSx for ONTAP ファイルシステム、ONTAP クラスタ間でデータをレプリケートクラウドとの間でデータを移動するのに役立つ1回限りのデータレプリケーションと、ディザスタリカバリや長期的なデータ保持に役立つ定期的なスケジュールを選択できます。
 +
 --
-https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["レプリケーションのドキュメント"^]
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["レプリケーションのドキュメント"^]
 
 --
 データをバックアップ:: オンプレミスのONTAP システムからクラウドの低コストのオブジェクトストレージにデータをバックアップします。
 +
 --
-https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["バックアップとリカバリの文書化"^]
+https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-backup-to-cloud.html["バックアップとリカバリの文書化"^]
 
 --
 データをスキャン、マッピング、および分類します:: 社内のオンプレミスクラスタをスキャンして、データのマッピングと分類、個人情報の特定を行います。これにより、セキュリティとコンプライアンスのリスクを軽減し、ストレージコストを削減し、データ移行プロジェクトを支援できます。
 +
 --
-https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["分類に関する文書"^]
+https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["分類に関する文書"^]
 
 --
 データをクラウドに階層化:: ONTAP クラスタからオブジェクトストレージにアクセス頻度の低いデータを自動的に階層化することで、データセンターをクラウドに拡張します。
 +
 --
-https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["階層化に関するドキュメント"^]
+https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html["階層化に関するドキュメント"^]
 
 --
 健全性、アップタイム、パフォーマンスを維持:: システム停止や障害が発生する前に、推奨される修正策をONTAP クラスタに実施
