@@ -18,6 +18,18 @@ BlueXPでオンプレミスのONTAP クラスタ管理の新機能をご紹介�
 
 
 
+== 2023年7月2日
+
+
+
+=== My estateからクラスタを検出
+
+オンプレミスのONTAPクラスタを検出できるようになりました。これには、* Canvas > My estate *から、BlueXPログインのEメールアドレスに関連付けられているONTAPクラスタに基づいてBlueXPが検出されたクラスタを選択します。
+
+https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html#add-a-pre-discovered-cluster["クラスタを検出する方法については、[My estate]ページを参照してください"]。
+
+
+
 == 2023年5月4日
 
 
