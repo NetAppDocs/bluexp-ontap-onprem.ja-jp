@@ -181,7 +181,6 @@
   <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="section-title">データのレプリケート</block>
   <block id="b76ae88aa754ea86825b84c8badae90a" category="section-title">データをバックアップ</block>
   <block id="840a495adf1ad99ebc0b2945d0d37848" category="section-title">データをクラウドに階層化</block>
-  <block id="9ac91148b1f0257152bc376ab38bf436" category="doc">オンプレミスのONTAP クラスタに関するドキュメント</block>
   <block id="64b5ac71fb7ec208d91ceb7344aa0b37" category="summary">BlueXPでは、AFF / FASコントローラとONTAP Select で実行されているONTAP クラスタを検出できます。オンプレミスのONTAP システムをBlueXPに追加することで、すべてのストレージとデータ資産を1つのインターフェイスから管理できます。</block>
   <block id="fb24315d532abea28c978f8643868013" category="list-text">NFSボリュームとCIFSボリュームを管理する</block>
   <block id="3c5335f4270215aa7b16adf996cdf82d" category="list-text">ONTAP System Managerを使用して高度な管理を実行</block>
@@ -548,4 +547,5 @@
   <block id="7689e37bac08b82f66558bf21e5ea57d" category="list-text">クラスタを選択し、*[検出]*を選択します。</block>
   <block id="f44b1e23b4e1566aa16d4b2b0be52eb8" category="paragraph"><block ref="f44b1e23b4e1566aa16d4b2b0be52eb8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="eecdf85dabb12fb229d35075dd322550" category="list-text">adminユーザアカウントのパスワードを入力します。</block>
+  <block id="3f155fde095b56c33aa16ebcf24a5d94" category="doc">BlueXPを使用したオンプレミスのONTAPクラスタ管理</block>
 </blocks>
