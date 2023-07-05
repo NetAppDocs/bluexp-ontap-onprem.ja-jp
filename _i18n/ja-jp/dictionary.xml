@@ -537,7 +537,6 @@
   <block id="8b88ed64b6b30080910756ab3a0ea719" category="paragraph">[My estate]ページに表示されるオンプレミスのONTAPクラスタについて、次の点に注意してください。</block>
   <block id="06730fe7ddb260af67563763fb1cff3f" category="list-text">BlueXPへのログインに使用するEメールアドレスを、フルレベルのNetApp Support Site（NSS）アカウントに登録しておく必要があります。</block>
   <block id="05df8b76be995f5a9cfa0f9805c5c671" category="list-text">NSSアカウントでBlueXPにログインして[My estate]ページに移動すると、BlueXPはそのNSSアカウントを使用してアカウントに関連付けられているクラスタを検索します。</block>
-  <block id="17579109afe537b92b0d58dc1b3a2261" category="list-text">クラウドアカウントでBlueXPにログインし、[My estate]ページに移動すると、Eメールの確認を求めるプロンプトが表示されます。このEメールアドレスがNSSアカウントに関連付けられている場合、BlueXPはその情報を使用してアカウントに関連付けられているクラスタを検索します。</block>
   <block id="cf28359d03fa5d995d85df0a5ebb62c8" category="list-text">BlueXPには、AutoSupportメッセージのNetAppへの送信に成功したONTAPクラスタのみが表示されます。</block>
   <block id="9e5b23122dc2a6feb6587ea531e0634e" category="list-text">インベントリリストを更新するには、[My estate]ページを終了し、5分待ってからもう一度表示します。</block>
   <block id="0c136b2a4c8e3fbb938288c9e135d82b" category="list-text">[マイエステート]*を選択します。</block>
@@ -548,4 +547,5 @@
   <block id="f44b1e23b4e1566aa16d4b2b0be52eb8" category="paragraph"><block ref="f44b1e23b4e1566aa16d4b2b0be52eb8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="eecdf85dabb12fb229d35075dd322550" category="list-text">adminユーザアカウントのパスワードを入力します。</block>
   <block id="3f155fde095b56c33aa16ebcf24a5d94" category="doc">BlueXPを使用したオンプレミスのONTAPクラスタ管理</block>
+  <block id="9db4c476e2e5483cdbf8e71023278b72" category="list-text">クラウドアカウントまたはフェデレーテッド接続を使用してBlueXPにログインし、[My estate]ページに移動すると、Eメールを確認するように求められます。このEメールアドレスがNSSアカウントに関連付けられている場合、BlueXPはその情報を使用してアカウントに関連付けられているクラスタを検索します。</block>
 </blocks>
