@@ -525,7 +525,6 @@
   <block id="87377698a8dca305b9579a13060142f2" category="section-title">FlexGroup ボリュームを作成します</block>
   <block id="14b044746cb87538e696ebd7cef86e8f" category="paragraph">コネクタでクラスタを管理している場合は、BlueXP APIを使用してFlexGroupボリュームを作成できるようになりました。</block>
   <block id="ca513b668252beaae65808764fc2388f" category="inline-link">FlexGroupボリュームを作成する方法</block>
-  <block id="6fbac88fa8db3a2a67d5495cb1dcacd2" category="list-text"><block ref="6fbac88fa8db3a2a67d5495cb1dcacd2" category="inline-link-rx"></block></block>
   <block id="bbcffd6476036994102e5ec1c5571f64" category="inline-link">FlexGroupボリュームとは</block>
   <block id="a33a2b4a40f0a01a71b97f709ac14074" category="list-text"><block ref="a33a2b4a40f0a01a71b97f709ac14074" category="inline-link-rx"></block></block>
   <block id="ed36532cba007a185fa7e3557a16206a" category="list-text">[Canvas]ページで、オンプレミスのONTAP作業環境を選択します。</block>
@@ -556,4 +555,5 @@
   <block id="cdf14d2156528231a5dbd12ad5c95d3f" category="list-text">テーブルに表示される列を変更するには、 <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> 次に、表示する列を選択します。</block>
   <block id="348552521b849746260fe8d296d34c15" category="list-text">既存のケースを管理するには、 <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> 使用可能なオプションのいずれかを選択します。</block>
   <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*ケースをクローズ*：ケースをクローズする理由の詳細を入力し、*ケースをクローズ*を選択します。</block>
+  <block id="dfc9f0f0920c102b079fd1c513fccdde" category="list-text"><block ref="dfc9f0f0920c102b079fd1c513fccdde" category="inline-link-rx"></block></block>
 </blocks>
