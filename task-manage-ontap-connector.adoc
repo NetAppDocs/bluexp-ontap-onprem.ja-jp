@@ -137,7 +137,7 @@ CIFS 共有をプロビジョニングした場合は、ファイルとフォル
 
 BlueXP APIを使用してFlexGroupボリュームを作成できます。FlexGroup ボリュームは、ハイパフォーマンスと自動負荷分散を実現するスケールアウトボリュームです。
 
-* https://docs.netapp.com/us-en/bluexp-automation/cm/wf_flexgroup_ontap_create_vol.html["APIを使用してFlexGroupボリュームを作成する方法"^]
+* https://docs.netapp.com/us-en/bluexp-automation/cm/wf_onprem_flexgroup_ontap_create_vol.html["APIを使用してFlexGroupボリュームを作成する方法"^]
 * https://docs.netapp.com/us-en/ontap/flexgroup/definition-concept.html["FlexGroupボリュームとは"^]
 
 
