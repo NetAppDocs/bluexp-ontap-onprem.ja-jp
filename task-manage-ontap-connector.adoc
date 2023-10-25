@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-manage-ontap-connector.html 
 keywords: system manager, advanced view, access system manager, load system manager, use system manager, flexgroup, flexgroup volumes, create flexgroup volume 
-summary: オンプレミスのONTAP クラスタに対して高度な管理を実行する必要がある場合は、ONTAP システムに付属の管理インターフェイスであるONTAP System Managerを使用できます。BlueXPにはSystem Managerインターフェイスが搭載されているので、高度な管理のためにBlueXPを残す必要はありません。 
+summary: 'コネクタを使用してオンプレミスのONTAP クラスタを検出した場合は、[標準]ビューでボリュームを作成し、[アドバンスト]ビューのSystem Managerを使用して、BlueXPデータサービスを有効にすることができます。' 
 ---
-= コネクタで検出されたオンプレミスのONTAP クラスタを管理します
+= コネクタで検出されたクラスタを管理します。
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -128,7 +128,7 @@ image:screenshot_template_creating_resource_ontap.png["テンプレートから�
 
 また、ボリュームでBlueXPのバックアップとリカバリを有効にするなど、テンプレートにセカンダリアクションが実装されている場合は、そのアクションも実行されます。
 
-.完了後
+.次の手順
 CIFS 共有をプロビジョニングした場合は、ファイルとフォルダに対する権限をユーザまたはグループに付与し、それらのユーザが共有にアクセスしてファイルを作成できることを確認します。
 
 
@@ -143,7 +143,7 @@ BlueXP APIを使用してFlexGroupボリュームを作成できます。FlexGro
 
 
 
-== 拡張ビューを使用してONTAP を管理します
+== アドバンストビューを使用したONTAPの管理（System Manager）
 
 オンプレミスのONTAP クラスタに対して高度な管理を実行する必要がある場合は、ONTAP システムに付属の管理インターフェイスであるONTAP System Managerを使用できます。BlueXPにはSystem Managerインターフェイスが搭載されているので、高度な管理のためにBlueXPを残す必要はありません。
 
@@ -195,7 +195,7 @@ link:reference-limitations.html["制限事項のリストを確認します"]。
 
 
 
-=== 詳細ビューの使用（System Manager）
+=== 詳細ビューの使用
 
 オンプレミスのONTAP作業環境を開き、[アドバンストビュー]オプションを選択します。
 

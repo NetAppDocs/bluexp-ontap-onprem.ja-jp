@@ -4,7 +4,7 @@ permalink: task-manage-ontap-direct.html
 keywords: direct discovery, direct, system manager, local, local discovery 
 summary: コネクタを使用せずにオンプレミスのONTAP クラスタを直接検出した場合は、作業環境に入り、System Managerを使用してクラスタを管理できます。 
 ---
-= 直接検出されたオンプレミスのONTAP クラスタを管理します
+= 直接検出されたクラスタを管理します。
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -16,7 +16,7 @@ summary: コネクタを使用せずにオンプレミスのONTAP クラスタ�
 [role="lead"]
 コネクタを使用せずにオンプレミスのONTAP クラスタを直接検出した場合は、作業環境を開いてクラスタを管理することができます。
 
-.要件
+.作業を開始する前に
 BlueXPコンソールにアクセスするために使用するコンピュータには、プライベートネットワーク内の他のリソースへの接続方法と同様に、オンプレミスのONTAP クラスタへのネットワーク接続が必要です。
 
 .制限

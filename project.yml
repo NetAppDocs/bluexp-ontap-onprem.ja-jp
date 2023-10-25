@@ -23,7 +23,7 @@ sidebar:
     entries:
     - title: オンプレミスのONTAP クラスタ管理の詳細については、こちらをご覧ください
       url: "/concept-onprem-ontap.html"
-    - title: ONTAP クラスタを検出
+    - title: オンプレミスのONTAP クラスタを検出
       url: "/task-discovering-ontap.html"
   - title: オンプレミスの ONTAP クラスタを管理
     entries:
@@ -33,7 +33,7 @@ sidebar:
       url: "/task-manage-ontap-connector.html"
     - title: クラスタ情報と契約の詳細を表示します
       url: "/task-view-cluster-info.html"
-    - title: Digital Advisorを使用してクラスタを最適化
+    - title: BlueXPデジタルアドバイザを使用してクラスタを最適化
       url: "/concept-aiq-digital-advisor.html"
     - title: オンプレミスの ONTAP 作業環境を削除
       url: "/task-remove-on-prem.html"
