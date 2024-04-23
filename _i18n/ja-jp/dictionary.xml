@@ -12,7 +12,6 @@
   <block id="6f9f6c9a212736eda9e7ebc73ff5b991" category="paragraph">デフォルトの「 mgmt 」ファイアウォールポリシーでは、すべての IP アドレスからの着信 HTTPS アクセスが許可されます。このデフォルトポリシーを変更した場合、または独自のファイアウォールポリシーを作成した場合は、 HTTPS プロトコルをそのポリシーに関連付けて、 Connector ホストからのアクセスを有効にする必要があります。</block>
   <block id="84c2c11254da9ee11c4482a60291186d" category="paragraph">各クラスタの行にソフトウェア契約とハードウェア契約の有効期限が表示されます。</block>
   <block id="18f84cf96ce5861e5585468ef883b180" category="inline-image-macro">クラスタのライセンス情報を表示するためにクラスタを拡張したスクリーンショット。</block>
-  <block id="efc4120a3fbfbea33245fb931c324492" category="inline-xref">以下の手順を実行します</block>
   <block id="108a74a6cbb575c986177039e07dc411" category="list-text">ウィザードの手順に従って、ボリュームを作成します。</block>
   <block id="3b0e375a08fe94a129cba31916c9d2dc" category="paragraph">このページのフィールドの一部は分かりやすいもので、説明を必要としません。以下は、説明が必要なフィールドのリストです。</block>
   <block id="6f16a5f8ff5d75ab84c018adacdfcbb7" category="cell">フィールド</block>
@@ -25,21 +24,6 @@
   <block id="8aaaedc342a0dce1d73d33f3fb69a2af" category="cell">Access Control の略</block>
   <block id="4f365bcd27fae641194545a5a823e30f" category="cell">権限およびユーザー / グループ</block>
   <block id="5cd4beaa083f2301775c1a1bc84f2afc" category="cell">これらのフィールドを使用すると、ユーザとグループ（アクセス制御リストまたは ACL とも呼ばれる）の SMB 共有へのアクセスのレベルを制御できます。ローカルまたはドメインの Windows ユーザまたはグループ、 UNIX ユーザまたはグループを指定できます。ドメインの Windows ユーザ名を指定する場合は、 domain\username 形式でユーザのドメインを指定する必要があります。</block>
-  <block id="afe466f073b1387a5eab0283552b7517" category="paragraph">特定のアプリケーションのワークロード要件に最適化されたボリュームを導入できるように、社内の ONTAP ボリュームテンプレートを作成している場合は、このセクションの手順に従います。</block>
-  <block id="7ae492186bd46e832a6b64cff9b1575a" category="paragraph">テンプレートを使用すると、ディスクタイプ、サイズ、プロトコル、スナップショットポリシーなど、特定のボリュームパラメータがテンプレートにすでに定義されているため、ジョブが簡単になります。パラメータがすでに事前定義されている場合は、次のボリュームパラメータに進みます。</block>
-  <block id="395f4870d887a81edabc6ad40f5a84f0" category="admonition">テンプレートを使用する場合にのみ、 NFS ボリュームまたは CIFS ボリュームを作成できます。</block>
-  <block id="74099e7b70c30e3a55db543cda9bfc1e" category="inline-image-macro">テンプレートから新しいボリュームを追加する方法を示すスクリーンショット。</block>
-  <block id="f5cfbd56be4d95a78f70efb70e2e9079" category="paragraph"><block ref="f5cfbd56be4d95a78f70efb70e2e9079" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="41fdbb8293e553892079d0e7ad8a9ad9" category="inline-image-macro">使用可能なアプリケーションテンプレートのスクリーンショット。</block>
-  <block id="cfb983acad90faeddd99d211d0d05e99" category="paragraph"><block ref="cfb983acad90faeddd99d211d0d05e99" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8675916eaff2fb10955e8a3b1b14108f" category="paragraph">_Define Parameters_ ページが表示されます。</block>
-  <block id="19f5b7f92268b2f8e63e4083819666c9" category="inline-image-macro">ボリュームを作成するために入力する必要がある空のテンプレートを示すスクリーンショット。</block>
-  <block id="19c51733b2ad780abc1dd51dfb4774d0" category="paragraph"><block ref="19c51733b2ad780abc1dd51dfb4774d0" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="44e06c3ed2de64bcd539ac10a3a31173" category="list-text">_Context_area では、作業環境に、で開始した作業環境の名前が入力されます。ボリュームを作成する Storage VM * とアグリゲート * を選択する必要があります。</block>
-  <block id="40136e65ff57723941fc2af2bf21d54a" category="inline-image-macro">テンプレートから新しいボリュームを作成する進行状況を示すスクリーンショット。</block>
-  <block id="1d2547b9bcbb0f13f704545fd4b3b7b0" category="paragraph"><block ref="1d2547b9bcbb0f13f704545fd4b3b7b0" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="3fcf4599fd910141dcd628a7411238d5" category="paragraph">その後、新しいボリュームが作業環境に追加されます。</block>
-  <block id="1e57268fd975664444ddbda428e56bf7" category="paragraph">CIFS 共有をプロビジョニングした場合は、ファイルとフォルダに対する権限をユーザまたはグループに付与し、それらのユーザが共有にアクセスしてファイルを作成できることを確認します。</block>
   <block id="b62196e30035e69996a2d1d3a9d64116" category="section-title">データをスキャン、マッピング、および分類します</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">ヘルプを表示します</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法的通知</block>
@@ -54,13 +38,9 @@
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">コスト</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">リリースノート</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">はじめに</block>
-  <block id="a1ebf612d281c8e7fb16bbfa253b9627" category="sidebar">ONTAP クラスタを検出</block>
   <block id="019323681c39b462d0fd30312fc741c2" category="sidebar">オンプレミスの ONTAP クラスタを管理</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識とサポート</block>
   <block id="1c27e11c5e65b93611e6f5ce640f8184" category="sidebar">ボリュームを作成します</block>
-  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">ブログコミュニティ</block>
-  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">ネットアップコミュニティ</block>
-  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">クラウドに関する Web セミナー</block>
   <block id="ba26e4556a0f160834687982b0479336" category="section-title">2022 年 2 月 27 日</block>
   <block id="ef1bf4095b622ba80ac24b48b8e45eac" category="section-title">2022 年 1 月 11 日</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">著作権に関する声明、商標、特許などにアクセスできます。</block>
@@ -108,7 +88,6 @@
   <block id="57614f27dec39901199cca4b61cebfe9" category="list-text"><block ref="57614f27dec39901199cca4b61cebfe9" category="inline-link-rx"></block></block>
   <block id="7e7397a7b79323762c61941fc0e6b5f9" category="inline-link">データ保護</block>
   <block id="168463a2e30ac746441036fb49df730e" category="list-text"><block ref="168463a2e30ac746441036fb49df730e" category="inline-link-rx"></block></block>
-  <block id="6a9903314020e84e3af325216666825e" category="inline-image-macro">3つの点を持つアイコン。</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022年9月18日</block>
   <block id="440be74a67502f9c3d55890782329328" category="paragraph">コネクタの3.9.22リリースでは、次の変更が加えられました。</block>
   <block id="c8328d07fc05c4708c68f547ce6f5e77" category="section-title">新しい概要ページ</block>
@@ -117,7 +96,6 @@
   <block id="c76ff3fb4e35074fc6f04c1cb8ea02af" category="section-title">ボリュームページが再設計されました</block>
   <block id="99cbfcbab5c608668044fc3849d8db46" category="paragraph">ボリュームページの設計が見直され、クラスタ上のボリュームの概要が表示されるようになりました。この概要には、ボリュームの総数、プロビジョニングされた容量、使用済み容量とリザーブ容量、および階層化されたデータの量が表示されます。</block>
   <block id="2f82cdfc06b6747c85937b5cceabaaee" category="inline-image-macro">オンプレミスのONTAP クラスタのボリュームページを示すスクリーンショット。</block>
-  <block id="97a34ca7d328720ed48cf2e2010985be" category="list-text">*詳細、保護、タグ*：ボリュームの名前やサイズなどの詳細を入力し、Snapshotポリシーを選択し、必要に応じてボリュームタグを指定します。</block>
   <block id="17b6d3e2bf5506b5e797dfb98b76c0c2" category="list-text">*プロトコル*：ボリュームのプロトコル（NFS、CIFS、またはiSCSI）を選択し、ボリュームのアクセス制御または権限を設定します。</block>
   <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">ネットアップでは、さまざまな方法でBlueXPをサポートしています。ナレッジベース（ KB ）記事やコミュニティフォーラムなど、 24 時間 365 日利用可能な幅広いセルフサポートオプションをご用意しています。サポート登録には、 Web チケット処理によるリモートテクニカルサポートが含まれます。</block>
   <block id="a820c8babe9911ddf670332c6647b2cf" category="summary">ONTAP 作業環境をBlueXPから管理する必要がなくなった場合は'オンプレミス環境を削除します</block>
@@ -126,10 +104,8 @@
   <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">ナビゲーションメニューから、*ストレージ&gt;キャンバス*を選択します。</block>
   <block id="886d154945ab6b1710e580c43bfabaf7" category="paragraph">CIFSを選択し、サーバがまだセットアップされていない場合は、Active Directoryまたはワークグループを使用してCIFSサーバをセットアップするように求められます。</block>
   <block id="c2cf3bd16a968cc398d9e36f7fee3e49" category="cell">NFS エクスポートポリシーは、ボリュームにアクセスできるサブネット内のクライアントを定義します。デフォルトでは、BlueXPはサブネット内のすべてのインスタンスへのアクセスを提供する値を入力します。</block>
-  <block id="71fe7750eaf8ad346bfa5f8d17e350aa" category="paragraph">BlueXPはボリュームをプロビジョニングし、進行状況を確認できるページを表示します。</block>
   <block id="243263104c829e77835d632f591230d5" category="summary">ネットアップテクニカルサポートでサポートケースをオープンするには、まずNetApp Support Site アカウントをBlueXPに追加し、サポートに登録する必要があります。</block>
   <block id="38ff1351e45b1e4303e79145f4bc10b4" category="paragraph">BlueXPの詳細ビューでは、次の管理機能を使用できます。</block>
-  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXPブログ</block>
   <block id="4bbcdd6338e8631576e63f1156b1c51d" category="doc">クラスタ情報と契約の詳細を表示します</block>
   <block id="c5fbee6586294d81141f8dd158707985" category="doc">オンプレミスのONTAP クラスタを検出</block>
   <block id="dad407e605b93746e62dec356ab5303e" category="list-text">標準ビュー：基本的なボリューム処理を提供します</block>
@@ -139,12 +115,7 @@
   <block id="7d0b01345a5038f25fdd17dc04d8872e" category="list-text">クラスタ管理IPアドレスとadminユーザアカウントのパスワードが必要です。</block>
   <block id="95773f82d1d681361d7f2215f3912515" category="paragraph">BlueXPはHTTPSを使用してONTAP クラスタを検出しましたカスタムファイアウォールポリシーを使用する場合は、ONTAP クラスタがポート443経由のインバウンドHTTPSアクセスを許可する必要があります。</block>
   <block id="afb7adc3debe75aa13a1fc4fdb7c0a81" category="paragraph">BlueXPを使用すると、既存のアグリゲートにNFSボリュームまたはCIFSボリュームを作成できます。オンプレミスのONTAP クラスタには、BlueXP Standardビューから新しいアグリゲートを作成できません。アグリゲートの作成には、アドバンストビューを使用する必要があります。</block>
-  <block id="890592abc0c43fcc710edb1dbdeaf2b3" category="paragraph">「テンプレート」と呼ばれるBlueXP機能を使用すると、データベースやストリーミングサービスなど、特定のアプリケーションのワークロード要件に合わせて最適化されたボリュームを作成できます。組織で使用するボリュームテンプレートが作成されている場合は、次の手順を実行します <block ref="841f2986c591e442944fbc4b9e18c81f" category="inline-xref-macro-rx"></block>。</block>
   <block id="a17ea0b6ec5074b6e385c43de80e900d" category="list-text">*使用プロファイル*：必要なストレージの総量を削減するために、ボリュームでStorage Efficiency機能を有効にするか無効にするかを選択します。</block>
-  <block id="a37f6000ecd62b3a2058de32fa603d0a" category="section-title">テンプレートからボリュームを作成</block>
-  <block id="c3865611609b6bd4b2a95ed4f83f6261" category="list-text">テンプレートからハードコーディングされていないすべてのパラメータに値を追加します。</block>
-  <block id="8b7f5e90385d9570cd1e8c028e829385" category="inline-xref">ボリュームの作成に必要なパラメータについて説明します</block>
-  <block id="88e156005e08cd20db096e992009e8e5" category="paragraph"><block ref="c936b096dc7fb0bdb7ac3b472aa3a0a3" category="inline-xref-macro-rx"></block>。</block>
   <block id="dce4384ee7fa334b58b3b529933aacef" category="paragraph">オンプレミスのONTAP クラスタに対して高度な管理を実行する必要がある場合は、ONTAP システムに付属の管理インターフェイスであるONTAP System Managerを使用できます。BlueXPにはSystem Managerインターフェイスが搭載されているので、高度な管理のためにBlueXPを残す必要はありません。</block>
   <block id="5d82c1ade2b4a73465d28377bf1ee806" category="section-title">System Managerのヘルプを参照してください</block>
   <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="section-title">データのレプリケート</block>
@@ -268,7 +239,6 @@
   <block id="e6855a96bbe46265b9ff5968ea2f7ea1" category="list-text">BlueXPのデジタルウォレットで、ハードウェアとソフトウェアの契約ステータス情報を確認できます</block>
   <block id="df72ae90e7d4142f112bbc2859e6948b" category="list-text">バックアップとリカバリ、階層化、分類など、BlueXPサービスを使用しているかどうか。</block>
   <block id="8e8b2132d267e6b940332cd979b14732" category="paragraph">コネクタを使用してオンプレミスのONTAP クラスタを検出した場合は、[標準]ビューでボリュームを作成し、[アドバンスト]ビューのSystem Managerを使用して、BlueXPデータサービスを有効にすることができます。</block>
-  <block id="3cb732600caeb6ed3e89ade08544187b" category="paragraph">また、ボリュームでBlueXPのバックアップとリカバリを有効にするなど、テンプレートにセカンダリアクションが実装されている場合は、そのアクションも実行されます。</block>
   <block id="c362ab732a9d440fb98db1e9b1395e29" category="section-title">BlueXPサービスを有効にする</block>
   <block id="32f4a4b77e8bb8a5997c35c84f226d07" category="list-text">オンプレミスのONTAP システムからクラウドの低コストのオブジェクトストレージにデータをバックアップします。</block>
   <block id="b781e6c9d1cf8ce1e5e954c2b07e6e8a" category="inline-link">バックアップとリカバリの文書化</block>
@@ -313,7 +283,6 @@
   <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">お客様レベルのアカウントをお持ちの場合は、1つ以上のNSSアカウントを追加することもできます。</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">パートナーアカウントまたはリセラーアカウントをお持ちの場合は、1つ以上のNSSアカウントを追加することはできますが、お客様レベルのアカウントと一緒に追加することはできません。</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">[ ヘルプ ] メニューのスクリーンショット。サポートは最初に表示されるオプションです</block>
-  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">ネットアップは、サポートとライセンスに固有の認証サービスのアイデンティティプロバイダとして Microsoft Azure Active Directory を使用しています。</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">ログインページで、NetApp Support Siteの登録 E メールアドレスとパスワードを入力して認証プロセスを実行します。</block>
   <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">これらのアクションにより、BlueXPはライセンスのダウンロード、ソフトウェアのアップグレード検証、および将来のサポート登録などの目的でNSSアカウントを使用できます。</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">次の点に注意してください。</block>
@@ -355,8 +324,6 @@
   <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">BlueXPコミュニティに参加して、進行中のディスカッションをフォローしたり、新しいディスカッションを作成したりできます。</block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">ドキュメント</block>
   <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">現在表示しているBlueXPのマニュアル。</block>
-  <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto ： ng-cloudmanager-feedback@netapp.com [ フィードバックメール ]</block>
-  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">お客様のご意見をお考えください。フィードバックを送信して、BlueXPの改善に役立ててください。</block>
   <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">ネットアップサポートと一緒にケースを作成します</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">上記のセルフサポートオプションに加え、サポートを有効にしたあとで問題が発生した場合は、ネットアップサポートの担当者と相談して解決できます。</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">始める前に</block>
@@ -511,10 +478,6 @@
   <block id="8d2b311f9b9d9270715e282b3f9a0738" category="list-text">[Canvas]ページで、ボリュームをプロビジョニングするオンプレミスのONTAPクラスタを選択します。</block>
   <block id="ba426b409f9ec6763d7b1ecebd5d576f" category="list-text">[ボリューム]&gt;[ボリュームの追加]*を選択します。</block>
   <block id="b664e4294e5d14d6fd3d39615d4e3341" category="list-text">*確認*：ボリュームの詳細を確認し、*[追加]*を選択します。</block>
-  <block id="41efc0cb3ec8dc0be40bd6cef8036869" category="list-text">選択するオプション <block ref="8891ca04a345a35bd7da25d57718d9b7" category="inline-image-macro-rx" type="image"></block> &gt; * テンプレートからボリュームを追加 * 。</block>
-  <block id="9e1283eb7fbf6e762fdae86f50b35f77" category="list-text">[_Select Template_]ページで、ボリュームの作成に使用するテンプレートを選択し、*[Next]*を選択します。</block>
-  <block id="71f2916937cb366e2caf599a6feda2a1" category="paragraph">*注：*[読み取り専用パラメータを表示]チェックボックスをオンにすると、テンプレートによってロックされているすべてのフィールドを表示できます。これらのパラメータの値を確認するには、このチェックボックスをオンにします。デフォルトでは、これらの事前定義フィールドは非表示になっており、入力する必要のあるフィールドのみが表示されます。</block>
-  <block id="251cee18a5cc71eca251e760cf761ae2" category="list-text">このボリュームに必要なすべてのパラメータを定義したら、*[Run Template]*を選択します。</block>
   <block id="17946fbbcc494462c1dfafa59978ba50" category="paragraph">BlueXP APIを使用してFlexGroupボリュームを作成できます。FlexGroup ボリュームは、ハイパフォーマンスと自動負荷分散を実現するスケールアウトボリュームです。</block>
   <block id="b72566f4d301c9dec06189b65b061300" category="inline-link">APIを使用してFlexGroupボリュームを作成する方法</block>
   <block id="67bdff562faa68c471571176e3844346" category="paragraph">オンプレミスのONTAP作業環境を開き、[アドバンストビュー]オプションを選択します。</block>
@@ -547,7 +510,6 @@
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">BlueXPおよびそのストレージソリューションとサービスに固有のテクニカルサポートを受けるには、以下に記載されているサポートオプションを使用してください。</block>
   <block id="c65dc56e9af1b59f20d971d9f8ecd361" category="doc">直接検出されたクラスタを管理します。</block>
   <block id="842394c4883838b029db28103480c404" category="doc">コネクタで検出されたクラスタを管理します。</block>
-  <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">次の手順</block>
   <block id="9403a7672f0137bf2158d9662b27dbd0" category="section-title">アドバンストビューを使用したONTAPの管理（System Manager）</block>
   <block id="48208e085946470d7aeaad6b13dcda66" category="section-title">詳細ビューの使用</block>
   <block id="1822d12a7b10a50fdd93b84fc0c9f70e" category="doc">BlueXPでのオンプレミスのONTAPクラスタ管理の詳細</block>
@@ -558,4 +520,9 @@
   <block id="3293cc9f12e1fa232d9a61b0022166b9" category="list-text">コネクタホストはポート443（HTTPS）経由のアウトバウンド接続を許可し、ONTAPクラスタはポート443経由のインバウンドHTTPアクセスを許可する必要があります。</block>
   <block id="f06497cae9ab6e78fd37893cdca029bd" category="section-title">手順3：クラスタを検出する</block>
   <block id="9d96bd9b544805d33ce76bcba91e4c62" category="paragraph">キャンバスから次の2つの方法のいずれかでオンプレミスのONTAPクラスタを検出します。</block>
+  <block id="9d5b3307d5a7d5905623bf21ab049bdd" category="section-title">2024年4月22日</block>
+  <block id="2d177a5ce778fe0e6f460ac5e9449f84" category="section-title">ボリュームテンプレートのサポートの廃止</block>
+  <block id="14b1c6bd63866971a4cd695c3c2a3d80" category="paragraph">テンプレートからボリュームを作成することはできなくなりました。この操作はBlueXP修正サービスに関連付けられていましたが、このサービスは廃止されました。</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetAppでは、サポートとライセンスに固有の認証サービスのIDプロバイダとしてMicrosoftエントラIDを使用します。</block>
+  <block id="a28aaa114e91d430f853038c9ac17766" category="list-text">*詳細、保護、およびタグ*：ボリュームの詳細（名前やサイズなど）を入力し、Snapshotポリシーを選択します。</block>
 </blocks>
