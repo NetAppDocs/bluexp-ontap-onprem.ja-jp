@@ -525,4 +525,9 @@
   <block id="14b1c6bd63866971a4cd695c3c2a3d80" category="paragraph">テンプレートからボリュームを作成することはできなくなりました。この操作はBlueXP修正サービスに関連付けられていましたが、このサービスは廃止されました。</block>
   <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetAppでは、サポートとライセンスに固有の認証サービスのIDプロバイダとしてMicrosoftエントラIDを使用します。</block>
   <block id="a28aaa114e91d430f853038c9ac17766" category="list-text">*詳細、保護、およびタグ*：ボリュームの詳細（名前やサイズなど）を入力し、Snapshotポリシーを選択します。</block>
+  <block id="a1ebf612d281c8e7fb16bbfa253b9627" category="sidebar">ONTAP クラスタを検出</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">ブログとコミュニティ</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">ネットアップコミュニティ</block>
+  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXPブログ</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">クラウドに関する Web セミナー</block>
 </blocks>

@@ -1,0 +1,27 @@
+---
+indexpage:
+  title: BlueXPを使用したオンプレミスのONTAPクラスタ管理
+  summary: ネットアップのAFF システムとFAS システムをBlueXPから管理し、ストレージのプロビジョニング、データのレプリケート、重要なクラウドベースデータサービスの設定を行うことができます。
+  keywords: bluexp, ontap, discover onprem
+  lead: ネットアップのAFF システムとFAS システムをBlueXPから管理し、ストレージのプロビジョニング、データのレプリケート、重要なクラウドベースデータサービスの設定を行うことができます。
+  tiles:
+  - title: はじめに
+    links:
+    - title: オンプレミスのONTAP クラスタ管理の詳細については、こちらをご覧ください
+      url: concept-onprem-ontap.html
+    - title: ONTAP クラスタを検出
+      url: task-discovering-ontap.html
+  - title: オンプレミスの ONTAP クラスタを管理
+    links:
+    - title: 直接検出されたクラスタを管理します
+      url: task-manage-ontap-direct.html
+    - title: コネクタで検出されたクラスタを管理します
+      url: task-manage-ontap-connector.html
+  - title: ブログとコミュニティ
+    links:
+    - title: ネットアップコミュニティ
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: BlueXPブログ
+      url: https://cloud.netapp.com/blog
+    - title: クラウドに関する Web セミナー
+      url: https://cloud.netapp.com/events
