@@ -76,7 +76,7 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["BlueXP�
 
 +
 ** https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["コネクタについて説明します"^]
-** https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-connectors.html["複数のコネクタを切り替える方法について説明します"^]
+** https://docs.netapp.com/us-en/bluexp-setup-admin/task-manage-multiple-connectors.html["複数のコネクタを切り替える方法について説明します"^]
 ** https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html["BlueXPの階層化機能の詳細をご確認ください"^]
 
 
