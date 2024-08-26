@@ -80,7 +80,7 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["BlueXP�
 ** https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html["BlueXPの階層化機能の詳細をご確認ください"^]
 
 
-* コネクタホストはポート443（HTTPS）経由のアウトバウンド接続を許可し、ONTAPクラスタはポート443経由のインバウンドHTTPアクセスを許可する必要があります。
+* コネクタホストはポート443（HTTPS）経由のアウトバウンド接続を許可し、ONTAPクラスタはポート443経由のクラスタ管理LIFへのインバウンドHTTPアクセスを許可する必要があります。
 +
 コネクタがクラウドにある場合、すべてのアウトバウンド通信は事前定義されたセキュリティグループによって許可されます。
 
