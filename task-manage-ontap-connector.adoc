@@ -149,9 +149,9 @@ link:reference-limitations.html["制限事項のリストを確認します"]。
 
 .手順
 . [Canvas]ページで、ボリュームをプロビジョニングするオンプレミスのONTAPクラスタを選択します。
-. 右上の*[アドバンストビューに切り替える]*を選択します。
+. 右側のパネルの*[サービス]*で、*[System Manager]*を探して*[開く]*を選択します。
 +
-image:screenshot-advanced-view.png["[詳細表示に切り替える]オプションを示すオンプレミスのONTAP 作業環境のスクリーンショット。"]
+image:screenshot-advanced-view.png["オンプレミスのONTAP作業環境を選択したあとに使用可能なサービスのリストを示すBlueXP  キャンバスのスクリーンショット。"]
 
 . 確認メッセージが表示されたら、それを読み、*閉じる*を選択します。
 . System Managerを使用してONTAP を管理する。

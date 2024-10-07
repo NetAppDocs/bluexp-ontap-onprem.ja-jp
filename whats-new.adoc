@@ -18,6 +18,20 @@ BlueXPでオンプレミスのONTAP クラスタ管理の新機能をご紹介�
 
 
 
+== 2024年10月7日
+
+
+
+=== ASA R2システムのサポート
+
+BlueXP  でNetApp ASA R2システムを検出できるようになりました。NetApp ASA R2システムを検出して作業環境を開くと、System Managerに直接移動します。
+
+ASA R2システムでは、他の管理オプションは使用できません。[標準]ビューを使用したり、BlueXPサービスを有効にしたりすることはできません。
+
+https://docs.netapp.com/us-en/asa-r2/index.html["ASA R2システムの詳細"^]
+
+
+
 == 2024年4月22日
 
 
