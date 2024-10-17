@@ -516,7 +516,6 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">クラウドに関する Web セミナー</block>
   <block id="74702430dfc941eaabc5007d9e5554f6" category="list-text"><block ref="74702430dfc941eaabc5007d9e5554f6" category="inline-link-rx"></block></block>
   <block id="3ebda767e5f86db4657a423fd661132a" category="list-text">コネクタホストはポート443（HTTPS）経由のアウトバウンド接続を許可し、ONTAPクラスタはポート443経由のクラスタ管理LIFへのインバウンドHTTPアクセスを許可する必要があります。</block>
-  <block id="fde1abb5537b55c34521d414267b3f70" category="section-title">ASA r2システム</block>
   <block id="0bf2301f5cb3996192947186158c2e09" category="paragraph">NetApp ASA R2システムを検出して作業環境を開くと、System Managerに直接移動します。</block>
   <block id="d5861f4539296095cd7c9fdfd0c5a2c9" category="paragraph">ASA R2システムでは、他の管理オプションは使用できません。[標準]ビューを使用したり、BlueXPサービスを有効にしたりすることはできません。</block>
   <block id="989977a18a476a92018e04dd60ec37c1" category="inline-link">ASA R2システムの詳細</block>
@@ -537,5 +536,9 @@
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">これらのNSSクレデンシャルは、特定のBlueXP  組織IDに関連付けられています。BlueXP  組織に属するユーザは、*[サポート]&gt;[NSS管理]*からこれらのクレデンシャルにアクセスできます。</block>
   <block id="e5182edc3707e8e354c40ab7fa819f39" category="section-title">2024年10月7日</block>
   <block id="1e095c69621645fccc8f12cd7f35f6fc" category="section-title">ASA R2システムのサポート</block>
-  <block id="effcb34ce55a7b0374e99feabbc3c970" category="paragraph">BlueXP  でNetApp ASA R2システムを検出できるようになりました。NetApp ASA R2システムを検出して作業環境を開くと、System Managerに直接移動します。</block>
+  <block id="835e40a074ba47935e3e68e3452eb52f" category="section-title">ASA R2システムに関連する制限事項</block>
+  <block id="f2fba5567ec0d8ae5addf04c960ba6d0" category="list-text">BlueXP  をプライベートモードで使用している場合、ASA R2システムの検出はサポートされません。</block>
+  <block id="d26c29507d869d48f4861c9b4bae1f6e" category="paragraph">標準モードまたはプライベートモードでBlueXP  を使用している場合、BlueXP  でNetApp ASA R2システムを検出できるようになりました。NetApp ASA R2システムを検出して作業環境を開くと、System Managerに直接移動します。</block>
+  <block id="62bd7572081df25dd3f1f52151883c4a" category="inline-link">BlueXPの導入モードについて説明します</block>
+  <block id="d3342e15149bfef7fd9289d7025e506e" category="list-text"><block ref="d3342e15149bfef7fd9289d7025e506e" category="inline-link-rx"></block></block>
 </blocks>
