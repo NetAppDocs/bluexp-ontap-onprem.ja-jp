@@ -24,7 +24,7 @@ BlueXPでオンプレミスのONTAP クラスタ管理の新機能をご紹介�
 
 === ASA R2システムのサポート
 
-標準モードまたはプライベートモードでBlueXP  を使用している場合、BlueXP  でNetApp ASA R2システムを検出できるようになりました。NetApp ASA R2システムを検出して作業環境を開くと、System Managerに直接移動します。
+標準モードまたは制限モードでBlueXP  を使用している場合、BlueXP  でNetApp ASA R2システムを検出できるようになりました。NetApp ASA R2システムを検出して作業環境を開くと、System Managerに直接移動します。
 
 ASA R2システムでは、他の管理オプションは使用できません。[標準]ビューを使用したり、BlueXPサービスを有効にしたりすることはできません。
 

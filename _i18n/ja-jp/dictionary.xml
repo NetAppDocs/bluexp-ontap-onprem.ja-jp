@@ -538,7 +538,8 @@
   <block id="1e095c69621645fccc8f12cd7f35f6fc" category="section-title">ASA R2システムのサポート</block>
   <block id="835e40a074ba47935e3e68e3452eb52f" category="section-title">ASA R2システムに関連する制限事項</block>
   <block id="f2fba5567ec0d8ae5addf04c960ba6d0" category="list-text">BlueXP  をプライベートモードで使用している場合、ASA R2システムの検出はサポートされません。</block>
-  <block id="d26c29507d869d48f4861c9b4bae1f6e" category="paragraph">標準モードまたはプライベートモードでBlueXP  を使用している場合、BlueXP  でNetApp ASA R2システムを検出できるようになりました。NetApp ASA R2システムを検出して作業環境を開くと、System Managerに直接移動します。</block>
   <block id="62bd7572081df25dd3f1f52151883c4a" category="inline-link">BlueXPの導入モードについて説明します</block>
   <block id="d3342e15149bfef7fd9289d7025e506e" category="list-text"><block ref="d3342e15149bfef7fd9289d7025e506e" category="inline-link-rx"></block></block>
+  <block id="4f59dac344ae97a32d47fe32ee94249f" category="list-text">標準モードまたは制限モードでBlueXP  を使用している場合、BlueXP  でNetApp ASA R2システムを検出できます。BlueXP  をプライベートモードで使用している場合、ASA R2システムの検出はサポートされません。</block>
+  <block id="0c02bcea354671c5372f06a37c547a7d" category="paragraph">標準モードまたは制限モードでBlueXP  を使用している場合、BlueXP  でNetApp ASA R2システムを検出できるようになりました。NetApp ASA R2システムを検出して作業環境を開くと、System Managerに直接移動します。</block>
 </blocks>
