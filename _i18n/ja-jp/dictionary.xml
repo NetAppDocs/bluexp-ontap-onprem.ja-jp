@@ -53,7 +53,6 @@
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">オープンソース</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知ファイルには、ネットアップソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が記載されています。</block>
   <block id="f8b475a3fefebada77a30229238d0a1a" category="section-title">2022年6月7日</block>
-  <block id="4f03a5c652641013d1e43811930f5769" category="paragraph">コネクタの3.9.19リリースでは、次の変更が加えられました。</block>
   <block id="ffe3ec3b5faef58a758d9449470882a0" category="section-title">新しい詳細ビュー</block>
   <block id="5549a52d6578bcb66138c7319ef4ea11" category="paragraph">オンプレミスのONTAP クラスタに対して高度な管理を実行する必要がある場合は、ONTAP システムに付属の管理インターフェイスであるONTAP System Managerを使用できます。高度な管理のためにCloud Managerを終了する必要がないように、Cloud ManagerのインターフェイスはCloud Managerに直接組み込まれています。</block>
   <block id="99721ad2e6d601b2966a9d9e1c7de770" category="paragraph">この詳細ビューは、9.10.0以降を実行するオンプレミスのONTAP クラスタでプレビューとして使用できます。今後のリリースでは、この点をさらに改良し、機能を強化する予定です。製品内のチャットでご意見をお寄せください。</block>
@@ -87,7 +86,6 @@
   <block id="7e7397a7b79323762c61941fc0e6b5f9" category="inline-link">データ保護</block>
   <block id="168463a2e30ac746441036fb49df730e" category="list-text"><block ref="168463a2e30ac746441036fb49df730e" category="inline-link-rx"></block></block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022年9月18日</block>
-  <block id="440be74a67502f9c3d55890782329328" category="paragraph">コネクタの3.9.22リリースでは、次の変更が加えられました。</block>
   <block id="c8328d07fc05c4708c68f547ce6f5e77" category="section-title">新しい概要ページ</block>
   <block id="8e41db9b51f790909ef80a064153f722" category="paragraph">オンプレミスのONTAP クラスタに関する重要な詳細情報を提供するために、新しい概要ページが導入されました。たとえば、Storage Efficiency、容量分散、システム情報などの詳細を表示できるようになりました。</block>
   <block id="fba766c98683be4af93f93b5d7909f1e" category="inline-image-macro">オンプレミスのONTAP クラスタの概要ページを示すスクリーンショット。</block>
@@ -127,7 +125,6 @@
   <block id="f0ec06c8888b911820be6e1fcc689c0b" category="list-text">クラスタを検出して管理するためのコネクタを導入するかどうか。</block>
   <block id="0d29d27599c2af161506dbd9dbafba3f" category="paragraph">コネクタはクラウドまたはオンプレミスにインストールできます。</block>
   <block id="83ec139c80a3d5b2f11f1a94eed47cd2" category="section-title">2022年12月4日</block>
-  <block id="612111851a1740ab34a9d35045621084" category="paragraph">コネクタの3.9.24リリースでは、次の変更が加えられました。</block>
   <block id="336404297eaddf0051e1d62c3d3bb48e" category="inline-link">この検出と管理オプションの詳細については、こちらをご覧ください</block>
   <block id="ee1ef6cf0f3971b44eb2abcac958fb8d" category="section-title">FlexGroup ボリューム</block>
   <block id="2907843476579cb2696e8e0e783a2a07" category="inline-image-macro">オンプレミスのONTAP クラスタの[ボリューム]ページに表示されるFlexGroup ボリュームのスクリーンショット。</block>
@@ -540,6 +537,8 @@
   <block id="f2fba5567ec0d8ae5addf04c960ba6d0" category="list-text">BlueXP  をプライベートモードで使用している場合、ASA R2システムの検出はサポートされません。</block>
   <block id="62bd7572081df25dd3f1f52151883c4a" category="inline-link">BlueXPの導入モードについて説明します</block>
   <block id="d3342e15149bfef7fd9289d7025e506e" category="list-text"><block ref="d3342e15149bfef7fd9289d7025e506e" category="inline-link-rx"></block></block>
-  <block id="4f59dac344ae97a32d47fe32ee94249f" category="list-text">標準モードまたは制限モードでBlueXP  を使用している場合、BlueXP  でNetApp ASA R2システムを検出できます。BlueXP  をプライベートモードで使用している場合、ASA R2システムの検出はサポートされません。</block>
   <block id="0c02bcea354671c5372f06a37c547a7d" category="paragraph">標準モードまたは制限モードでBlueXP  を使用している場合、BlueXP  でNetApp ASA R2システムを検出できるようになりました。NetApp ASA R2システムを検出して作業環境を開くと、System Managerに直接移動します。</block>
+  <block id="613fbbb3f2dbf238c8527a537252e8ed" category="doc">プライベートモードを使用するASA R2システムのサポート</block>
+  <block id="0d9e2244b8fb5d13651efe34b9723803" category="paragraph">BlueXP  をプライベートモードで使用しているときに、NetApp ASA R2システムを検出できるようになりました。このサポートは、BlueXP  の3.9.46プライベートモードリリース以降で利用できます。</block>
+  <block id="d415b73567ff8e090cdf21c20afeaa64" category="section-title">2024年11月26日</block>
 </blocks>
